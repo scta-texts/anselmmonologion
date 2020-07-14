@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 37</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 37</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c37">
+        <head xml:id="adcmon-c37-Hd1e102">Capitulum 37</head>
+        <head xml:id="adcmon-c37-Hd1e105" type="question-title">
+    Quod, quidquid ipse est ad creaturam, hoc sit et verbum eius; 
+    nec tamen ambo simul pluraliter.
+   </head>
+        <p xml:id="adcmon-c37-d1e108">
+          <lb ed="#Sm" n="11"/>Capitulum XXXVII. 
+          <lb ed="#Sm" n="12"/>Quod, quidquid ipse est ad creaturam, hoc sit et verbum eius; 
+          <lb ed="#Sm" n="13"/>nec tamen ambo simul pluraliter. 
+        </p>
+        <p xml:id="adcmon-c37-d1e117">
+          <lb ed="#Sm" n="14"/>Verum cum manifeste rationes superiores doceant summum spiritum 
+          <lb ed="#Sm" n="15"/>per verbum suum fecisse omnia: numquid non et ipsum verbum fecit 
+          <lb ed="#Sm" n="16"/>eadem omnia? Quoniam enim illi est consubstantiale, cuius est verbum, 
+          <lb ed="#Sm" n="17"/>necesse est ut sit summa essentia. Summa autem essentia non est nisi 
+          <lb ed="#Sm" n="18"/>una, quae sola creatrix et solum principium est omnium quae facta sunt. 
+          <lb ed="#Sm" n="19"/>Ipsa namque sola fecit non per aliud quam per se omnia ex nihilo. Quare 
+          <lb ed="#Sm" n="20"/>quaecumque summus spiritus facit, eadem et verbum eius facit et similiter. 
+          <lb ed="#Sm" n="21"/>Quidquid igitur summus spiritus est ad creaturam, hoc et verbum eius 
+          <lb ed="#Sm" n="22"/>est et similiter; nec tamen ambo simul pluraliter, quia non sunt plures 
+          <lb ed="#Sm" n="23"/>creatrices summae essentiae. Sicut igitur ille est creator rerum et prin- 
+          <lb ed="#Sm" n="24"/>cipium, sic et verbum eius; nec tamen sunt duo, sed unus creator et 
+          <lb ed="#Sm" n="25"/>unum principium. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

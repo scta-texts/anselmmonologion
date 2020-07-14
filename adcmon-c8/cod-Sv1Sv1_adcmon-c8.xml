@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 8</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 8</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="22"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c8">
+        <head xml:id="adcmon-c8-Hd1e102">Capitulum 8</head>
+        <head xml:id="adcmon-c8-Hd1e105" type="question-title">Quomodo intelligendum sit, quia fecit omnia ex nihilo.</head>
+        <p xml:id="adcmon-c8-d1e108">
+          <lb ed="#Sm" n="11"/>Capitulum VIII. 
+          <lb ed="#Sm" n="12"/>Quomodo intelligendum sit, quia fecit omnia ex nihilo. 
+        </p>
+        <p xml:id="adcmon-c8-d1e115">
+          <lb ed="#Sm" n="13"/>Sed occurrit quiddam de nihilo. Nam ex quocumque fit aliquid, id 
+          <lb ed="#Sm" n="14"/>causa est eius quod ex se fit, et omnis causa necesse est aliquod ad 
+          <lb ed="#Sm" n="15"/>essentiam effecti praebeat adiumentum. Quod sic omnes tenent experimento, 
+          <lb ed="#Sm" n="16"/>ut et nulli rapiatur contendendo, et vix ulli surripiatur decipiendo. Si ergo 
+          <lb ed="#Sm" n="17"/>factum est ex nihilo aliquid, ipsum nihil causa fuit eius quod ex ipso 
+          <lb ed="#Sm" n="18"/>factum est. Sed quomodo id quod nullum habebat esse, adiuvit aliquid, 
+          <lb ed="#Sm" n="19"/>ut perveniret ad esse? Si autem nullum adiumentum de nihilo provenit ad 
+          <lb ed="#Sm" n="20"/>aliquid: cui aut qualiter persuadeatur, quia ex nihilo aliquid efficiatur? 
+        </p>
+        <p xml:id="adcmon-c8-d1e135">
+          <lb ed="#Sm" n="21"/>Praeterea ,nihil' aut significat aliquid aut non significat aliquid. Sed si 
+          <lb ed="#Sm" n="22"/>nihil est aliquid: quaecumque facta sunt ex nihilo, facta sunt ex aliquo. Si 
+          <lb ed="#Sm" n="23"/>vero nihil non est aliquid: quoniam intelligi non potest ut ex eo quod 
+          <lb ed="#Sm" n="24"/>penitus non est, fiat aliquid, nihil fit ex nihilo, sicut vox omnium est: quia 
+          <lb ed="#Sm" n="25"/>de nihilo nihil. Unde videtur consequi ut quidquid fit, fiat ex aliquo. Aut 
+          <lb ed="#Sm" n="26"/>enim fit de aliquo, aut de nihilo. Sive igitur nihil sit aliquid, sive nihil non 
+          <lb ed="#Sm" n="27"/>sit aliquid, consequi videtur ut quidquid factum est, factum sit ex aliquo. 
+          <lb ed="#Sm" n="28"/>Quod si verum esse ponitur, omnibus quae supra disposita sunt, opponitur. 
+          <lb ed="#Sm" n="29"/>Unde quoniam quod erat nihil, aliquid erit: id quod maxime erat aliquid, 
+          <lb ed="#Sm" n="30"/>nihil erit. Ex eo namque quod quandam substantiam maxime omnium 
+          <lb ed="#Sm" n="31"/>existentem inveneram, ad hoc ut omnia alia sic facta essent ab ea, ut 
+          <lb ed="#Sm" n="32"/>nihil esset unde facta essent, ratiocinando perveneram. Quare si illud
+    <!--41.xml-->
+          <pb ed="#Sm" n="23"/>
+          <lb ed="#Sm" n="1"/>unde facta sunt, quod putabam esse nihil, est aliquid: quidquid inventum 
+          <lb ed="#Sm" n="2"/>aestimabam de summa essentia, est nihil. 
+        </p>
+        <p xml:id="adcmon-c8-d1e173">
+          <lb ed="#Sm" n="3"/>Quid igitur intelligendum est de nihilo? Nam nihil quod videam obici 
+          <lb ed="#Sm" n="4"/>posse vel paene fatuum, iam statui in hac meditatione negligere. Tribus 
+          <lb ed="#Sm" n="5"/>itaque ut puto modis, quod ad praesentis impedimenti sufficit expedimen- 
+          <lb ed="#Sm" n="6"/>tum, exponi potest, si qua substantia dicitur esse facta ex nihilo. Unus 
+          <lb ed="#Sm" n="7"/>quidem modus est, quo volumus intelligi penitus non esse factum, quod 
+          <lb ed="#Sm" n="8"/>factum dicitur ex nihilo. Cui simile est, cum quaerenti de tacente unde 
+          <lb ed="#Sm" n="9"/>loquatur, respondetur: de nihilo; id est: non loquitur. Secundum quem 
+          <lb ed="#Sm" n="10"/>modum de ipsa summa essentia et de eo quod penitus nec fuit nec est, 
+          <lb ed="#Sm" n="11"/>quaerenti unde factum sit, recte responderi potest: de nihilo; id est: 
+          <lb ed="#Sm" n="12"/>nequaquam factum est. Qui sensus de nullo eorum quae facta sunt, intelligi 
+          <lb ed="#Sm" n="13"/>potest. Alia significatio est, quae dici quidem potest, vera tamen esse non 
+          <lb ed="#Sm" n="14"/>potest; ut si dicatur aliquid sic esse factum ex nihilo, ut ex ipso nihilo, 
+          <lb ed="#Sm" n="15"/>id est ex eo quod penitus non est, factum sit; quasi ipsum nihil sit aliquid 
+          <lb ed="#Sm" n="16"/>existens, ex quo possit aliquid fieri. Quod quoniam semper falsum est: 
+          <lb ed="#Sm" n="17"/>quotiens esse ponitur, impossibilis inconvenientia consequitur. Tertia
+    inter<lb ed="#Sm" n="18" break="no"/>pretatio qua dicitur aliquid esse factum de nihilo, est cum intelligimus esse 
+          <lb ed="#Sm" n="19"/>quidem factum, sed non esse aliquid unde sit factum. Per similem
+    signi<lb ed="#Sm" n="20" break="no"/>ficationem dici videtur, cum homo contristatus sine causa dicitur con- 
+          <lb ed="#Sm" n="21"/>tristatus de nihilo. 
+        </p>
+        <p xml:id="adcmon-c8-d1e217">
+          <lb ed="#Sm" n="22"/>Secundum igitur hunc sensum si intelligatur quod supra conclusum 
+          <lb ed="#Sm" n="23"/>est, quia praeter summam essentiam cuncta quae sunt, ab eadem ex nihilo 
+          <lb ed="#Sm" n="24"/>facta sunt, id est non ex aliquo: sicut ipsa conclusio praecedentia
+    conve<lb ed="#Sm" n="25" break="no"/>nienter consequetur, ita ex eadem conclusione nihil inconveniens sub- 
+          <lb ed="#Sm" n="26"/>sequetur. Quamvis non inconvenienter et sine omni repugnantia ea quae 
+          <lb ed="#Sm" n="27"/>facta sunt a creatrice substantia, dici possint esse facta ex nihilo, eo modo 
+          <lb ed="#Sm" n="28"/>quo dici solet dives ex paupere, et recepisse quis sanitatem ex aegritudine. 
+          <lb ed="#Sm" n="29"/>Id est: qui prius pauper erat, nunc est dives, quod antea non erat; et qui 
+          <lb ed="#Sm" n="30"/>prius habebat aegritudinem, nunc habet sanitatem, quam antea non habebat. 
+          <lb ed="#Sm" n="31"/>Hoc igitur modo non inconvenienter intelligi potest, si dicitur creatrix 
+          <lb ed="#Sm" n="32"/>essentia universa fecisse de nihilo, sive quod universa per illam facta sint 
+          <lb ed="#Sm" n="33"/>de nihilo; id est: quae prius nihil erant, nunc sunt aliquid. Hac ipsa quippe 
+    <!--42.xml-->
+          <pb ed="#Sm" n="24"/>
+          <lb ed="#Sm" n="1"/>voce qua dicitur: quia illa fecit, sive: quia ista facta sunt, intelligitur: quia 
+          <lb ed="#Sm" n="2"/>cum illa fecit, aliquid fecit, et: cum ista facta sunt, nonnisi aliquid facta 
+          <lb ed="#Sm" n="3"/>sunt. Sic enim aspicientes aliquem de valde humili fortuna multis opibus 
+          <lb ed="#Sm" n="4"/>ab aliquo honoribusve exaltatum dicimus: ecce fecit ille istum de nihilo, 
+          <lb ed="#Sm" n="5"/>aut: factus est iste ab illo de nihilo; id est: iste qui prius quasi nihilum 
+          <lb ed="#Sm" n="6"/>deputabatur, nunc illo faciente vere aliquid existimatur. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

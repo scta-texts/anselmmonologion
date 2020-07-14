@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 63</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 63</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="73"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c63">
+        <head xml:id="adcmon-c63-Hd1e102">Capitulum 63</head>
+        <head xml:id="adcmon-c63-Hd1e105" type="question-title">
+    Quomodo non sit ibi nisi unus unius.
+   </head>
+        <p xml:id="adcmon-c63-d1e108">
+          <lb ed="#Sm" n="3"/>Capitulum LXIII. 
+          <lb ed="#Sm" n="4"/>Quomodo non sit ibi nisi unus unius. 
+        </p>
+        <p xml:id="adcmon-c63-d1e115">
+          <lb ed="#Sm" n="5"/>Aut certe pater et filius et eorum spiritus de quibus iam certissimum 
+          <lb ed="#Sm" n="6"/>est quia vere existunt, non sunt tres dicentes, quamvis singulus quisque 
+          <lb ed="#Sm" n="7"/>sit dicens; nec sunt plura quae dicuntur, cum unusquisque seipsum et alios 
+          <lb ed="#Sm" n="8"/>duos dicit. Sicut enim summae sapientiae inest scire et intelligere, ita 
+          <lb ed="#Sm" n="9"/>utique aeternae incommutabilisque scientiae et intelligentiae naturale est 
+          <lb ed="#Sm" n="10"/>semper id praesens intueri, quod scit et intelligit. Nihil autem aliud est 
+          <lb ed="#Sm" n="11"/>summo spiritui huiusmodi dicere quam quasi cogitando intueri, sicut 
+          <lb ed="#Sm" n="12"/>nostrae mentis locutio non aliud est quam cogitantis inspectio. Certissimum 
+          <lb ed="#Sm" n="13"/>autem iam consideratae rationes reddiderunt: quidquid summae naturae 
+          <lb ed="#Sm" n="14"/>inest essentialiter, id perfecte convenire patri et filio et eorum spiritui 
+          <lb ed="#Sm" n="15"/>singulatim; et tamen idipsum, si simul dicatur de tribus, non admittere 
+          <lb ed="#Sm" n="16"/>pluralitatem. Cum ergo constet quia, sicut pertinet ad eius essentiam 
+          <lb ed="#Sm" n="17"/>scientia et intelligentia, sic eius scire et intelligere non est aliud quam 
+          <lb ed="#Sm" n="18"/>dicere, id est semper praesens intueri quod scit et intelligit: necesse est 
+          <lb ed="#Sm" n="19"/>ut, quemadmodum singulus pater et singulus filius et singulus eorum spiritus 
+          <lb ed="#Sm" n="20"/>est sciens et intelligens, et tamen hi tres simul non sunt plures scientes 
+          <lb ed="#Sm" n="21"/>aut intelligentes, sed unus sciens, unus intelligens: ita singulus quisque sit 
+          <lb ed="#Sm" n="22"/>dicens, nec tamen omnes simul tres dicentes, sed unus dicens. Hinc illud 
+          <lb ed="#Sm" n="23"/>quoque liquide cognosci potest quia, cum hi tres dicuntur vel a seipsis 
+          <lb ed="#Sm" n="24"/>vel ab invicem, non sunt plura quae dicuntur. Quid namque ibi dicitur 
+          <lb ed="#Sm" n="25"/>nisi eorum essentia? Si ergo illa una sola est, unum solum est quod 
+          <lb ed="#Sm" n="26"/>dicitur. Ergo si unum est in illis quod dicit, et unum quod dicitur — una 
+          <lb ed="#Sm" n="27"/>quippe sapientia est quae in illis dicit, et una substantia quas dicitur —, 
+          <lb ed="#Sm" n="28"/>consequitur non ibi esse plura verba sed unum. Licet igitur unusquisque 
+          <pb ed="#Sm" n="74"/>
+          <lb ed="#Sm" n="1"/>seipsum et omnes invicem se dicant, impossibile tamen est esse in summa 
+          <lb ed="#Sm" n="2"/>essentia verbum aliud praeter illud de quo iam constat, quod sic nascitur 
+          <lb ed="#Sm" n="3"/>ex eo cuius est. verbum, ut et vera eius dici possit imago et vere filius 
+          <lb ed="#Sm" n="4"/>eius sit. 
+        </p>
+        <p xml:id="adcmon-c63-d1e180">
+          <lb ed="#Sm" n="5"/>In quo mirum quiddam et inexplicabile video. Ecce enim cum
+    mani<lb ed="#Sm" n="6" break="no"/>festum sit unumquemque, scilicet patrem et filium et patris filiique spiritum, 
+          <lb ed="#Sm" n="7"/>pariter se et ambos alios dicere, et unum solum ibi esse verbum:
+    nulla<lb ed="#Sm" n="8" break="no"/>tenus tamen ipsum verbum videtur posse dici verbum omnium trium, sed 
+          <lb ed="#Sm" n="9"/>tantum unius eorum. Constat enim ipsum esse imaginem et filium eius 
+          <lb ed="#Sm" n="10"/>cuius est verbum; et patet quia nec imago nec filius suimet aut a se 
+          <lb ed="#Sm" n="11"/>procedentis spiritus congrue dici potest. Nam nec ex seipso nec ex
+    pro<lb ed="#Sm" n="12" break="no"/>cedente a se nascitur, nec seipsum aut procedentem a se existendo 
+          <lb ed="#Sm" n="13"/>imitatur. Seipsum quippe non imitatur nec a se trahit existendi
+    similitu<lb ed="#Sm" n="14" break="no"/>dinem, quia imitatio et similitudo non est in uno solo, sed in pluribus. 
+          <lb ed="#Sm" n="15"/>Illum vero non imitatur nec ad eius similitudinem existit, quia iste non 
+          <lb ed="#Sm" n="16"/>habet ab illo esse, sed ille ab isto. Restat igitur hoc solum verbum illius 
+          <lb ed="#Sm" n="17"/>solius esse de quo nascendo habet esse, et ad cuius omnimodam
+    similitu<lb ed="#Sm" n="18" break="no"/>dinem existit. Unus ergo pater, non plures patres, unus filius, non plures 
+          <lb ed="#Sm" n="19"/>filii, unus procedens spiritus, non plures procedentes spiritus sunt in summa 
+          <lb ed="#Sm" n="20"/>essentia. Qui cum ita tres sint ut numquam pater sit filius aut procedens 
+          <lb ed="#Sm" n="21"/>spiritus, nec filius aliquando sit pater aut spiritus procedens, nec umquam 
+          <lb ed="#Sm" n="22"/>spiritus patris et filii sit pater aut filius; et singulus quisque sic sit
+    per<lb ed="#Sm" n="23" break="no"/>fectus, ut nullo indigeat: id tamen quod sunt sic est unum, ut sicut de 
+          <lb ed="#Sm" n="24"/>singulis pluraliter dici non potest, ita nec de tribus simul. Et cum pariter 
+          <lb ed="#Sm" n="25"/>unusquisque seipsum et omnes invicem se dicant: non tamen sunt ibi 
+          <lb ed="#Sm" n="26"/>plura verba sed unum; et ipsum non singulorum aut omnium simul, sed 
+          <lb ed="#Sm" n="27"/>unius tantum. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

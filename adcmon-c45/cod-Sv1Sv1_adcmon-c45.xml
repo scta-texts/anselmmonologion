@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 45</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 45</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="61"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c45">
+        <head xml:id="adcmon-c45-Hd1e102">Capitulum 45</head>
+        <head xml:id="adcmon-c45-Hd1e105" type="question-title">
+    Quod aptius dici possit filius essentia patris quam pater filii; et quod 
+    similiter sit filius patris virtus et sapientia et similia.
+   </head>
+        <p xml:id="adcmon-c45-d1e108">
+          <lb ed="#Sm" n="25"/>Capitulum XLV. 
+          <lb ed="#Sm" n="26"/>Quod aptius dici possit filius essentia patris quam pater filii; et quod 
+          <lb ed="#Sm" n="27"/>similiter sit filius patris virtus et sapientia et similia.
+        </p>
+        <p xml:id="adcmon-c45-d1e117">
+          <lb ed="#Sm" n="28"/>Quod licet secundum perspectam rationem verum sit, valde tamen 
+          <lb ed="#Sm" n="29"/>magis congruit filium dici essentiam patris quam patrem essentiam filii. 
+          <lb ed="#Sm" n="30"/>Quoniam namque pater a nullo habet essentiam nisi a seipso, non satis 
+    <!--84.xml-->
+          <pb ed="#Sm" n="62"/>
+          <lb ed="#Sm" n="1"/>apte dicitur habere essentiam alicuius nisi suam. Quia vero filius essentiam 
+          <lb ed="#Sm" n="2"/>suam habet a patre, et eandem quam habet pater: aptissime dici potest 
+          <lb ed="#Sm" n="3"/>habere essentiam patris. Quare quoniam neuter aliter habet essentiam 
+          <lb ed="#Sm" n="4"/>quam existendo essentia: sicut satis aptius intelligitur habere filius patris 
+          <lb ed="#Sm" n="5"/>essentiam quam pater filii, ita convenientius dici potest filius patris
+    essen<lb ed="#Sm" n="6" break="no"/>tia quam pater filii. Nam haec una si fiat prolatio, satis acuta brevitate  
+          <lb ed="#Sm" n="7"/>commendat filium non solum eandem essentiam habere cum patre, sed 
+          <lb ed="#Sm" n="8"/>hanc ipsam habere de patre. Ut hoc sit: filius est essentia patris, quod 
+          <lb ed="#Sm" n="9"/>est: filius est non differens essentia de patris essentia, immo de patre  
+          <lb ed="#Sm" n="10"/>essentia. Similiter ergo est filius patris virtus et sapientia seu veritas, et 
+          <lb ed="#Sm" n="11"/>iustitia et quidquid summi spiritus convenit essentiae. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 53</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 53</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="66"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c53">
+        <head xml:id="adcmon-c53-Hd1e102">Capitulum 53</head>
+        <head xml:id="adcmon-c53-Hd1e105" type="question-title">
+    Quod idem amor sit idipsum, quod est summus spiritus, et tamen ipse 
+    cum patre ei filio unus spiritus.
+   </head>
+        <p xml:id="adcmon-c53-d1e108">
+          <pb ed="#Sm" n="66"/>
+          <lb ed="#Sm" n="1"/>Capitulum LIII
+          <lb ed="#Sm" n="2"/>Quod idem amor sit idipsum, quod est summus spiritus et tamen ipse 
+          <lb ed="#Sm" n="3"/>cum patre ei filio unus spiritus. 
+        </p>
+        <p xml:id="adcmon-c53-d1e119">
+          <lb ed="#Sm" n="4"/>Verum quid potest esse par summo spiritui nisi summus spiritus? 
+          <lb ed="#Sm" n="5"/>Iste itaque amor est summus spiritus. Denique si nulla umquam creatura, 
+          <lb ed="#Sm" n="6"/>id est si nihil umquam aliud esset quam summus spiritus pater et filius: 
+          <lb ed="#Sm" n="7"/>nihilominus seipsos et invicem pater et filius diligerent. Consequitur itaque 
+          <lb ed="#Sm" n="8"/>hunc amorem non esse aliud quam quod est pater et filius, quod est 
+          <lb ed="#Sm" n="9"/>summa essentia. At quoniam summae essentiae plures esse non possunt: 
+          <lb ed="#Sm" n="10"/>quid magis necessarium, quam patrem et filium et utriusque amorem unam 
+          <lb ed="#Sm" n="11"/>esse summam essentiam? Est igitur idem amor summa sapientia, summa 
+          <lb ed="#Sm" n="12"/>veritas, summum bonum, et quidquid de summi spiritus substantia dici  
+          <lb ed="#Sm" n="13"/>potest. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

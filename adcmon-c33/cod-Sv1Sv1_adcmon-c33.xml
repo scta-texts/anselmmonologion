@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 33</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 33</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="51"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c33">
+        <head xml:id="adcmon-c33-Hd1e102">Capitulum 33</head>
+        <head xml:id="adcmon-c33-Hd1e105" type="question-title">Quod uno verbo dicat se et quod fecit.</head>
+        <p xml:id="adcmon-c33-d1e108">
+          <lb ed="#Sm" n="19"/>Capitulum XXXIII. 
+          <lb ed="#Sm" n="20"/>Quod uno verbo dicat se et quod fecit. 
+        </p>
+        <p xml:id="adcmon-c33-d1e115">
+          <lb ed="#Sm" n="21"/>Sed ecce quaerenti mihi de verbo quo creator dicit omnia quae fecit, 
+          <lb ed="#Sm" n="22"/>obtulit se verbum quo seipsum dicit, qui omnia fecit. An ergo alio verbo 
+          <lb ed="#Sm" n="23"/>dicit se ipsum, et alio ea quae facit; aut potius eodem ipso verbo quo 
+          <lb ed="#Sm" n="24"/>dicit se ipsum, dicit quaecumque facit? Nam hoc quoque verbum quo se 
+          <lb ed="#Sm" n="25"/>ipsum dicit, necesse est idipsum esse quod ipse est, sicut constat de 
+          <pb ed="#Sm" n="52"/>
+          <lb ed="#Sm" n="1"/>verbo illo, quo dicit ea quae a se facta sunt. Cum enim, etiam si nihil 
+          <lb ed="#Sm" n="2"/>umquam aliud esset nisi summus ille spiritus, ratio tamen cogat verbum 
+          <lb ed="#Sm" n="3"/>illud quo se dicit ex necessitate esse: quid verius, quam hoc verbum eius 
+          <lb ed="#Sm" n="4"/>non esse aliud, quam quod ipse est? Ergo si et se ipsum et ea quae 
+          <lb ed="#Sm" n="5"/>facit consubstantiali sibi verbo dicit: manifestum est quia verbi quo se 
+          <lb ed="#Sm" n="6"/>dicit, et verbi quo creaturam dicit, una substantia est. Quomodo ergo, si 
+          <lb ed="#Sm" n="7"/>una substantia est, duo verba sunt? 
+        </p>
+        <p xml:id="adcmon-c33-d1e146">
+          <lb ed="#Sm" n="8"/>Sed forsitan non cogit identitas substantiae verbi unitatem admittere. 
+          <lb ed="#Sm" n="9"/>Nam idem ipse qui his verbis loquitur, eandem illis habet substantiam, 
+          <lb ed="#Sm" n="10"/>et tamen verbum non est. Sed utique verbum quo se dicit summa sapientia, 
+          <lb ed="#Sm" n="11"/>convenientissime dici potest verbum eius secundum superiorem rationem, 
+          <lb ed="#Sm" n="12"/>quia eius perfectam tenet similitudinem. Nam nulla ratione negari potest, 
+          <lb ed="#Sm" n="13"/>cum mens rationalis seipsam cogitando intelligit, imaginem ipsius nasci in 
+          <lb ed="#Sm" n="14"/>sua cogitatione; immo ipsam cogitationem sui esse suam imaginem ad 
+          <lb ed="#Sm" n="15"/>eius similitudinem tamquam ex eius impressione formatam. Quamcumque 
+          <lb ed="#Sm" n="16"/>enim rem mens seu per corporis imaginationem seu per rationem cupit 
+          <lb ed="#Sm" n="17"/>veraciter cogitare, eius utique similitudinem quantum valet in ipsa sua 
+          <lb ed="#Sm" n="18"/>cogitatione conatur exprimere. Quod quanto verius facit, tanto verius rem 
+          <lb ed="#Sm" n="19"/>ipsam cogitat. Et hoc quidem, cum cogitat aliquid aliud quod ipsa non 
+          <lb ed="#Sm" n="20"/>est, et maxime cum aliquod cogitat corpus, clarius perspicitur. Cum enim 
+          <lb ed="#Sm" n="21"/>cogito notum mihi hominem absentem, formatur acies cogitationis meae 
+          <lb ed="#Sm" n="22"/>in talem imaginem eius, qualem illam per visum oculorum in memoriam 
+          <lb ed="#Sm" n="23"/>attraxi. Quae imago in cogitatione verbum est eiusdem hominis, quem 
+          <lb ed="#Sm" n="24"/>cogitando dico. Habet igitur mens rationalis, cum se cogitando intelligit, 
+          <lb ed="#Sm" n="25"/>secum imaginem suam ex se natam, id est cogitationem sui ad suam 
+          <lb ed="#Sm" n="26"/>similitudinem quasi sua impressione formatam; quamvis ipsa Se a sua 
+          <lb ed="#Sm" n="27"/>imagine non nisi ratione sola separare possit. Quae imago eius verbum 
+          <lb ed="#Sm" n="28"/>eius est. 
+        </p>
+        <p xml:id="adcmon-c33-d1e195">
+          <lb ed="#Sm" n="29"/>Hoc itaque modo quis neget summam sapientiam, cum se dicendo 
+          <pb ed="#Sm" n="53"/>
+          <lb ed="#Sm" n="1"/>intelligit, gignere consubstantialem sibi similitudinem suam, id est verbum 
+          <lb ed="#Sm" n="2"/>suum? Quod verbum, licet de re tam singulariter eminenti proprie aliquid 
+          <lb ed="#Sm" n="3"/>satis convenienter dici non possit, non tamen inconvenienter sicut
+    simili<lb ed="#Sm" n="4" break="no"/>tudo ita et imago et figura et caracter eius dici potest. Verbum autem 
+          <lb ed="#Sm" n="5"/>quo creaturam dicit, nequaquam similiter est verbum creaturae, quia non 
+          <lb ed="#Sm" n="6"/>est eius similitudo, sed principalis essentia. Consequitur igitur, ut ipsam 
+          <lb ed="#Sm" n="7"/>creaturam non dicat verbo creaturae. Cuius ergo verbo eam dicit, si non 
+          <lb ed="#Sm" n="8"/>eam dicit verbo eius? Nam quod dicit, verbo dicit, et verbum alicuius 
+          <lb ed="#Sm" n="9"/>est verbum, id est similitudo. Sed si nihil aliud dicit quam se aut creaturam, 
+          <lb ed="#Sm" n="10"/>nihil dicere potest nisi aut suo aut eius verbo. Si ergo nihil dicit verbo 
+          <lb ed="#Sm" n="11"/>creaturae: quidquid dicit, verbo suo dicit. Uno igitur eodemque verbo dicit 
+          <lb ed="#Sm" n="12"/>seipsum et quaecumque fecit. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 66</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 66</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c66">
+        <head xml:id="adcmon-c66-Hd1e102">Capitulum 66</head>
+        <head xml:id="adcmon-c66-Hd1e105" type="question-title">
+    Quod per rationalem mentem maxime accedatur ad cognoscendum 
+    summam essentiam.
+   </head>
+        <p xml:id="adcmon-c66-d1e108">
+          <lb ed="#Sm" n="4"/>Capitulum LXVI. 
+          <lb ed="#Sm" n="5"/>Quod per rationalem mentem maxime accedatur ad cognoscendum 
+          <lb ed="#Sm" n="6"/>summam essentiam. 
+        </p>
+        <p xml:id="adcmon-c66-d1e117">
+          <lb ed="#Sm" n="7"/>Cum igitur pateat quia nihil de hac natura possit percipi per suam 
+          <lb ed="#Sm" n="8"/>proprietatem sed per aliud, certum est quia per illud magis ad eius cogni- 
+          <lb ed="#Sm" n="9"/>tionem acceditur, quod illi magis per similitudinem propinquat. Quidquid 
+          <lb ed="#Sm" n="10"/>enim inter creata constat illi esse similius, id necesse est esse natura 
+          <lb ed="#Sm" n="11"/>praestantius. Quapropter id et per maiorem similitudinem plus iuvat 
+          <lb ed="#Sm" n="12"/>mentem indagantem summae veritati propinquare, et per excellentiorem 
+          <lb ed="#Sm" n="13"/>creatam essentiam plus docet, quid de creante mens ipsa debeat aestimare. 
+          <lb ed="#Sm" n="14"/>Procul dubio itaque tanto altius creatrix essentia cognoscitur, quanto per 
+          <lb ed="#Sm" n="15"/>propinquiorem sibi creaturam indagatur. Nam quod omnis essentia, in 
+          <lb ed="#Sm" n="16"/>quantum est, in tantum sit summae similis essentias, ratio iam supra
+    con<lb ed="#Sm" n="17" break="no"/>siderata dubitare non permittit. Patet itaque quia, sicut sola est mens 
+          <lb ed="#Sm" n="18"/>rationalis inter omnes creaturas, quae ad eius investigationem assurgere 
+          <lb ed="#Sm" n="19"/>valeat, ita nihilominus eadem sola est, per quam maxime ipsamet ad 
+          <lb ed="#Sm" n="20"/>eiusdem inventionem proficere queat. Nam iam cognitum est, quia haec 
+          <lb ed="#Sm" n="21"/>illi maxime per naturalis essentiae propinquat similitudinem. Quid igitur 
+          <lb ed="#Sm" n="22"/>apertius quam quia mens rationalis quanto studiosius ad se discendum 
+          <lb ed="#Sm" n="23"/>intendit, tanto efficacius ad illius cognitionem ascendit; et quanto seipsam 
+          <lb ed="#Sm" n="24"/>intueri negligit, tanto ab eius speculatione descendit? 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

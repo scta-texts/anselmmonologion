@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 55</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 55</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="67"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c55">
+        <head xml:id="adcmon-c55-Hd1e102">Capitulum 55</head>
+        <head xml:id="adcmon-c55-Hd1e105" type="question-title">
+    Quod non sit eorum filius.
+   </head>
+        <p xml:id="adcmon-c55-d1e108">
+          <pb ed="#Sm" n="67"/>
+          <lb ed="#Sm" n="1"/>Capitulum LV. 
+          <lb ed="#Sm" n="2"/>Quod non sit eorum filius. 
+        </p>
+        <p xml:id="adcmon-c55-d1e117">
+          <lb ed="#Sm" n="3"/>Quid ergo? Cum hic amor pariter habeat esse a patre et filio, et 
+          <lb ed="#Sm" n="4"/>sic similis sit ambobus ut nullatenus dissimilis sit illis, sed omnino idem 
+          <lb ed="#Sm" n="5"/>sit quod illi: numquid filius eorum aut proles aestimandus est? Sed sicut 
+          <lb ed="#Sm" n="6"/>verbum mox &lt;ut&gt; consideratur, se prolem eius esse a quo est,
+    eviden<lb ed="#Sm" n="7" break="no"/>tissime probat, promptam praeferendo parentis imaginem: sic amor aperte 
+          <lb ed="#Sm" n="8"/>se prolem negat, quia dum a patre et filio procedere intelligitur, non statim 
+          <lb ed="#Sm" n="9"/>tam perspicuam exhibet se contemplanti eius ex quo est similitudinem; 
+          <lb ed="#Sm" n="10"/>quamvis ipsum considerata ratio doceat omnino idipsum esse quod est 
+          <lb ed="#Sm" n="11"/>pater et filius. Denique si proles eorum est: aut alter eorum erit pater 
+          <lb ed="#Sm" n="12"/>eius, alter mater, aut uterque pater sive mater est; quae omnia veritati 
+          <lb ed="#Sm" n="13"/>repugnare videntur. Quoniam namque nullatenus aliter a patre procedit 
+          <lb ed="#Sm" n="14"/>quam a filio, nulla veritas patitur ut dissimili vocabulo ad illum pater et 
+          <lb ed="#Sm" n="15"/>filius referantur. Non est igitur alter pater eius, alter mater. Ut autem 
+          <lb ed="#Sm" n="16"/>duo aliqua sint, quae singula perfectam et nulla consideratione differentem 
+          <lb ed="#Sm" n="17"/>habeant pariter ad aliquid unum patris aut matris habitudinem: nulla 
+          <lb ed="#Sm" n="18"/>natura aliquo monstrari concedit exemplo. Ergo non est uterque, scilicet 
+          <lb ed="#Sm" n="19"/>pater et filius, pater aut mater amoris a se manantis. Nequaquam itaque 
+          <lb ed="#Sm" n="20"/>videtur veritati convenire, ut idem amor eorum filius sit aut proles. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

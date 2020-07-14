@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 38</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 38</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="56"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c38">
+        <head xml:id="adcmon-c38-Hd1e102">Capitulum 38</head>
+        <head xml:id="adcmon-c38-Hd1e105" type="question-title">
+    Quod dici non possit, quid duo sint, quamvis necesse sit esse duos.
+   </head>
+        <p xml:id="adcmon-c38-d1e108">
+          <pb ed="#Sm" n="56"/>
+          <lb ed="#Sm" n="1"/>Capitulum XXXVIII. 
+          <lb ed="#Sm" n="2"/>Quod dici non possit, quid duo sint, quamvis necesse sit esse duos. 
+        </p>
+        <p xml:id="adcmon-c38-d1e117">
+          <lb ed="#Sm" n="3"/>Studiose itaque attendendum est quiddam, quod valde insolitum 
+          <lb ed="#Sm" n="4"/>rebus aliis, in summo spiritu et verbo eius videtur evenire. Nam certum 
+          <lb ed="#Sm" n="5"/>est sic unicuique singulatim et utrisque simul inesse, quidquid sunt in 
+          <lb ed="#Sm" n="6"/>essentia et quidquid sunt ad creaturam, ut et singulatim perfectum sit 
+          <lb ed="#Sm" n="7"/>ambobus, et tamen pluralitatem non admittat in duobus. Licet enim
+    sin<lb ed="#Sm" n="8" break="no"/>gulatim et ille perfecte sit summa veritas et creator, et verbum eius sit 
+          <lb ed="#Sm" n="9"/>summa veritas et creator: non tamen ambo simul sunt duae veritates aut 
+          <lb ed="#Sm" n="10"/>duo creatores. 
+        </p>
+        <p xml:id="adcmon-c38-d1e137">
+          <lb ed="#Sm" n="11"/>Sed cum haec ita sint, miro tamen modo apertissimum est, quia nec 
+          <lb ed="#Sm" n="12"/>ille cuius est verbum, potest esse verbum suum, nec verbum potest esse 
+          <lb ed="#Sm" n="13"/>ille cuius est verbum. Ut in eo quod significat vel quid sint substantialiter, 
+          <lb ed="#Sm" n="14"/>vel quid sint ad creaturam, semper individuam teneant unitatem; in eo 
+          <lb ed="#Sm" n="15"/>vero quod ille non est ex isto, hoc autem est ex illo, ineffabilem admittant 
+          <lb ed="#Sm" n="16"/>pluralitatem. Ineffabilem certe. Quamvis enim necessitas cogat ut sint duo, 
+          <lb ed="#Sm" n="17"/>nullo tamen modo exprimi potest, quid duo sint. Nam etsi forte duo pares 
+          <lb ed="#Sm" n="18"/>aut aliquid aliud similiter ad invicem possint dici: in his ipsis tamen 
+          <lb ed="#Sm" n="19"/>relativis si quaeratur quid sit illud de quo dicuntur, non poterit dici
+    plu<lb ed="#Sm" n="20" break="no"/>raliter, quemadmodum dicuntur duae pares lineae aut duo similes homines. 
+          <lb ed="#Sm" n="21"/>Quippe nec sunt duo pares spiritus nec duo pares creatores nec duo 
+          <lb ed="#Sm" n="22"/>aliquid, quod significet eorum aut essentiam aut habitudinem ad creaturam. 
+          <lb ed="#Sm" n="23"/>Sed nec duo aliquid, quod designet propriam habitudinem alterius ad 
+          <lb ed="#Sm" n="24"/>alterum; quia nec duo verba nec duae imagines. Verbum namque hoc 
+          <lb ed="#Sm" n="25"/>ipsum quod verbum est aut imago, ad alterum est, quia non nisi alicuius 
+          <lb ed="#Sm" n="26"/>verbum est aut imago; et sic propria sunt haec alterius, ut nequaquam 
+          <lb ed="#Sm" n="27"/>alteri coaptentur. Nam ille cuius est verbum aut imago, nec imago nec 
+          <lb ed="#Sm" n="28"/>verbum est. Constat igitur quia exprimi non potest, quid duo sint summus 
+          <lb ed="#Sm" n="29"/>spiritus et verbum eius, quamvis quibusdam singulorum proprietatibus 
+          <lb ed="#Sm" n="30"/>cogantur esse duo. Etenim proprium est unius esse ex altero, et proprium 
+          <lb ed="#Sm" n="31"/>est alterius alterum esse ex illo. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

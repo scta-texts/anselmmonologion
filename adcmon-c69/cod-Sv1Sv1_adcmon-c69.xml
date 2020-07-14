@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 69</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 69</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="79"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c69">
+        <head xml:id="adcmon-c69-Hd1e102">Capitulum 69</head>
+        <head xml:id="adcmon-c69-Hd1e105" type="question-title">
+    Quod anima semper illam amans aliquando vere beate vivat.
+   </head>
+        <p xml:id="adcmon-c69-d1e108">
+          <lb ed="#Sm" n="10"/>Capitulum LXIX. 
+          <lb ed="#Sm" n="11"/>Quod anima semper illam amans aliquando vere beate vivat. 
+        </p>
+        <p xml:id="adcmon-c69-d1e115">
+          <lb ed="#Sm" n="12"/>Dubium autem non est humanam animam esse rationalem creaturam. 
+          <lb ed="#Sm" n="13"/>Ergo necesse est eam esse factam ad hoc, ut amet summam essentiam. 
+          <lb ed="#Sm" n="14"/>Necesse est igitur eam esse factam aut ad hoc ut sine fine amet, aut ad 
+          <lb ed="#Sm" n="15"/>hoc ut aliquando vel sponte vel violenter hunc amorem amittat. Sed nefas 
+          <lb ed="#Sm" n="16"/>est aestimare summam sapientiam ad hoc eam fecisse, ut aliquando tantum 
+          <lb ed="#Sm" n="17"/>bonum aut contemnat, aut volens tenere aliqua violentia perdat. Restat 
+          <lb ed="#Sm" n="18"/>igitur eam esse factam ad hoc, ut sine fine amet summam essentiam.
+        </p>
+        <p xml:id="adcmon-c69-d1e133">
+          <lb ed="#Sm" n="19"/>At hoc facere non potest, nisi semper vivat. Sic igitur est facta ut 
+          <lb ed="#Sm" n="20"/>semper vivat, si semper velit facere ad quod facta est. Deinde incon- 
+          <lb ed="#Sm" n="21"/>veniens nimis est summe bono summeque sapienti et omnipotenti creatori, 
+          <lb ed="#Sm" n="22"/>ut quod fecit esse ad se amandum, id faciat non esse, quamdiu vere 
+          <lb ed="#Sm" n="23"/>amaverit; et quod sponte dedit non amanti ut semper amaret, id auferat 
+          <lb ed="#Sm" n="24"/>vel auferri permittat amanti, ut ex necessitate non amet; praesertim cum 
+          <lb ed="#Sm" n="25"/>dubitari nullatenus debeat, quod ipse omnem naturam se vere amantem 
+          <lb ed="#Sm" n="26"/>amet. Quare manifestum est humanae animae numquam auferri suam vitam, 
+          <lb ed="#Sm" n="27"/>si semper studeat amare summam vitam. 
+        </p>
+        <p xml:id="adcmon-c69-d1e156">
+          <lb ed="#Sm" n="28"/>Qualiter ergo vivet? Quid enim magnum est longa vita, nisi sit a 
+          <lb ed="#Sm" n="29"/>molestiarum incursione vere secura? Quisquis enim dum vivit aut timendo 
+          <pb ed="#Sm" n="80"/>
+          <lb ed="#Sm" n="1"/>aut patiendo molestiis subiacet aut falsa securitate fallitur: quid nisi 
+          <lb ed="#Sm" n="2"/>misere vivit? Si quis autem ab iis liber vivit, beate vivit. Sed
+    absurdis<lb ed="#Sm" n="3" break="no"/>simum est ut aliqua natura semper amando illum qui est summe bonus 
+          <lb ed="#Sm" n="4"/>et omnipotens, semper misere vivat. Liquet igitur humanam animam 
+          <lb ed="#Sm" n="5"/>huiusmodi esse, ut si servet id ad quod est, aliquando vere secura ab 
+          <lb ed="#Sm" n="6"/>ipsa morte et omni alia molestia beate vivat. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

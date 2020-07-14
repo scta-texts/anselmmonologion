@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 15</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 15</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="28"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c15">
+        <head xml:id="adcmon-c15-Hd1e102">Capitulum 15</head>
+        <head xml:id="adcmon-c15-Hd1e105" type="question-title">Quid possit aut non possit dici de illa substantialiter.</head>
+        <p xml:id="adcmon-c15-d1e108">
+    <!--46.xml-->
+          <pb ed="#Sm" n="28"/>
+          <lb ed="#Sm" n="1"/>Capitulum XV. 
+          <lb ed="#Sm" n="2"/>Quid possit aut non possit dici de illa substantialiter.
+        </p>
+        <p xml:id="adcmon-c15-d1e119">
+          <lb ed="#Sm" n="3"/>lam non immerito valde moveor quam studiose possum inquirere, 
+          <lb ed="#Sm" n="4"/>quid omnium quse de aliquo dici possunt, huic tam admirabili naturae queat 
+          <lb ed="#Sm" n="5"/>convenire substantialiter. Quamquam enim mirer, si possit in nominibus 
+          <lb ed="#Sm" n="6"/>vel verbis quae aptamus rebus factis de nihilo reperiri, quod digne dicatur 
+          <lb ed="#Sm" n="7"/>de creatrice universorum substantia: tentandum tamen est, ad quid hanc 
+          <lb ed="#Sm" n="8"/>indagationem ratio perducet. Itaque de relativis quidem nulli dubium, quia 
+          <lb ed="#Sm" n="9"/>nullum eorum substantiale est illi de quo relative dicitur. Quare si quid 
+          <lb ed="#Sm" n="10"/>de summa natura dicitur relative, non est eius significativum substantiae. 
+          <lb ed="#Sm" n="11"/>Unde hoc ipsum quod summa omnium sive maior omnibus quae ab illa 
+          <lb ed="#Sm" n="12"/>facta sunt, seu aliud aliquid similiter relative dici potest: manifestum est 
+          <lb ed="#Sm" n="13"/>quoniam non eius naturalem designat essentiam. Si enim nulla earum 
+          <lb ed="#Sm" n="14"/>rerum umquam esset, quarum relatione summa et maior dicitur, ipsa nec 
+          <lb ed="#Sm" n="15"/>summa nec maior intelligeretur: nec tamen idcirco minus bona esset aut 
+          <lb ed="#Sm" n="16"/>essentialis suse magnitudinis in aliquo detrimentum pateretur. Quod ex eo 
+          <lb ed="#Sm" n="17"/>manifeste cognoscitur, quoniam ipsa quidquid boni vel magni est, non est 
+          <lb ed="#Sm" n="18"/>per aliud quam per seipsam. Si igitur summa natura sic potest intelligi 
+          <lb ed="#Sm" n="19"/>non summa, ut tamen nequaquam sit maior aut minor quam cum intel- 
+          <lb ed="#Sm" n="20"/>ligitur summa omnium: manifestum est quia ,summum* non simpliciter 
+          <lb ed="#Sm" n="21"/>significat illam essentiam quae omnimodo maior et melior est, quam
+    quid<lb ed="#Sm" n="22" break="no"/>quid non est quod ipsa. Quod autem ratio docet de ,summo*, non
+    dis<lb ed="#Sm" n="23" break="no"/>similiter invenitur in similiter relativis. 
+        </p>
+        <p xml:id="adcmon-c15-d1e167">
+          <lb ed="#Sm" n="24"/>Illis itaque quae relative dicuntur omissis, quia nullum eorum simpliciter 
+          <lb ed="#Sm" n="25"/>demonstrat alicuius essentiam, ad alia discutienda se convertat intentio. 
+          <lb ed="#Sm" n="26"/>Equidem si quis singula diligenter intueatur: quidquid est praeter relativa, 
+          <lb ed="#Sm" n="27"/>aut tale est, ut ipsum omnino melius sit quam non ipsum, aut tale ut non 
+          <lb ed="#Sm" n="28"/>ipsum in aliquo melius sit quam ipsum. ,Ipsum* autem et ,non ipsum* non 
+          <lb ed="#Sm" n="29"/>aliud hic intelligo quam verum, non verum; corpus, non corpus; et his 
+          <lb ed="#Sm" n="30"/>similia. Melius quidem est omnino aliquid quam non ipsum, ut sapiens 
+          <lb ed="#Sm" n="31"/>quam non ipsum sapiens, id est: melius est sapiens quam non sapiens. 
+          <lb ed="#Sm" n="32"/>Quamvis enim iustus non sapiens melior videatur quam non iustus sapiens, 
+          <lb ed="#Sm" n="33"/>non tamen est melius simpliciter non sapiens quam sapiens. Omne quippe 
+          <lb ed="#Sm" n="34"/>non sapiens simpliciter, inquantum non sapiens est, minus est quam sapiens; 
+    <!--47.xml-->
+          <pb ed="#Sm" n="29"/>
+          <lb ed="#Sm" n="1"/>quia omne non sapiens melius esset, si esset sapiens. Similiter omnino 
+          <lb ed="#Sm" n="2"/>melius est verum quam non ipsum, id est quam non verum; et iustum 
+          <lb ed="#Sm" n="3"/>quam non iustum; et vivit quam non vivit. Melius autem est in aliquo 
+          <lb ed="#Sm" n="4"/>non ipsum quam ipsum, ut non aurum quam aurum. Nam melius est homini 
+          <lb ed="#Sm" n="5"/>esse non aurum quam aurum, quamvis forsitan alicui melius esset aurum 
+          <lb ed="#Sm" n="6"/>esse quam non aurum, ut plumbo. Cum enim utrumque, scilicet homo et 
+          <lb ed="#Sm" n="7"/>plumbum, sit non aurum: tanto melius aliquid est homo quam aurum, 
+          <lb ed="#Sm" n="8"/>quanto inferioris esset naturae, si esset aurum; et plumbum tanto vilius 
+          <lb ed="#Sm" n="9"/>est, quanto pretiosius esset, si aurum esset. 
+    <!--47.xml-->
+        </p>
+        <p xml:id="adcmon-c15-d1e220">
+          <lb ed="#Sm" n="10"/>Patet autem ex eo quod summa natura sic intelligi potest non summa, 
+          <lb ed="#Sm" n="11"/>ut nec summum omnino melius sit quam non summum, nec non summum 
+          <lb ed="#Sm" n="12"/>alicui melius quam summum: multa relativa esse, quae nequaquam hac 
+          <lb ed="#Sm" n="13"/>contineantur divisione. Utrum vero aliqua contineantur, inquirere
+    super<lb ed="#Sm" n="14" break="no"/>sedeo, cum ad propositum sufficiat, quod de illis notum est: nullum scilicet 
+          <lb ed="#Sm" n="15"/>eorum designare simplicem summae naturae substantiam. Cum igitur
+    quid<lb ed="#Sm" n="16" break="no"/>quid aliud est, si singula dispiciantur, aut sit melius quam non ipsum, aut 
+          <lb ed="#Sm" n="17"/>non ipsum in aliquo sit melius quam ipsum: sicut nefas est putare quod 
+          <lb ed="#Sm" n="18"/>is substantia supremae naturae sit aliquid, quo melius sit aliquomodo non 
+          <lb ed="#Sm" n="19"/>ipsum, sic necesse est ut sit quidquid omnino melius est quam non ipsum. 
+          <lb ed="#Sm" n="20"/>Illa enim sola est qua penitus nihil est melius, et quae melior est omnibus 
+          <lb ed="#Sm" n="21"/>quae non sunt quod ipsa est. Non est igitur corpus vel aliquid eorum, 
+          <lb ed="#Sm" n="22"/>quae corporei sensus discernunt. Quippe his omnibus melius est aliquid, 
+          <lb ed="#Sm" n="23"/>quod non est quod ipsa sunt. Mens enim rationalis, quae nullo corporeo 
+          <lb ed="#Sm" n="24"/>sensu quid vel qualis vel quanta sit percipitur: quanto minor esset, si esset 
+          <lb ed="#Sm" n="25"/>aliquid eorum quae corporeis sensibus subiacent, tanto maior est quam 
+          <lb ed="#Sm" n="26"/>quodlibet eorum. Penitus enim ipsa summa essentia tacenda est esse 
+          <lb ed="#Sm" n="27"/>aliquid eorum quibus est aliquid, quod non est, quod ipsa sunt superius; 
+          <lb ed="#Sm" n="28"/>et est omnino, sicut ratio docet, dicenda quodlibet eorum, quibus est 
+          <lb ed="#Sm" n="29"/>omne quod non est quod ipsa sunt, inferius. Quare necesse est eam esse 
+          <lb ed="#Sm" n="30"/>viventem, sapientem, potentem et omnipotentem, veram, iustam, beatam, 
+          <lb ed="#Sm" n="31"/>aeternam, et quidquid similiter absolute melius est quam non ipsum. Quid 
+          <lb ed="#Sm" n="32"/>ergo quaeratur amplius quid summa illa sit natura, si manifestum est quid 
+          <lb ed="#Sm" n="33"/>omnium sit aut quid non sit?
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

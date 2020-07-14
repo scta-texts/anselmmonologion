@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 56</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 56</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="67"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c56">
+        <head xml:id="adcmon-c56-Hd1e102">Capitulum 56</head>
+        <head xml:id="adcmon-c56-Hd1e105" type="question-title">
+    Quod solus pater sit genitor et ingenitus, solus filius genitus, 
+    solus amor nec genitus nec ingenitus.
+   </head>
+        <p xml:id="adcmon-c56-d1e108">
+          <lb ed="#Sm" n="21"/>Capitulum LVL 
+          <lb ed="#Sm" n="22"/>Quod solus pater sit genitor et ingenitus, solus filius genitus, 
+          <lb ed="#Sm" n="23"/>solus amor nec genitus nec ingenitus. 
+        </p>
+        <p xml:id="adcmon-c56-d1e117">
+          <lb ed="#Sm" n="24"/>Sed videtur tamen amor idem nec omnino secundum communis 
+          <lb ed="#Sm" n="25"/>locutionis usum dici posse ingenitus, nec ita proprie sicut verbum genitus. 
+          <lb ed="#Sm" n="26"/>Solemus enim saepe dicere aliquid gigni ex ea re de qua existit; ut cum 
+          <lb ed="#Sm" n="27"/>dicimus calorem aut splendorem gigni ab igne, seu aliquod effectum ex 
+          <pb ed="#Sm" n="68"/>
+          <lb ed="#Sm" n="1"/>causa sua. Secundum hanc igitur rationem amor a summo spiritu exiens 
+          <lb ed="#Sm" n="2"/>non omnino asseri potest ingenitus. Ita vero proprie sicut verbum dici 
+          <lb ed="#Sm" n="3"/>genitus non potest, quia verbum verissimam esse prolem et verissimum 
+          <lb ed="#Sm" n="4"/>filium, amorem vero nullatenus filium aut prolem esse manifestum est. 
+          <lb ed="#Sm" n="5"/>Potest itaque immo debet dici solus ille cuius verbum est genitor et
+    in<lb ed="#Sm" n="6" break="no"/>genitus, quia solus est pater et parens, et nullo modo ab alio est. Solum 
+          <lb ed="#Sm" n="7"/>autem verbum genitum, quia solum filius et proles est. Solus vero amor 
+          <lb ed="#Sm" n="8"/>utriusque nec genitus nec ingenitus, quia nec filius est nec proles est, 
+          <lb ed="#Sm" n="9"/>nec omnino non est ab alio. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

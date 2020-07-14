@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 76</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 76</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="83"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c76">
+        <head xml:id="adcmon-c76-Hd1e102">Capitulum 76</head>
+        <head xml:id="adcmon-c76-Hd1e105" type="question-title">
+    Quod credendum sit in illam.
+   </head>
+        <p xml:id="adcmon-c76-d1e108">
+          <lb ed="#Sm" n="14"/>Capitulum LXXVI. 
+          <lb ed="#Sm" n="15"/>Quod credendum sit in illam. 
+        </p>
+        <p xml:id="adcmon-c76-d1e115">
+          <lb ed="#Sm" n="16"/>Amare autem aut sperare non potest, quod non credit. Expedit 
+          <lb ed="#Sm" n="17"/>itaque eidem humanae animae summam essentiam et ea sine quibus illa 
+          <lb ed="#Sm" n="18"/>amari non potest credere, ut illa credendo tendat in illam. Quod idem 
+          <lb ed="#Sm" n="19"/>apte breviusque significari posse puto, si pro eo, quod est credendo 
+          <lb ed="#Sm" n="20"/>tendere in summam essentiam, dicatur credere in summam essentiam. 
+          <lb ed="#Sm" n="21"/>Nam si quis dicat se credere in illam, satis videtur ostendere et per 
+          <lb ed="#Sm" n="22"/>fidem quam profitetur ad summam se tendere essentiam, et illa se credere 
+          <lb ed="#Sm" n="23"/>quae ad hanc pertinent intentionem. Nam non videtur credere in illam 
+          <lb ed="#Sm" n="24"/>sive qui credit quod ad tendendum in illam non pertinet, sive qui per 
+          <lb ed="#Sm" n="25"/>hoc quod credit non ad illam tendit. Et fortasse indifferenter dici potest 
+          <lb ed="#Sm" n="26"/>credere in illam et ad illam, sicut pro eodem accipi potest credendo 
+          <lb ed="#Sm" n="27"/>tendere in illam et ad illam, nisi quia quisquis tendendo ad illam
+    per<lb ed="#Sm" n="28" break="no"/>venerit, non extra illam remanebit, sed intra illam permanebit; quod 
+          <lb ed="#Sm" n="29"/>expressius et familiarius significatur, si dicitur tendendum esse in illam, 
+          <pb ed="#Sm" n="84"/>
+          <lb ed="#Sm" n="1"/>quam si dicitur ad illam. Hac itaque ratione puto congruentius posse dici 
+          <lb ed="#Sm" n="2"/>credendum esse in illam quam ad illam. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

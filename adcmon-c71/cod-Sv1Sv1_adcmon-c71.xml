@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 71</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 71</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="81"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c71">
+        <head xml:id="adcmon-c71-Hd1e102">Capitulum 71</head>
+        <head xml:id="adcmon-c71-Hd1e105" type="question-title">
+    Quod illam contemnens aeterne misera sit.
+   </head>
+        <p xml:id="adcmon-c71-d1e108">
+          <lb ed="#Sm" n="7"/>Capitulum LXXl. 
+          <lb ed="#Sm" n="8"/>Quod illam contemnens aeterne misera sit. 
+        </p>
+        <p xml:id="adcmon-c71-d1e115">
+          <lb ed="#Sm" n="9"/>Hinc utique consequenter colligitur, quod illa quae summi boni
+    amo<lb ed="#Sm" n="10" break="no"/>rem contemnit, aeternam miseriam incurrat. Nam si dicitur quod pro tali 
+          <lb ed="#Sm" n="11"/>contemptu sic iustius puniatur, ut ipsum esse vel vitam perdat, quia se 
+          <lb ed="#Sm" n="12"/>non utitur ad id ad quod facta est: nullatenus hoc admittit ratio, ut post 
+          <lb ed="#Sm" n="13"/>tantam culpam pro poena recipiat esse, quod erat ante omnem culpam. 
+          <lb ed="#Sm" n="14"/>Quippe antequam esset, nec culpam habere nec poenam sentire poterat. 
+          <lb ed="#Sm" n="15"/>Si ergo anima contemnens id ad quod facta est, sic moritur, ut nihil 
+          <lb ed="#Sm" n="16"/>sentiat aut ut omnino nihil sit: similiter se habebit et in maxima culpa et 
+          <lb ed="#Sm" n="17"/>sine omni culpa, nec discernet summe sapiens iustitia inter id quod nullum 
+          <lb ed="#Sm" n="18"/>bonum potest et nullum malum vult, et id quod maximum bonum potest 
+          <lb ed="#Sm" n="19"/>et maximum malum vult. At hoc satis patet, quam inconveniens sit. Nihil 
+          <lb ed="#Sm" n="20"/>igitur videri potest consequentius et nihil credi debet certius, quam 
+          <lb ed="#Sm" n="21"/>hominis animam sic esse factam, ut si contemnat amare summam essen- 
+          <pb ed="#Sm" n="82"/>
+          <lb ed="#Sm" n="1"/>tiam, aeternam patiatur miseriam. Ut sicut amans aeterno gaudebit praemio, 
+          <lb ed="#Sm" n="2"/>ita contemnens aeterna poena doleat. Et sicut illa sentiet immutabilem 
+          <lb ed="#Sm" n="3"/>sufficientiam, ita ista sentiat inconsolabilem indigentiam. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

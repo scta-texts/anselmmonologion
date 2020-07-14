@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 18</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 18</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="32"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c18">
+        <head xml:id="adcmon-c18-Hd1e102">Capitulum 18</head>
+        <head xml:id="adcmon-c18-Hd1e105" type="question-title">Quod sit sine principio et sine fine.</head>
+        <p xml:id="adcmon-c18-d1e108">
+          <lb ed="#Sm" n="5"/>Capitulum XVIII. 
+          <lb ed="#Sm" n="6"/>Quod sit sine principio et sine fine.
+        </p>
+        <p xml:id="adcmon-c18-d1e115">
+          <lb ed="#Sm" n="7"/>Ex quo igitur haec tam simplex natura creatrix et vigor omnium fuit, 
+          <lb ed="#Sm" n="8"/>vel usquequo futura est? An potius nec ex quo nec usquequo est, sed 
+          <lb ed="#Sm" n="9"/>sine principio et sine fine est? Si enim principium habet: aut ex se vel s 
+          <lb ed="#Sm" n="10"/>per se hoc habet, aut ex alio vel per aliud, aut ex nihilo vel per nihil. 
+          <lb ed="#Sm" n="11"/>Sed constat per veritatem iam perspectam, quia nullo modo ex alio vel 
+          <lb ed="#Sm" n="12"/>ex nihilo, aut per aliud vel per nihil est. Nullo igitur modo per aliud vel 12 
+          <lb ed="#Sm" n="13"/>ex alio, aut per nihil vel ex nihilo initium sortita est. Ex seipsa vero 
+          <lb ed="#Sm" n="14"/>vel per se initium habere non potest, quamquam ex seipsa et per seipsam 
+          <lb ed="#Sm" n="15"/>sit. Sic enim est ex se et per se, ut nullo modo sit alia essentia quae 15 
+          <lb ed="#Sm" n="16"/>est per se et ex se, et alia per quam et ex qua est. Quidquid autem ex 
+          <lb ed="#Sm" n="17"/>aliquo vel per aliquid incipit esse, non est omnino idem illi, ex quo vel 
+          <lb ed="#Sm" n="18"/>per quod incipit esse. Summa igitur natura non incepit per se vel ex se. is 
+          <lb ed="#Sm" n="19"/>Quoniam igitur nec per se nec ex se, nec per aliud nec ex alio, nec per 
+          <lb ed="#Sm" n="20"/>nihil nec ex nihilo habet principium: nullo modo habet principium. 
+        </p>
+        <p xml:id="adcmon-c18-d1e148">
+          <lb ed="#Sm" n="21"/>Sed neque finem habebit. Si enim finem habitura est, non est summe 21 
+          <lb ed="#Sm" n="22"/>immortalis et summe incorruptibilis. Sed constat quia est summe et immor- 
+    <!--51.xml-->
+          <pb ed="#Sm" n="33"/>
+          <lb ed="#Sm" n="1"/>talis et incorruptibilis. Non habebit igitur finem. Amplius. Si finem habitura 
+          <lb ed="#Sm" n="2"/>est, aut volens aut nolens deficiet. Sed pro certo non est simplex bonum, 
+          <lb ed="#Sm" n="3"/>cuius voluntate perit summum bonum. At ipsa est verum et simplex 
+          <lb ed="#Sm" n="4"/>bonum. Quare sua sponte non deficiet ipsa, quam certum est esse summum 
+          <lb ed="#Sm" n="5"/>bonum. Si vero nolens peritura est, non est summe potens nec omni- 
+          <lb ed="#Sm" n="6"/>potens. Sed rationis necessitas asseruit eam esse summe potentem et 
+          <lb ed="#Sm" n="7"/>omnipotentem. Non ergo nolens deficiet. Quare si nec volens nec nolens 
+          <lb ed="#Sm" n="8"/>summa natura finem habebit, nullo modo finem habebit. 
+        </p>
+        <p xml:id="adcmon-c18-d1e178">
+          <lb ed="#Sm" n="9"/>Amplius. Si summa illa natura principium vel finem habet, non est 
+          <lb ed="#Sm" n="10"/>vera aeternitas, quod esse supra inexpugnabiliter inventum est. Deinde 
+          <lb ed="#Sm" n="11"/>cogitet qui potest, quando incepit aut quando non fuit hoc verum: scilicet 
+          <lb ed="#Sm" n="12"/>quia futurum erat aliquid; aut quando desinet et non erit hoc verum: 
+          <lb ed="#Sm" n="13"/>videlicet quia praeteritum erit aliquid. Quodsi neutrum horum cogitari 
+          <lb ed="#Sm" n="14"/>potest, et utrumque hoc verum sine veritate esse non potest: impossibile 
+          <lb ed="#Sm" n="15"/>est vel cogitare, quod veritas principium aut finem habeat. Denique si 
+          <lb ed="#Sm" n="16"/>veritas habuit principium vel habebit finem: antequam ipsa inciperet, verum 
+          <lb ed="#Sm" n="17"/>erat tunc quia non erat veritas; et postquam finita erit, verum erit tunc 
+          <lb ed="#Sm" n="18"/>quia non erit veritas. Atqui verum non potest esse sine veritate. Erat 
+          <lb ed="#Sm" n="19"/>igitur veritas, antequam esset veritas; et erit veritas, postquam finita erit 
+          <lb ed="#Sm" n="20"/>veritas; quod inconvenientissimum est. Sive igitur dicatur veritas habere, 
+          <lb ed="#Sm" n="21"/>sive intelligatur non habere principium vel finem: nullo claudi potest veritas 
+          <lb ed="#Sm" n="22"/>principio vel fine. Quare idem sequitur de summa natura, quia ipsa summa 
+          <lb ed="#Sm" n="23"/>veritas est. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

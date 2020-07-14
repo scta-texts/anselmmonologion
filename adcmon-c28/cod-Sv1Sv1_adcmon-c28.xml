@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 28</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 28</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="45"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c28">
+        <head xml:id="adcmon-c28-Hd1e102">Capitulum 28</head>
+        <head xml:id="adcmon-c28-Hd1e105" type="question-title">Quod idem spiritus simpliciter sit, et creata illi comparata non sint.</head>
+        <p xml:id="adcmon-c28-d1e108">
+          <lb ed="#Sm" n="23"/>Capitulum XXVIII. 
+          <lb ed="#Sm" n="24"/>Quod idem spiritus simpliciter sit, et creata illi comparata non sint. 
+        </p>
+        <p xml:id="adcmon-c28-d1e115">
+          <lb ed="#Sm" n="25"/>Videtur ergo consequi ex praecedentibus quod iste spiritus, qui sic 
+          <lb ed="#Sm" n="26"/>suo quodam mirabiliter singulari et singulariter mirabili modo est, quadam 
+          <pb ed="#Sm" n="46"/>
+          <lb ed="#Sm" n="1"/>ratione solus sit, alia vero quaecumque videntur esse, huic collata non sint. 
+          <lb ed="#Sm" n="2"/>Si enim diligenter intendatur, ille solus videbitur simpliciter et perfecte et 
+          <lb ed="#Sm" n="3"/>absolute esse, alia vero omnia fere non esse et vix esse. Quoniam
+    nam<lb ed="#Sm" n="4" break="no"/>que idem spiritus propter incommutabilem aeternitatem suam nullo modo 
+          <lb ed="#Sm" n="5"/>secundum aliquem motum dici potest quia fuit vel erit, sed simpliciter est; 
+          <lb ed="#Sm" n="6"/>nec mutabiliter est aliquid quod aliquando aut non fuit aut non erit; 
+          <lb ed="#Sm" n="7"/>neque non est quod aliquando fuit aut erit, sed quidquid est semel et 
+          <lb ed="#Sm" n="8"/>simul et interminabiliter est; quoniam inquam huiusmodi est eius esse: 
+          <lb ed="#Sm" n="9"/>iure ipse simpliciter et absolute et perfecte dicitur esse. 
+        </p>
+        <p xml:id="adcmon-c28-d1e144">
+          <lb ed="#Sm" n="10"/>Quoniam vero alia omnia mutabiliter secundum aliquid aliquando aut 
+          <lb ed="#Sm" n="11"/>fuerunt aut erunt quod non sunt, aut sunt quod aliquando non fuerunt 
+          <lb ed="#Sm" n="12"/>vel non erunt; et quoniam hoc quia fuerunt iam non est, illud autem 
+          <lb ed="#Sm" n="13"/>scilicet quia erunt nondum est, et hoc quod in labili brevissimoque et vix 
+          <lb ed="#Sm" n="14"/>existente praesenti sunt vix est; quoniam ergo tam mutabiliter sunt: non 
+          <lb ed="#Sm" n="15"/>immerito negantur simpliciter et perfecte et absolute esse, et asseruntur 
+          <lb ed="#Sm" n="16"/>fere non esse et vix esse. Deinde, cum omnia quaecumque aliud sunt quam 
+          <lb ed="#Sm" n="17"/>ipse, de non esse venerint ad esse non per se sed per aliud; et cum de 
+          <lb ed="#Sm" n="18"/>esse redeant ad non esse quantum ad se, nisi sustineantur per aliud: 
+          <lb ed="#Sm" n="19"/>quomodo illis convenit simpliciter aut perfecte sive absolute esse et non 
+          <lb ed="#Sm" n="20"/>magis vix esse aut fere non esse? Cumque esse solius eiusdem ineffabilis 
+          <lb ed="#Sm" n="21"/>spiritus nullo modo intelligi possit aut ex non esse inceptum, aut aliquem 
+          <lb ed="#Sm" n="22"/>pati posse ex eo quod est in non esse defectum; et quidquid ipse est 
+          <lb ed="#Sm" n="23"/>non sit per aliud quam per se, id est per hoc, quod ipse est: nonne huius 
+          <lb ed="#Sm" n="24"/>esse merito solum intelligitur simplex perfectumque et absolutum? Quod 
+          <lb ed="#Sm" n="25"/>vero sic simpliciter et omnimoda ratione solum est perfectum, simplex et 
+          <lb ed="#Sm" n="26"/>absolutum: id nimirum quodam modo iure dici potest solum esse. Et 
+          <lb ed="#Sm" n="27"/>econtra, quidquid per superiorem rationem nec simpliciter nec perfecte 
+          <lb ed="#Sm" n="28"/>nec absolute esse sed vix esse aut fere non esse cognoscitur: id utique 
+          <lb ed="#Sm" n="29"/>aliquo modo recte non esse dicitur. Secundum hanc igitur rationem solus 
+          <lb ed="#Sm" n="30"/>ille creator spiritus est, et omnia creata non sunt; nec tamen omnino non 
+          <lb ed="#Sm" n="31"/>sunt, quia per illum, qui solus absolute est, de nihilo aliquid facta sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

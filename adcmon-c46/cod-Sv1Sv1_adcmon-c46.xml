@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 46</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 46</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c46">
+        <head xml:id="adcmon-c46-Hd1e102">Capitulum 46</head>
+        <head xml:id="adcmon-c46-Hd1e105" type="question-title">
+    Quomodo quaedam ex iis quae sic proferuntur, aliter quoque 
+    possint intelligi. 
+   </head>
+        <p xml:id="adcmon-c46-d1e108">
+          <lb ed="#Sm" n="12"/>Capitulum XLVI.  
+          <lb ed="#Sm" n="13"/>Quomodo quaedam ex iis quae sic proferuntur, aliter quoque 
+          <lb ed="#Sm" n="14"/>possint intelligi. 
+        </p>
+        <p xml:id="adcmon-c46-d1e117">
+          <lb ed="#Sm" n="15"/>Videntur tamen quaedam ex iis quae sic proferri et intelligi possunt,  
+          <lb ed="#Sm" n="16"/>aliam quoque non incongruam sub hac ipsa pronuntiatione intelligentiam 
+          <lb ed="#Sm" n="17"/>suscipere. Liquet enim filium esse verum verbum, id est perfectam
+    intel<lb ed="#Sm" n="18" break="no"/>ligentiam sive perfectam totius paternae substantiae cognitionem et scien-  
+          <lb ed="#Sm" n="19"/>tiam et sapientiam, id est quae ipsam patris essentiam intelligit et cognoscit 
+          <lb ed="#Sm" n="20"/>et scit et sapit. Si igitur hoc sensu filius dicatur patris intelligentia et
+    sa<lb ed="#Sm" n="21" break="no"/>pientia et scientia et cognitio sive notitia, quoniam intelligit, sapit, scit et  
+          <lb ed="#Sm" n="22"/>novit patrem: nequaquam a veritate disceditur. Veritas quoque patris 
+          <lb ed="#Sm" n="23"/>aptissime dici potest filius, non solum eo sensu quia est eadem filii veritas 
+          <lb ed="#Sm" n="24"/>quae est et patris, sicut iam perspectum est; sed etiam hoc sensu, ut in  
+          <lb ed="#Sm" n="25"/>eo intelligatur non imperfecta quaedam imitatio sed integra veritas
+    pater<lb ed="#Sm" n="26" break="no"/>nae substantiae, quia non est aliud quam quod est pater. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 31</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 31</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="48"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c31">
+        <head xml:id="adcmon-c31-Hd1e102">Capitulum 31</head>
+        <head xml:id="adcmon-c31-Hd1e105" type="question-title">
+    Quod ipsum verbum non sit similitudo factorum, sed veritas essentiae, 
+    facta vero sint aliqua veritatis imitatio; et quae naturae magis sint 
+    quam aliae et praestantiores.
+   </head>
+        <p xml:id="adcmon-c31-d1e108">
+          <lb ed="#Sm" n="13"/>Capitulum XXXI. 
+          <lb ed="#Sm" n="14"/>Quod ipsum verbum non sit similitudo factorum, sed veritas essentiae, 
+          <lb ed="#Sm" n="15"/>facta vero sint aliqua veritatis imitatio; et quae naturae magis sint 
+          <lb ed="#Sm" n="16"/>quam aliae et praestantiores.
+        </p>
+        <p xml:id="adcmon-c31-d1e119">
+          <lb ed="#Sm" n="17"/>Sed ecce videtur mihi suboriri nec facilis nec ullatenus sub
+    ambi<lb ed="#Sm" n="18" break="no"/>guitate relinquenda quaestio. Etenim omnia huiusmodi verba quibus res is 
+          <lb ed="#Sm" n="19"/>quaslibet mente dicimus, id est cogitamus: similitudines et imagines sunt 
+          <lb ed="#Sm" n="20"/>rerum quarum verba sunt; et omnis similitudo vel imago tanto magis vel 
+          <lb ed="#Sm" n="21"/>minus est vera, quanto magis vel minus imitatur rem cuius est similitudo. 
+          <lb ed="#Sm" n="22"/>Quid igitur tenendum est de verbo, quo dicuntur et per quod facta sunt 
+          <lb ed="#Sm" n="23"/>omnia? Erit aut non erit similitudo eorum, quae per ipsum facta sunt? Si 
+          <lb ed="#Sm" n="24"/>enim ipsum est vera mutabilium similitudo, non est consubstantiale summae 
+          <lb ed="#Sm" n="25"/>incommutabilitati; quod falsum est. Si autem non omnino vera sed qualis- 
+          <lb ed="#Sm" n="26"/>cumque similitudo mutabilium est, non est verbum summae veritatis omnino 
+          <lb ed="#Sm" n="27"/>verum; quod absurdum est. At si nullam mutabilium habet similitudinem: 
+          <lb ed="#Sm" n="28"/>quomodo ad exemplum illius facta sunt? 
+        </p>
+        <p xml:id="adcmon-c31-d1e148">
+    <!--71.xml-->
+          <pb ed="#Sm" n="49"/>
+          <lb ed="#Sm" n="1"/>Verum forsitan nihil huius remanebit ambiguitatis, si quemadmodum 
+          <lb ed="#Sm" n="2"/>in vivo homine veritas hominis esse dicitur, in picto vero similitudo sive 
+          <lb ed="#Sm" n="3"/>imago illius veritatis: sic existendi veritas intelligatur in verbo cuius 
+          <lb ed="#Sm" n="4"/>essentia sic summe est, ut quodam modo illa sola sit; in iis vero quae in 
+          <lb ed="#Sm" n="5"/>eius comparatione quodam modo non sunt, et tamen per illud et secundum 
+          <lb ed="#Sm" n="6"/>illud facta sunt aliquid, imitatio aliqua summae illius essentiae perpendatur. 
+          <lb ed="#Sm" n="7"/>Sic quippe verbum summae veritatis, quod et ipsum est summa veritas, 
+          <lb ed="#Sm" n="8"/>nullum augmentum vel detrimentum sentiet secundum hoc quod magis vel 
+          <lb ed="#Sm" n="9"/>minus creaturis sit simile; sed potius necesse erit omne quod creatum est 
+          <lb ed="#Sm" n="10"/>tanto magis esse et tanto esse praestantius, quanto similius est illi quod 
+          <lb ed="#Sm" n="11"/>summe est et summe magnum est. 
+        </p>
+        <p xml:id="adcmon-c31-d1e180">
+          <lb ed="#Sm" n="12"/>Hinc etenim fortasse, immo non fortasse sed pro certo, hinc omnis 
+          <lb ed="#Sm" n="13"/>intellectus iudicat naturas quolibet modo viventes praestare non viventibus, 
+          <lb ed="#Sm" n="14"/>sentientes non sentientibus, rationales irrationalibus. Quoniam enim summa 
+          <lb ed="#Sm" n="15"/>is natura suo quodam singulari modo non solum est, sed et vivit et sentit 
+          <lb ed="#Sm" n="16"/>et rationalis est, liquet quoniam omnium quae sunt, id quod aliquomodo 
+          <lb ed="#Sm" n="17"/>vivit, magis est illi simile quam id quod nullatenus vivit; et quod modo 
+          <lb ed="#Sm" n="18"/>ia quolibet vel corporeo sensu cognoscit aliquid, magis quam quod nihil 
+          <lb ed="#Sm" n="19"/>omnino sentit; et quod rationale est, magis quam quod rationis capax 
+          <lb ed="#Sm" n="20"/>non est. Quoniam vero simili ratione quaedam naturae magis minusve sint 
+          <lb ed="#Sm" n="21"/>quam aliae, perspicuum est. Quemadmodum enim illud natura praestantius 
+          <lb ed="#Sm" n="22"/>est, quod per naturalem essentiam propinquius est praestantissimo: ita 
+          <lb ed="#Sm" n="23"/>utiquS illa natura magis est, cuius essentia similior est summae essentiae. 
+          <lb ed="#Sm" n="24"/>Quod sic quoque facile animadverti posse existimo. Nempe si cuilibet 
+          <lb ed="#Sm" n="25"/>substantiae, quae et vivit et sensibilis et rationalis est, cogitatione auferatur 
+          <lb ed="#Sm" n="26"/>quod rationalis est, deinde quod sensibilis, et postea quod vitalis, postremo 
+          <lb ed="#Sm" n="27"/>ipsum nudum esse quod remanet: quis non intelligat quod illa substantia 
+          <lb ed="#Sm" n="28"/>quae sic paulatim destruitur, ad minus et minus esse, et ad ultimum ad 
+          <pb ed="#Sm" n="50"/>
+          <lb ed="#Sm" n="1"/>non esse gradatim perducitur? Quas autem singulatim absumpta quamlibet 
+          <lb ed="#Sm" n="2"/>essentiam ad minus et minus esse deducunt, eadem ordinatim assumpta 
+          <lb ed="#Sm" n="3"/>illam ad magis et magis esse perducunt. Patet igitur quia magis est vivens 
+          <lb ed="#Sm" n="4"/>substantia quam non vivens, et sensibilis quam non sensibilis, et rationalis 
+          <lb ed="#Sm" n="5"/>quam non rationalis. Non est itaque dubium quod omnis essentia eo ipso 
+          <lb ed="#Sm" n="6"/>magis est et praestantior est, quo similior est illi essentiae, quae summe 
+          <lb ed="#Sm" n="7"/>est et summe praestat. Satis itaque manifestum est in verbo, per quod 
+          <lb ed="#Sm" n="8"/>facta sunt omnia, non esse ipsorum similitudinem, sed veram simplicemque 
+          <lb ed="#Sm" n="9"/>essentiam; in factis vero non esse simplicem absolutamque essentiam, sed 
+          <lb ed="#Sm" n="10"/>verae illius essentiae vix aliquam imitationem. Unde necesse est non idem 
+          <lb ed="#Sm" n="11"/>verbum secundum rerum creatarum similitudinem magis vel minus esse 
+          <lb ed="#Sm" n="12"/>verum, sed omnem creatam naturam eo altiori gradu essentiae dignitatisque 
+          <lb ed="#Sm" n="13"/>consistere, quo magis illi propinquare videtur. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

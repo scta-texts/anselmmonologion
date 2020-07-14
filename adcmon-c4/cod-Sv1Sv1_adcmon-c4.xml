@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 4</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 4</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="16"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c4">
+        <head xml:id="adcmon-c4-Hd1e102">Capitulum 4</head>
+        <head xml:id="adcmon-c4-Hd1e105" type="question-title">De eadem re.</head>
+        <p xml:id="adcmon-c4-d1e108">
+          <lb ed="#Sm" n="29"/>Capitulum IV. 
+          <lb ed="#Sm" n="30"/>De eadem re.
+        </p>
+        <p xml:id="adcmon-c4-d1e115">
+          <lb ed="#Sm" n="31"/>Amplius. Si quis intendat rerum naturas, velit nolit sentit non eas 
+          <lb ed="#Sm" n="32"/>omnes contineri una dignitatis paritate, sed quasdam earum distingui
+        </p>
+        <p xml:id="adcmon-c4-d1e122">
+          <pb ed="#Sm" n="17"/>
+          <lb ed="#Sm" n="1"/>graduum imparitate. Qui enim dubitat quod in natura sua ligno melior 
+          <lb ed="#Sm" n="2"/>sit equus, et equo praestantior homo, is profecto non est dicendus homo. 
+          <lb ed="#Sm" n="3"/>Cum igitur naturarum aliae aliis negari non possint meliores, nihilominus 
+          <lb ed="#Sm" n="4"/>persuadet ratio aliquam in eis sic supereminere, ut non habeat se
+          supe<lb ed="#Sm" n="5" break="no"/>riorem. Si enim huiusmodi graduum distinctio sic est infinita, ut nullus ibi 
+          <lb ed="#Sm" n="6"/>sit gradus superior quo superior alius non inveniatur, ad hoc ratio
+          dedu<lb ed="#Sm" n="7" break="no"/>citur, ut ipsarum multitudo naturarum nullo fine claudatur. Hoc autem nemo 
+          <lb ed="#Sm" n="8"/>non putat absurdum, nisi qui nimis est absurdus. Est igitur ex necessitate 
+          <lb ed="#Sm" n="9"/>aliqua natura, quae sic est alicui vel aliquibus superior, ut nulla sit cui 
+          <lb ed="#Sm" n="10"/>ordinetur inferior. 
+        </p>
+        <p xml:id="adcmon-c4-d1e149">
+          <lb ed="#Sm" n="11"/>Haec vero natura quae talis est, aut sola est aut plures eiusmodi et 
+          <lb ed="#Sm" n="12"/>aequales sunt. Verum si plures sunt et aequales: cum aequales esse non 
+          <lb ed="#Sm" n="13"/>possint per diversa quaedam, sed per idem aliquid, illud unum per quod 
+          <lb ed="#Sm" n="14"/>aequaliter tam magnae sunt, aut est idipsum quod ipsae sunt, id est ipsa 
+          <lb ed="#Sm" n="15"/>earum essentia, aut aliud quam quod ipsae sunt. Sed si nihil est aliud 
+          <lb ed="#Sm" n="16"/>quam ipsa earum essentia: sicut earum essentiae non sunt plures sed una, 
+          <lb ed="#Sm" n="17"/>ita et naturae non sunt plures sed una. Idem namque naturam hic intelligo 
+          <lb ed="#Sm" n="18"/>quod essentiam. Si vero id, per quod plures ipsae naturae tam magnae 
+          <lb ed="#Sm" n="19"/>sunt, aliud est quam quod ipsae sunt, pro certo minores sunt quam id, 
+          <lb ed="#Sm" n="20"/>per quod magnae sunt. Quidquid enim per aliud est magnum, minus est 
+          <lb ed="#Sm" n="21"/>quam id, per quod est magnum. Quare non sic sunt magnae, ut illis nihil 
+          <lb ed="#Sm" n="22"/>sit maius aliud. Quod si nec per hoc quod sunt, nec per aliud possibile 
+          <lb ed="#Sm" n="23"/>est tales esse plures naturas quibus nihil sit praestantius, nullo modo 
+          <lb ed="#Sm" n="24"/>possunt esse naturae plures huiusmodi. Restat igitur unam et solam aliquam 
+          <lb ed="#Sm" n="25"/>naturam esse, quae sic est aliis superior, ut nullo sit inferior. Sed quod 
+          <lb ed="#Sm" n="26"/>tale est, maximum et optimum est omnium quae sunt. Est igitur quaedam 
+          <lb ed="#Sm" n="27"/>natura, quae est summum omnium quae sunt. Hoc autem esse non potest, 
+          <lb ed="#Sm" n="28"/>nisi ipsa sit per se id quod est, et cuncta quae sunt, sint per ipsam id 
+          <lb ed="#Sm" n="29"/>quod sunt. Nam cum paulo ante ratio docuerit id quod per se est et per 
+          <lb ed="#Sm" n="30"/>quod alia cuncta sunt, esse summum omnium existentium: aut e converso 
+          <lb ed="#Sm" n="31"/>id quod est summum, est per se et cuncta alia per illud, aut erunt plura 
+          <lb ed="#Sm" n="32"/>summa. Sed plura summa non esse manifestum est. Quare est quaedam 
+          <lb ed="#Sm" n="33"/>natura vel substantia vel essentia, quae per se est bona et magna, et per 
+        </p>
+        <p xml:id="adcmon-c4-d1e201">
+          <pb ed="#Sm" n="18"/>
+          <lb ed="#Sm" n="1"/>se est hoc quod est, et per quam est, quidquid vere aut bonum aut 
+          <lb ed="#Sm" n="2"/>magnum aut aliquid est, et quae est summum bonum, summum magnum, 
+          <lb ed="#Sm" n="3"/>summum ens sive subsistens, id est summum omnium quae sunt. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

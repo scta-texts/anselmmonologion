@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="13"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c1">
+        <head xml:id="adcmon-c1-Hd1e102">Capitulum 1</head>
+        <head xml:id="adcmon-c1-Hd1e105" type="question-title">
+    Quod sit quiddam optimum et maximum et summum omnium quae sunt
+   </head>
+        <p xml:id="adcmon-c1-d1e108">
+          <pb ed="#Sm" n="13"/>
+          <lb ed="#Sm" n="1"/>Monologion. 
+          <lb ed="#Sm" n="2"/>Capitulum I. 
+          <lb ed="#Sm" n="3"/>Quod sit quiddam optimum et maximum et summum omnium 
+          <lb ed="#Sm" n="4"/>quae sunt. 
+        </p>
+        <p xml:id="adcmon-c1-d1e121">
+          <lb ed="#Sm" n="5"/>Si quis unam naturam, summam omnium quae sunt, solam sibi in 
+          <lb ed="#Sm" n="6"/>aeterna sua beatitudine sufficientem, omnibusque rebus aliis hoc ipsum 
+          <lb ed="#Sm" n="7"/>quod aliquid sunt aut quod aliquomodo bene sunt, per omnipotentem 
+          <lb ed="#Sm" n="8"/>bonitatem suam dantem et facientem, aliaque perplura quae de deo sive 
+          <lb ed="#Sm" n="9"/>de eius creatura necessarie credimus, aut non audiendo aut non credendo 
+          <lb ed="#Sm" n="10"/>ignorat: puto quia ea ipsa ex magna parte, si vel mediocris ingenii est, 
+          <lb ed="#Sm" n="11"/>potest ipse sibi saltem sola ratione persuadere. Quod cum multis modis 
+          <lb ed="#Sm" n="12"/>facere possit, unum ponam, quem illi aestimo esse promptissimum. Etenim 
+          <lb ed="#Sm" n="13"/>cum omnes frui solis iis appetant quae bona putant: in promptu est, ut 
+          <lb ed="#Sm" n="14"/>aliquando mentis oculum convertat ad investigandum illud, unde sunt bona 
+          <lb ed="#Sm" n="15"/>ea ipsa, quae non appetit nisi quia iudicat esse bona, ut deinde ratione 
+          <lb ed="#Sm" n="16"/>ducente et illo prosequente ad ea quae irrationabiliter ignorat, rationabiliter 
+    <!--28.xml-->
+          <pb ed="#Sm" n="14"/>
+          <lb ed="#Sm" n="1"/>proficiat. In quo tamen, si quid dixero quod maior non monstret
+    aucto<lb ed="#Sm" n="2" break="no"/>ritas : sic volo accipi ut, quamvis ex rationibus quae mihi videbuntur, quasi 
+          <lb ed="#Sm" n="3"/>necessarium concludatur, non ob hoc tamen omnino necessarium, sed 
+          <lb ed="#Sm" n="4"/>tantum sic interim videri posse dicatur.
+        </p>
+        <p xml:id="adcmon-c1-d1e163">
+          <lb ed="#Sm" n="5"/>Facile est igitur ut aliquis sic secum tacitus dicat: Cum tam
+    innume<lb ed="#Sm" n="6" break="no"/>rabilia bona sint, quorum tam multam diversitatem et sensibus corporeis 
+          <lb ed="#Sm" n="7"/>experimur et ratione mentis discernimus: estne credendum esse unum 
+          <lb ed="#Sm" n="8"/>aliquid, per quod unum sint bona quaecumque bona sunt, an sunt bona 
+          <lb ed="#Sm" n="9"/>alia per aliud? Certissimum quidem et omnibus est volentibus advertere 
+          <lb ed="#Sm" n="10"/>perspicuum quia, quaecumque dicuntur aliquid ita, ut ad invicem magis 
+          <lb ed="#Sm" n="11"/>vel minus aut aequaliter dicantur: per aliquid dicuntur, quod non aliud et 
+          <lb ed="#Sm" n="12"/>aliud sed idem intelligitur in diversis, sive in illis aequaliter sive inaequaliter 
+          <lb ed="#Sm" n="13"/>consideretur. Nam quaecumque iusta dicuntur ad invicem sive pariter sive 
+          <lb ed="#Sm" n="14"/>magis vel minus, non possunt intelligi iusta nisi perdustitiam, quae non est 
+          <lb ed="#Sm" n="15"/>aliud et aliud in diversis. Ergo cum certum sit quod omnia bona, si ad 
+          <lb ed="#Sm" n="16"/>invicem conferantur, aut aequaliter aut inaequaliter sint bona, necesse est, 
+          <lb ed="#Sm" n="17"/>ut omnia sint per aliquid bona, quod intelligitur idem in diversis bonis, 
+          <lb ed="#Sm" n="18"/>licet aliquando videantur bona dici alia per aliud.
+        </p>
+        <p xml:id="adcmon-c1-d1e197">
+          <lb ed="#Sm" n="19"/>Per aliud enim videtur dici bonus equus quia fortis est, et per aliud 
+          <lb ed="#Sm" n="20"/>bonus equus quia velox est. Cum enim dici videatur bonus per
+    fortitu<lb ed="#Sm" n="21" break="no"/>dinem et bonus per velocitatem, non tamen idem videtur esse fortitudo  
+          <lb ed="#Sm" n="22"/>et velocitas. Verum si equus, quia est fortis aut velox, idcirco bonus est: 
+          <lb ed="#Sm" n="23"/>quomodo fortis et velox latro malus est? Potius igitur, quemadmodum 
+          <lb ed="#Sm" n="24"/>fortis et velox latro ideo malus est quia noxius est, ita fortis et velox 
+          <lb ed="#Sm" n="25"/>equus idcirco bonus est quia utilis est. Et quidem nihil solet putari bonum 
+          <lb ed="#Sm" n="26"/>nisi aut propter aliquam utilitatem, ut bona dicitur salus et quae saluti 
+          <lb ed="#Sm" n="27"/>prosunt, aut propter quamlibet honestatem, sicut pulchritudo aestimatur 
+          <lb ed="#Sm" n="28"/>bona et quae pulchritudinem iuvant. Sed quoniam iam perspecta ratio nullo 
+    <!--33.xml-->
+          <pb ed="#Sm" n="15"/>
+          <lb ed="#Sm" n="1"/>potest dissolvi pacto, necesse est omne quoque utile vel honestum, si 
+          <lb ed="#Sm" n="2"/>vere bona sunt, per idipsum esse bona, per quod necesse est esse cuncta 
+          <lb ed="#Sm" n="3"/>bona, quidquid illud sit. , 
+    <!--33.xml-->
+        </p>
+        <p xml:id="adcmon-c1-d1e234">
+          <lb ed="#Sm" n="4"/>Quis autem dubitet illud ipsum, per quod cuncta sunt bona, esse 
+          <lb ed="#Sm" n="5"/>magnum bonum? Illud igitur est bonum per seipsum, quoniam omne bonum 
+          <lb ed="#Sm" n="6"/>est per ipsum. /Ergo consequitur, ut omnia alia bona sint per aliud quam 
+          <lb ed="#Sm" n="7"/>quod ipsa sunt, et ipsum solum per seipsum. At nullum bonum, quod per 
+          <lb ed="#Sm" n="8"/>aliud est, aequale aut maius est eo bono, quod per se est bonum. Illud itaque 
+          <lb ed="#Sm" n="9"/>solum est summe bonum, quod solum est per se bonum. Id enim summum 
+          <lb ed="#Sm" n="10"/>est, quod sic supereminet aliis, ut nec par habeat nec praestantius. Sed 
+          <lb ed="#Sm" n="11"/>quod est summe bonum, est etiam summe magnum. Est igitur unum aliquid 
+          <lb ed="#Sm" n="12"/>summe bonum et summe magnum, id est summum omnium quae sunt.; 
+    <!--33.xml-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

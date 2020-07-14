@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 21</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 21</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="36"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c21">
+        <head xml:id="adcmon-c21-Hd1e102">Capitulum 21</head>
+        <head xml:id="adcmon-c21-Hd1e105" type="question-title">Quod in nullo sit loco aut tempore.</head>
+        <p xml:id="adcmon-c21-d1e108">
+          <lb ed="#Sm" n="4"/>Capitulum XXI. 
+          <lb ed="#Sm" n="5"/>Quod in nullo sit loco aut tempore. 
+        </p>
+        <p xml:id="adcmon-c21-d1e115">
+          <lb ed="#Sm" n="6"/>Quod si ita est, aut tota est in omni loco vel tempore, aut tantum  
+          <lb ed="#Sm" n="7"/>quaelibet pars eius, ut altera pars sit extra omnem locum et tempus. Si 
+          <lb ed="#Sm" n="8"/>vero partim est et partim non est in omni loco vel tempore, partes habet; 
+          <lb ed="#Sm" n="9"/>quod falsum est Non igitur partim est ubique et semper. Tota autem  
+          <lb ed="#Sm" n="10"/>quomodo est ubique et semper? Aut enim sic est intelligendum, ut tota 
+          <lb ed="#Sm" n="11"/>semel sit in omnibus locis vel temporibus et per partes in singulis; aut 
+          <lb ed="#Sm" n="12"/>sic ut tota sit etiam in singulis. Verum si per partes est in singulis, non  
+          <lb ed="#Sm" n="13"/>effugit partium compositionem et divisionem; quod valde alienum a summa 
+          <lb ed="#Sm" n="14"/>natura inventum est. Quapropter non est ita tota in omnibus locis aut 
+          <lb ed="#Sm" n="15"/>temporibus, ut per partes sit in singulis. Restat altera pars discutienda,  
+          <lb ed="#Sm" n="16"/>scilicet: qualiter summa natura tota sit in omnibus et singulis locis vel 
+          <lb ed="#Sm" n="17"/>temporibus. Hoc nimirum esse non potest, nisi aut simul aut diversis 
+          <lb ed="#Sm" n="18"/>temporibus. Sed quoniam ratio loci ac ratio temporis, quas hactenus simul  
+          <lb ed="#Sm" n="19"/>progressas eisdem vestigiis una potuit indagare prosecutio, hic ab invicem 
+          <lb ed="#Sm" n="20"/>digredientes disputationem videntur diversis quasi fugere anfractibus, 
+          <lb ed="#Sm" n="21"/>singulatim suis investigentur discussionibus. Primum ergo videatur si  
+          <lb ed="#Sm" n="22"/>summa natura tota possit esse in singulis locis aut simul aut per diversa 
+          <lb ed="#Sm" n="23"/>tempora. Deinde id ipsum in temporibus inquiratur.
+        </p>
+        <p xml:id="adcmon-c21-d1e157">
+          <lb ed="#Sm" n="24"/>Si igitur tota est simul in singulis locis, per singula loca sunt singulae  
+          <lb ed="#Sm" n="25"/>totae. Sicut enim locus a loco distinguitur, ut singula loca sint, ita id 
+          <lb ed="#Sm" n="26"/>quod totum est in uno loco, ab eo quod eodem tempore totum est in alio 
+          <lb ed="#Sm" n="27"/>loco distinguitur, ut singula tota sint. Nam quod totum est in aliquo loco, 
+          <lb ed="#Sm" n="28"/>nihil eius est quod non sit in ipso loco. At de quo nihil est quod non 
+          <lb ed="#Sm" n="29"/>sit in aliquo loco, nihil est de eo quod sit eodem tempore extra eundem 
+          <lb ed="#Sm" n="30"/>locum. Quod igitur totum est in aliquo loco, nihil eius est quod eodem 
+          <lb ed="#Sm" n="31"/>tempore sit extra ipsum locum. Sed de quo nihil est extra quemlibet 
+          <lb ed="#Sm" n="32"/>locum, nihil eius est eodem tempore in alio loco. Quare quod totum est 
+          <!--55.xml-->
+          <pb ed="#Sm" n="37"/>
+          <lb ed="#Sm" n="1"/>in quolibet loco, nihil eius est simul in alio loco. Quod igitur totum est in 
+          <lb ed="#Sm" n="2"/>aliquo loco: quomodo totum quoque est simul in alio loco, si nihil de eo 
+          <lb ed="#Sm" n="3"/>potest esse in alio loco? Quoniam igitur unum totum non potest esse 
+          <lb ed="#Sm" n="4"/>simul in diversis locis totum, consequitur ut per singula loca singula sint 
+          <lb ed="#Sm" n="5"/>tota, si in singulis locis simul aliquid est totum. Quapropter si summa 
+          <lb ed="#Sm" n="6"/>natura tota est uno tempore in singulis omnibus locis: quot singula loca 
+          <lb ed="#Sm" n="7"/>esse possunt, tot singulae summae naturae sunt; quod irrationabile est 
+          <lb ed="#Sm" n="8"/>opinari. Non est igitur tota uno tempore in singulis locis. At vero si 
+          <lb ed="#Sm" n="9"/>diversis temporibus tota est in singulis locis: quando est in uno loco, 
+          <lb ed="#Sm" n="10"/>nullum bonum et nulla essentia est interim in aliis locis, quia sine ea 
+          <lb ed="#Sm" n="11"/>prorsus aliquid non existit. Quod absurdum esse vel ipsa loca probant, 
+          <lb ed="#Sm" n="12"/>quae non nihil sed aliquid sunt. Non est itaque summa natura tota in 
+          <lb ed="#Sm" n="13"/>singulis locis diversis temporibus. Quod si nec eodem tempore nec diversis 
+          <lb ed="#Sm" n="14"/>temporibus tota est in singulis locis: liquet quia nullo modo est tota in 
+          <lb ed="#Sm" n="15"/>singulis omnibus locis. 
+        </p>
+        <p xml:id="adcmon-c21-d1e217">
+          <lb ed="#Sm" n="16"/>Nunc est indagandum, si eadem summa natura sit tota in singulis 
+          <lb ed="#Sm" n="17"/>temporibus, aut simul aut distincte per singula tempora. Sed quomodo 
+          <lb ed="#Sm" n="18"/>est aliquid totum simul in singulis temporibus, si ipsa tempora simul non 
+          <lb ed="#Sm" n="19"/>sunt? Si vero separatim et distincte tota est in singulis temporibus, 
+          <lb ed="#Sm" n="20"/>quemadmodum aliquis homo totus est heri et hodie et cras: proprie dicitur 
+          <lb ed="#Sm" n="21"/>quia fuit et est et erit. Ergo eius aetas, quae nihil aliud est quam eius 
+          <lb ed="#Sm" n="22"/>aeternitas, non est tota simul, sed est partibus extensa per temporum 
+          <lb ed="#Sm" n="23"/>partes. At eius aeternitas nihil aliud est quam ipsa. Summa igitur essentia 
+          <lb ed="#Sm" n="24"/>erit divisa per partes secundum temporum distinctiones. Si enim eius aetas 
+          <lb ed="#Sm" n="25"/>per temporum cursus producitur, habet cum ipsis temporibus praesens, 
+          <lb ed="#Sm" n="26"/>praeteritum et futurum. Quid autem aliud est eius vel aetas vel existendi 
+          <lb ed="#Sm" n="27"/>diuturnitas, quam eius aeternitas? Ergo cum eius aeternitas nihil aliud sit 
+          <lb ed="#Sm" n="28"/>quam eius essentia, sicut supra digesta ratio indubitabiliter probat: si eius 
+          <lb ed="#Sm" n="29"/>aeternitas habet praeteritum, praesens et futurum, consequenter quoque 
+    <!--60.xml-->
+          <pb ed="#Sm" n="38"/>
+          <lb ed="#Sm" n="1"/>eius essentia habet praeteritum, praesens et futurum. At quod praeteritum 
+          <lb ed="#Sm" n="2"/>est, non est praesens vel futurum; et quod praesens est, non est futurum 
+          <lb ed="#Sm" n="3"/>nec praeteritum; et quod futurum est, non est praeteritum vel praesens, 
+          <lb ed="#Sm" n="4"/>Quomodo igitur stabit, quod supra rationabili et perspicua necessitate 
+          <lb ed="#Sm" n="5"/>claruit, scilicet quia illa summa natura nullo modo composita sed summe 
+          <lb ed="#Sm" n="6"/>simplex est et summe incommutabilis: si aliud et aliud est in diversis 
+          <lb ed="#Sm" n="7"/>temporibus et per tempora distributas habet partes? Aut potius si illa 
+          <lb ed="#Sm" n="8"/>vera sunt, immo quia liquida vera sunt: quomodo haec possibilia sunt? 
+          <lb ed="#Sm" n="9"/>Nullo igitur modo creatrix essentia aut aetas aut aeternitas eius recipit 
+          <lb ed="#Sm" n="10"/>praeteritum vel futurum. Praesens enim quomodo non habet, si vere est? 
+          <lb ed="#Sm" n="11"/>Sed ,fuit‘ significat praeteritum, et ,erit‘ futurum. Numquam igitur illa fuit 
+          <lb ed="#Sm" n="12"/>vel erit. Quare non est distincte sicut nec simul tota in diversis singulis 
+          <lb ed="#Sm" n="13"/>temporibus. 
+        </p>
+        <p xml:id="adcmon-c21-d1e282">
+          <lb ed="#Sm" n="14"/>Si igitur sicut discussum est, nec sic est tota in omnibus locis vel 
+          <lb ed="#Sm" n="15"/>temporibus, ut semel sit tota in omnibus et per partes in singulis, nec 
+          <lb ed="#Sm" n="16"/>sic ut tota sit in singulis: manifestum est quoniam non est ullo modo tota 
+          <lb ed="#Sm" n="17"/>in omni loco vel tempore. Et quoniam similiter pervisum est, quia non 
+          <lb ed="#Sm" n="18"/>sic est in omni loco vel tempore, ut pars sit in omni et pars sit extra  
+          <lb ed="#Sm" n="19"/>omnem locum aut tempus: impossibile est ut sit ubique et semper.
+    Nulla<lb ed="#Sm" n="20" break="no"/>tenus enim potest intelligi esse ubique et semper, nisi aut tota aut pars. 
+          <lb ed="#Sm" n="21"/>Quod si nequaquam est ubique et semper: aut erit determinate in aliquo 
+          <lb ed="#Sm" n="22"/>loco vel tempore, aut in nullo. Determinate autem eam in aliquo non 
+          <lb ed="#Sm" n="23"/>posse esse iam discussum est. In nullo igitur loco vel tempore, id est 
+          <lb ed="#Sm" n="24"/>nusquam et numquam est. Non enim potest esse nisi aut in omni aut in 
+          <lb ed="#Sm" n="25"/>aliquo. Sed rursus cum constet inexpugnabiliter non solum quia est per 
+          <lb ed="#Sm" n="26"/>se et sine principio et sine fine, sed quia aliquid sine ea nec usquam nec 
+          <lb ed="#Sm" n="27"/>umquam est: necesse est illam esse ubique et semper.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 3</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 3</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="15"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c3">
+        <head xml:id="adcmon-c3-Hd1e102">Capitulum 3</head>
+        <head xml:id="adcmon-c3-Hd1e105" type="question-title">
+    Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, 
+    et est summum omnium quae sunt.
+   </head>
+        <p xml:id="adcmon-c3-d1e108">
+          <lb ed="#Sm" n="24"/>Capitulum III. 
+    <!--33.xml-->
+          <lb ed="#Sm" n="25"/>Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, 
+          <lb ed="#Sm" n="26"/>et est summum omnium quae sunt. 
+        </p>
+        <p xml:id="adcmon-c3-d1e119">
+    
+          <lb ed="#Sm" n="27"/>Denique non solum omnia bona per idem aliquid sunt bona, et omnia 
+          <lb ed="#Sm" n="28"/>magna per idem aliquid sunt magna, sed quidquid est, per unum aliquid 
+          <lb ed="#Sm" n="29"/>videtur esse. Omne namque quod est, aut est per aliquid aut per nihil. 
+          <lb ed="#Sm" n="30"/>Sed nihil est per nihil. Non enim vel cogitari potest, ut sit aliquid non per 
+    <!--34.xml-->
+          <pb ed="#Sm" n="16"/>
+          <lb ed="#Sm" n="1"/>aliquid. Quidquid est igitur, non nisi per aliquid est. Quod cum ita sit, 
+          <lb ed="#Sm" n="2"/>aut est unum aut sunt plura, per quas sunt cuncta quae sunt. Sed si sunt 
+          <lb ed="#Sm" n="3"/>plura, aut ipsa referuntur ad unum aliquid per quod sunt, aut eadem 
+          <lb ed="#Sm" n="4"/>plura singula sunt per se, aut ipsa per se invicem sunt. At si plura ipsa 
+          <lb ed="#Sm" n="5"/>sunt per unum, iam non sunt omnia per plura, sed potius per illud unum, 
+          <lb ed="#Sm" n="6"/>per quod haec plura sunt. Si vero ipsa plura singula sunt per se, utique 
+          <lb ed="#Sm" n="7"/>est una aliqua vis vel natura existendi per se, quam habent, ut per se sint. 
+          <lb ed="#Sm" n="8"/>Non est autem dubium quod per id ipsum unum sint, per quod habent, 
+          <lb ed="#Sm" n="9"/>ut sint per se. Verius ergo per ipsum unum cuncta sunt, quam per plura, 
+          <lb ed="#Sm" n="10"/>quae sine eo uno esse non possunt. Ut vero plura per se invicem sint, 
+          <lb ed="#Sm" n="11"/>nulla patitur ratio, quoniam irrationabilis cogitatio est, ut aliqua res sit per 
+          <lb ed="#Sm" n="12"/>illud, cui dat esse. Nam nec ipsa relativa sic sunt per invicem. Cum enim 
+          <lb ed="#Sm" n="13"/>dominus et servus referantur ad invicem, et ipsi homines qui referuntur, 
+          <lb ed="#Sm" n="14"/>omnino non sunt per invicem, et ipsas relationes quibus referuntur, non 
+          <lb ed="#Sm" n="15"/>omnino sunt per invicem, quia eaedem sunt per subiecta. Cum itaque 
+          <lb ed="#Sm" n="16"/>veritas omnimodo excludat plura esse per quae cuncta sint, necesse est 
+          <lb ed="#Sm" n="17"/>unum illud esse, per quod sunt cuncta quae sunt. 
+    <!--34.xml-->
+        </p>
+        <p xml:id="adcmon-c3-d1e173">
+          <lb ed="#Sm" n="18"/>Quoniam ergo cuncta quae sunt, sunt per ipsum unum, procuidubio 
+          <lb ed="#Sm" n="19"/>et ipsum unum est per seipsum. Quaecumque igitur alia sunt, sunt per 
+          <lb ed="#Sm" n="20"/>aliud, et ipsum solum per seipsum. At quidquid est per aliud, minus est 
+          <lb ed="#Sm" n="21"/>quam illud per quod cuncta sunt alia, et quod solum est per se. Quare 
+          <lb ed="#Sm" n="22"/>illud quod est per se, maxime omnium est. Est igitur unum aliquid, quod 
+          <lb ed="#Sm" n="23"/>solum maxime et summe omnium est. Quod autem maxime omnium est, 
+          <lb ed="#Sm" n="24"/>et per quod est quidquid est bonum vel magnum, et omnino quidquid 
+          <lb ed="#Sm" n="25"/>aliquid est id necesse est esse summe bonum et summe magnum, et 
+          <lb ed="#Sm" n="26"/>summum omnium quae sunt. Quare est aliquid, quod, sive essentia sive 
+          <lb ed="#Sm" n="27"/>substantia sive natura dicatur, optimum et maximum est et summum 
+          <lb ed="#Sm" n="28"/>omnium quae sunt. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

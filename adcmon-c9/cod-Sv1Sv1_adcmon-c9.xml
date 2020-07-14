@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 9</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 9</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c9">
+        <head xml:id="adcmon-c9-Hd1e102">Capitulum 9</head>
+        <head xml:id="adcmon-c9-Hd1e105" type="question-title">
+    Quod ea quae facta sunt de nihilo, non nihil erant, antequam fierent, 
+    quantum ad rationem facientis.
+   </head>
+        <p xml:id="adcmon-c9-d1e108">
+          <lb ed="#Sm" n="7"/>Capitulum IX. 
+          <lb ed="#Sm" n="8"/>Quod ea quae facta sunt de nihilo, non nihil erant, antequam fierent, 
+          <lb ed="#Sm" n="9"/>quantum ad rationem facientis.
+        </p>
+        <p xml:id="adcmon-c9-d1e117">
+          <lb ed="#Sm" n="10"/>Verum videor mihi videre quiddam, quod non negligenter discernere 
+          <lb ed="#Sm" n="11"/>cogit, secundum quid ea quae facta sunt, antequam fierent, dici possint 
+          <lb ed="#Sm" n="12"/>fuisse nihil. Nullo namque pacto fieri potest aliquid rationabiliter ab aliquo, 
+          <lb ed="#Sm" n="13"/>nisi in facientis ratione praecedat aliquod rei faciendae quasi exemplum, 
+          <lb ed="#Sm" n="14"/>sive aptius dicitur forma, vel similitudo, aut regula. Patet itaque, quoniam 
+          <lb ed="#Sm" n="15"/>priusquam fierent universa, erat in ratione summae naturae, quid aut qualia 
+          <lb ed="#Sm" n="16"/>aut quomodo futura essent.
+        </p>
+        <p xml:id="adcmon-c9-d1e135">
+          <lb ed="#Sm" n="17"/>Quare cum ea quae facta sunt, clarum sit nihil fuisse, antequam fierent, 
+          <lb ed="#Sm" n="18"/>quantum ad hoc quia non erant quod nunc sunt, nec erat ex quo fierent: 
+          <lb ed="#Sm" n="19"/>non tamen nihil erant quantum ad rationem facientis, per quam et
+    secun<lb ed="#Sm" n="20" break="no"/>dum quam fierent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

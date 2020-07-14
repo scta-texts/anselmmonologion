@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 11</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 11</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="27"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c11">
+        <head xml:id="adcmon-c11-Hd1e102">Capitulum 11</head>
+        <head xml:id="adcmon-c11-Hd1e105" type="question-title">Quod tamen multa sit in hac similitudine dissimilitudo.</head>
+        <p xml:id="adcmon-c11-d1e108">
+    <!--44.xml-->
+          <pb ed="#Sm" n="27"/>
+          <lb ed="#Sm" n="1"/>Capitulum XI. 
+          <lb ed="#Sm" n="2"/>Quod tamen multa sit in hac similitudine dissimilitudo. 
+    <!--44.xml-->
+        </p>
+        <p xml:id="adcmon-c11-d1e121">
+          <lb ed="#Sm" n="3"/>Sed quamvis summam substantiam constet prius in se quasi dixisse 
+          <lb ed="#Sm" n="4"/>cunctam creaturam, quam eam secundum eandem et per eandem suam 
+          <lb ed="#Sm" n="5"/>intimam locutionem conderet, quemadmodum faber prius mente concipit 
+          <lb ed="#Sm" n="6"/>quod postea secundum mentis conceptionem opere perficit: multam tamen 
+          <lb ed="#Sm" n="7"/>in hac similitudine intueor dissimilitudinem. Illa namque nihil omnino aliunde 
+          <lb ed="#Sm" n="8"/>assumpsit, unde vel eorum quae factura erat formam in seipsa compingeret, 
+          <lb ed="#Sm" n="9"/>vel ea ipsa hoc quod sunt perficeret. Faber vero penitus nec mente potest 
+          <lb ed="#Sm" n="10"/>aliquid corporeum imaginando concipere, nisi id quod aut totum simul aut 
+          <lb ed="#Sm" n="11"/>per partes ex aliquibus rebus aliquomodo iam didicit; nec opus mente 
+          <lb ed="#Sm" n="12"/>conceptum perficere, si desit aut materia aut aliquid sine quo opus
+    prae<lb ed="#Sm" n="13" break="no"/>cogitatum fieri non possit. Quamquam enim homo tale aliquod animal 
+          <lb ed="#Sm" n="14"/>possit cogitando sive pingendo quale nusquam sit confingere: nequaquam 
+          <lb ed="#Sm" n="15"/>tamen hoc facere valet, nisi componendo in eo partes, quas ex rebus alias 
+          <lb ed="#Sm" n="16"/>cognitis in memoriam attraxit. Quare in hoc differunt ab invicem illae in 
+          <lb ed="#Sm" n="17"/>creatrice substantia et in fabro suorum operum faciendorum intimae
+    locu<lb ed="#Sm" n="18" break="no"/>tiones, quod illa nec assumpta nec adiuta aliunde, sed prima et sola causa 
+          <lb ed="#Sm" n="19"/>sufficere potuit suo artifici ad suum opus perficiendum, ista vero nec 
+          <lb ed="#Sm" n="20"/>prima nec sola nec sufficiens est ad suum incipiendum. Quapropter ea 
+          <lb ed="#Sm" n="21"/>quae per illam creata sunt, omnino non sunt aliquid quod non sunt per 
+          <lb ed="#Sm" n="22"/>illam; quae vero fiunt per istam, penitus non essent, nisi essent aliquid 
+          <lb ed="#Sm" n="23"/>quod non sunt per ipsam. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

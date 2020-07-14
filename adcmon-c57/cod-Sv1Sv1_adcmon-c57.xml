@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 57</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 57</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="68"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c57">
+        <head xml:id="adcmon-c57-Hd1e102">Capitulum 57</head>
+        <head xml:id="adcmon-c57-Hd1e105" type="question-title">
+    Quod amor idem sic sit increatus et creator sicut pater et filius, 
+    et tamen ipse cum illis non tres, sed unus increatus et unus 
+    creator; et quod idem possit dici spiritus patris et filii.
+   </head>
+        <p xml:id="adcmon-c57-d1e108">
+          <lb ed="#Sm" n="10"/>Capitulum LVII. 
+          <lb ed="#Sm" n="11"/>Quod amor idem sic sit increatus et creator sicut pater et filius, 
+          <lb ed="#Sm" n="12"/>et tamen ipse cum illis non tres, sed unus increatus et unus 
+          <lb ed="#Sm" n="13"/>creator; et quod idem possit dici spiritus patris et filii. 
+        </p>
+        <p xml:id="adcmon-c57-d1e119">
+          <lb ed="#Sm" n="14"/>Quoniam autem idem amor singulus est summa essentia sicut pater 
+          <lb ed="#Sm" n="15"/>et filius, et tamen simul pater et filius et utriusque amor non plures sed 
+          <lb ed="#Sm" n="16"/>una summa essentia, quae sola a nullo facta non per aliud quam per se 
+          <lb ed="#Sm" n="17"/>omnia fecit: necesse est ut, quemadmodum singulus pater et singulus 
+          <lb ed="#Sm" n="18"/>filius est increatus et creator, ita et amor singulus sit increatus et creator, 
+          <lb ed="#Sm" n="19"/>et tamen omnes tres simul non plures sed unus increatus et unus creator. 
+          <lb ed="#Sm" n="20"/>Patrem itaque nullus facit sive creat aut gignit. Filium vero pater solus 
+          <lb ed="#Sm" n="21"/>non facit, sed gignit. Pater autem pariter et filius non faciunt neque 
+          <lb ed="#Sm" n="22"/>gignunt, sed quodam modo si sic dici potest spirant suum amorem.
+    Quam<lb ed="#Sm" n="23" break="no"/>vis enim non nostro modo spiret summe incommutabilis essentia, tamen 
+          <lb ed="#Sm" n="24"/>ipsum suum amorem a se ineffabiliter procedentem non discedendo ab 
+          <lb ed="#Sm" n="25"/>illa sed existendo ex illa, forsan non alio modo videtur posse dici aptius 
+          <lb ed="#Sm" n="26"/>ex se emittere quam spirando. 
+        </p>
+        <p xml:id="adcmon-c57-d1e150">
+          <pb ed="#Sm" n="69"/>
+          <lb ed="#Sm" n="1"/>Quod si dici potest: sicut verbum summae essentiae filius est eius, ita 
+          <lb ed="#Sm" n="2"/>eiusdem amor satis convenienter appellari potest spiritus eius. Ut cum 
+          <lb ed="#Sm" n="3"/>essentialiter ipse sit spiritus sicut pater et filius, illi non putentur alicuius 
+          <lb ed="#Sm" n="4"/>spiritus, quia nec pater ab ullo alio est, nec filius a patre quasi spirante 
+          <lb ed="#Sm" n="5"/>nascitur, iste autem aestimetur spiritus utriusque, quia ab utroque suo 
+          <lb ed="#Sm" n="6"/>quodam inenarrabili modo spirante mirabiliter procedit. Qui etiam ex eo 
+          <lb ed="#Sm" n="7"/>quia est communio patris et filii, non absque ratione quasi proprium 
+          <lb ed="#Sm" n="8"/>assumere posse videtur aliquod nomen, quod patri filioque commune sit, 
+          <lb ed="#Sm" n="9"/>si proprii nominis exigit indigentia. Quod quidem, si fiat, scilicet ut ipse 
+          <lb ed="#Sm" n="10"/>amor nomine ,spiritus4, quod substantiam pariter patris et filii significat, 
+          <lb ed="#Sm" n="11"/>quasi proprio designetur: ad hoc quoque non inutiliter valebit, ut per hoc 
+          <lb ed="#Sm" n="12"/>idipsum esse quod est pater et filius, quamvis ab illis esse suum habeat, 
+          <lb ed="#Sm" n="13"/>intimetur. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

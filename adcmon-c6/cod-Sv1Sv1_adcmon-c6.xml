@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 6</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 6</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="18"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c6">
+        <head xml:id="adcmon-c6-Hd1e102">Capitulum 6</head>
+        <head xml:id="adcmon-c6-Hd1e105" type="question-title">
+    Quod illa non sit ulla iuvante causa ducta ad esse, nec tamen sit per 
+    nihil aut ex nihilo; et quomodo intelligi possit esse per se et ex se.
+   </head>
+        <p xml:id="adcmon-c6-d1e108">
+          <lb ed="#Sm" n="18"/>Capitulum VI.  
+          <lb ed="#Sm" n="19"/>Quod illa non sit ulla iuvante causa ducta ad esse, nec tamen sit per 
+          <lb ed="#Sm" n="20"/>nihil aut ex nihilo; et quomodo intelligi possit esse per se et ex se. 
+        </p>
+        <p xml:id="adcmon-c6-d1e117">
+          <lb ed="#Sm" n="21"/>Quoniam igitur non semper eundem habet sensum, quod dicitur esse 
+          <lb ed="#Sm" n="22"/>per aliquid aut esse ex aliquo, quaerendum est diligentius, quomodo per 
+          <lb ed="#Sm" n="23"/>summam naturam vel ex ipsa sint omnia quae sunt. Et quoniam id quod 
+          <lb ed="#Sm" n="24"/>est per seipsum, et id quod est per aliud, non eandem suscipiunt existendi  
+          <lb ed="#Sm" n="25"/>rationem, prius separatim videatur de ipsa summa natura quae per se est, 
+          <lb ed="#Sm" n="26"/>postea de iis quae per aliud sunt. 
+        </p>
+        <p xml:id="adcmon-c6-d1e133">
+          <lb ed="#Sm" n="27"/>Cum igitur constet quia illa est per seipsam quidquid est, et omnia 
+          <pb ed="#Sm" n="19"/>
+          <lb ed="#Sm" n="1"/>alia sunt per illam id quod sunt: quomodo est ipsa per se? Quod enim 
+          <lb ed="#Sm" n="2"/>dicitur esse per aliquid, videtur esse aut per efficiens aut per materiam aut 
+          <lb ed="#Sm" n="3"/>per aliquod aliud adiumentum, velut per instrumentum. Sed quidquid aliquo 
+          <lb ed="#Sm" n="4"/>ex his tribus modis est: per aliud est et posterius, et aliquomodo minus 
+          <lb ed="#Sm" n="5"/>est eo, per quod habet ut sit. At summa natura nullatenus est per aliud 
+          <lb ed="#Sm" n="6"/>nec est posterior aut minor seipsa aut aliqua alia re. Quare summa natura 
+          <lb ed="#Sm" n="7"/>nec a se nec ab alio fieri potuit, nec ipsa sibi nec aliud aliquid illi materia 
+          <lb ed="#Sm" n="8"/>unde fieret fuit, aut ipsa se aliquomodo aut aliqua res illam, ut esset 
+          <lb ed="#Sm" n="9"/>quod non erat, adiuvit. 
+        </p>
+        <p xml:id="adcmon-c6-d1e160">
+          <lb ed="#Sm" n="10"/>Quod igitur illa natura, sine qua nulla est natura, sit nihil, tam falsum 
+          <lb ed="#Sm" n="11"/>est quam absurdum erit, si dicatur quidquid est nihil esse. Per nihil vero 
+          <lb ed="#Sm" n="12"/>non est, quia nullo modo intelligi potest, ut quod aliquid est, sit per 
+          <lb ed="#Sm" n="13"/>nihil. At si quomodo est ex nihilo: aut per se, aut per aliud, aut per nihil 
+          <lb ed="#Sm" n="14"/>est ex nihilo. Sed constat quia nullo modo aliquid est per nihil. Si igitur 
+          <lb ed="#Sm" n="15"/>est aliquomodo ex nihilo: aut per se aut per aliud est ex nihilo. Per se 
+          <lb ed="#Sm" n="16"/>autem nihil potest esse ex nihilo, quia si quid est ex nihilo per aliquid, 
+          <lb ed="#Sm" n="17"/>necesse est, ut id per quod est prius sit. Quoniam igitur haec essentia 
+          <lb ed="#Sm" n="18"/>prior seipsa non est, nullo modo est ex nihilo per se. At si dicitur per 
+          <lb ed="#Sm" n="19"/>aliam aliquam naturam extitisse ex nihilo, non est summa omnium, sed 
+          <lb ed="#Sm" n="20"/>aliquo inferior; nec est per se hoc quod est, sed per aliud. Item si per 
+          <lb ed="#Sm" n="21"/>aliquid est ipsa ex nihilo: id per quod est, magnum bonum fuit, cum 
+        </p>
+        <p xml:id="adcmon-c6-d1e189">
+          <lb ed="#Sm" n="22"/>Quid igitur? Quod enim non est, a quo faciente aut ex qua materia 
+          <lb ed="#Sm" n="23"/>aut quibus adiumentis ad esse pervenerit: id videtur aut esse nihil, aut 
+          <lb ed="#Sm" n="24"/>si aliquid est, per nihil esse et ex nihilo. Quas licet ex iis, quae rationis 
+          <lb ed="#Sm" n="25"/>luce de summa iam animadverti substantia, putem nullatenus in illam posse 
+          <lb ed="#Sm" n="26"/>cadere, non tamen negligam huius rei probationem contexere. Quoniam 
+          <lb ed="#Sm" n="27"/>namque ad magnum et delectabile quiddam me subito perduxit haec mea 
+          <lb ed="#Sm" n="28"/>meditatio, nullam vel simplicem paeneque fatuam obiectionem disputanti 
+          <lb ed="#Sm" n="29"/>mihi occurrentem negligendo volo praeterire. Quatenus et ego nihil ambi- 
+          <lb ed="#Sm" n="30"/>guum in praecedentibus relinquens certior valeam ad sequentia procedere, 
+          <lb ed="#Sm" n="31"/>et si cui forte quod speculor persuadere voluero, omni vel modico remoto 
+          <lb ed="#Sm" n="32"/>obstaculo quilibet tardus intellectus ad audita facile possit accedere. 
+          <pb ed="#Sm" n="20"/>
+          <lb ed="#Sm" n="1"/>causa tanti boni fuit. At nullum bonum potest intelligi ante illud bonum, 
+          <lb ed="#Sm" n="2"/>sine quo nihil est bonum. Hoc autem bonum, sine quo nullum est bonum, 
+          <lb ed="#Sm" n="3"/>satis liquet hanc esse summam naturam, de qua agitur. Quare nulla res 
+          <lb ed="#Sm" n="4"/>vel intellectu praecessit, per quam ista ex nihilo esset. Denique si haec 
+          <lb ed="#Sm" n="5"/>ipsa natura est aliquid aut per nihil aut ex nihilo: procul dubio aut ipsa 
+          <lb ed="#Sm" n="6"/>non est per se et ex se quidquid est, aut ipsa dicitur nihil. Quod utrumque 
+          <lb ed="#Sm" n="7"/>superfluum est exponere, quam falsum sit. Licet igitur summa substantia 
+          <lb ed="#Sm" n="8"/>non sit per aliquid efficiens aut ex aliqua materia nec aliquibus sit adiuta 
+          <lb ed="#Sm" n="9"/>causis ut ad esse perduceretur: nullatenus tamen est per nihil aut ex nihilo, 
+          <lb ed="#Sm" n="10"/>quia per seipsam et ex seipsa est quidquid est. 
+        </p>
+        <p xml:id="adcmon-c6-d1e239">
+          <lb ed="#Sm" n="11"/>Quomodo ergo tandem esse intelligenda est per se et ex se, si nec 
+          <lb ed="#Sm" n="12"/>ipsa se fecit, nec ipsa sibi materia extitit, nec ipsa se quolibet modo, ut 
+          <lb ed="#Sm" n="13"/>quod non erat esset, adiuvit? Nisi forte eo modo intelligendum videtur, 
+          <lb ed="#Sm" n="14"/>quo dicitur quia lux lucet vel lucens est per seipsam et ex seipsa. 
+          <lb ed="#Sm" n="15"/>Quemadmodum enim sese habent ad invicem lux et lucere et lucens, sic 
+          <lb ed="#Sm" n="16"/>sunt ad se invicem essentia et esse et ens, hoc est existens sive subsistens. 
+          <lb ed="#Sm" n="17"/>Ergo summa essentia et summe esse et summe ens, id est summe existens 
+          <lb ed="#Sm" n="18"/>sive summe subsistens, non dissimiliter sibi convenient, quam lux et lucere 
+          <lb ed="#Sm" n="19"/>et lucens. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 48</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 48</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="63"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c48">
+        <head xml:id="adcmon-c48-Hd1e102">Capitulum 48</head>
+        <head xml:id="adcmon-c48-Hd1e105" type="question-title">
+    Quod in memoria intelligatur pater9 sicut in intelligentia filius; 
+    et quomodo filius sit intelligentia vel sapientia memoriae et 
+    memoria patris et memoriae.
+   </head>
+        <p xml:id="adcmon-c48-d1e108">
+          <lb ed="#Sm" n="8"/>Capitulum XLVIII 
+          <lb ed="#Sm" n="9"/>Quod in memoria intelligatur pater9 sicut in intelligentia filius; 
+          <lb ed="#Sm" n="10"/>et quomodo filius sit intelligentia vel sapientia memoriae et 
+          <lb ed="#Sm" n="11"/>memoria patris et memoriae. 
+        </p>
+        <p xml:id="adcmon-c48-d1e119">
+          <lb ed="#Sm" n="12"/>De memoria vero quid sentiendum est? An aestimandus est filius 
+          <lb ed="#Sm" n="13"/>intelligentia memoriae, sive memoria patris, aut memoria memoriae?
+    Equi<lb ed="#Sm" n="14" break="no"/>dem cum summa sapientia sui memor esse negari non possit; nihil 
+          <lb ed="#Sm" n="15"/>competentius quam in memoria pater sicut in verbo filius intelligitur, 
+          <lb ed="#Sm" n="16"/>quoniam de memoria nasci verbum videtur. Quod clarius in nostra mente 
+          <lb ed="#Sm" n="17"/>percipitur. Quoniam namque mens humana non semper se cogitat, sicut 
+          <lb ed="#Sm" n="18"/>sui semper meminit; liquet cum se cogitat quia verbum eius nascitur de 
+          <lb ed="#Sm" n="19"/>memoria. Unde apparet quia, si semper se cogitaret, semper verbum eius 
+          <lb ed="#Sm" n="20"/>de memoria nasceretur. Rem etenim cogitare cuius memoriam habemus, 
+          <lb ed="#Sm" n="21"/>hoc est mente eam dicere; verbum vero rei est ipsa cogitatio ad eius 
+          <lb ed="#Sm" n="22"/>similitudinem ex memoria formata. Hinc itaque liquido animadverti potest 
+          <lb ed="#Sm" n="23"/>de summa sapientia, quae sic semper se dicit sicut semper sui memor 
+          <lb ed="#Sm" n="24"/>est, quia de aeterna memoria eius coaeternum verbum nascitur. Sicut igitur 
+          <lb ed="#Sm" n="25"/>verbum congrue intelligitur proles, ita memoria parentis nomen aptissime 
+          <pb ed="#Sm" n="64"/>
+          <lb ed="#Sm" n="1"/>suscipit. Si ergo proles, quse omnino de solo summo spiritu nata est, 
+          <lb ed="#Sm" n="2"/>proles est memoriae eius: nihil consequentius quam quia memoria sua est 
+          <lb ed="#Sm" n="3"/>idem ipse. Quippe non in eo quod sui memor est, sic est in sua memoria 
+          <lb ed="#Sm" n="4"/>velut alia res in alia, quemadmodum ea quW sic sunt in humanae mentis 
+          <lb ed="#Sm" n="5"/>memoria, ut non sint ipsa nostra memoria; sed sic est memor sui, ut 
+          <lb ed="#Sm" n="6"/>ipse memoria sua sit. 6 
+        </p>
+        <p xml:id="adcmon-c48-d1e167">
+          <lb ed="#Sm" n="7"/>Consequitur itaque ut, quomodo filius est intelligentia sive sapientia 
+          <lb ed="#Sm" n="8"/>patris, ita sit et paternae memoriae. At quidquid filius sapit aut intelligit, 
+          <lb ed="#Sm" n="9"/>eius similiter et meminit. Est igitur filius memoria patris et memoria 
+          <lb ed="#Sm" n="10"/>memoriae, id est memoria memor patris qui est memoria, sicut est
+    sapien<lb ed="#Sm" n="11" break="no"/>tia patris et sapientia sapientiae, id est sapientia sapiens patrem sapientiam. 
+          <lb ed="#Sm" n="12"/>Et filius quidem memoria nata de memoria, sicut sapientia nata de sa- 
+          <lb ed="#Sm" n="13"/>pientia; pater vero de nullo nata memoria vel sapientia. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

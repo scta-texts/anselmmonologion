@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 79</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 79</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="85"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c79">
+        <head xml:id="adcmon-c79-Hd1e102">Capitulum 79</head>
+        <head xml:id="adcmon-c79-Hd1e105" type="question-title">
+    Quid tres summa essentia quodammodo dici possit.
+   </head>
+        <p xml:id="adcmon-c79-d1e108">
+          <lb ed="#Sm" n="10"/>Capitulum LXXIX. 
+          <lb ed="#Sm" n="11"/>Quid tres summa essentia quodammodo dici possit. 
+        </p>
+        <p xml:id="adcmon-c79-d1e115">
+          <lb ed="#Sm" n="12"/>Ecce patet omni homini expedire, ut credat in quandam ineffabilem 
+          <lb ed="#Sm" n="13"/>trinam unitatem et unam trinitatem. Unam quidem et unitatem propter 
+          <lb ed="#Sm" n="14"/>unam essentiam, trinam vero et trinitatem propter tres nescio quid. Licet 
+          <lb ed="#Sm" n="15"/>enim possim dicere trinitatem propter patrem et filium et utriusque
+    spiri<lb ed="#Sm" n="16" break="no"/>tum qui sunt tres: non tamen possum proferre uno nomine propter quid 
+          <lb ed="#Sm" n="17"/>tres, velut si dicerem propter tres personas, sicut dicerem unitatem 
+          <lb ed="#Sm" n="18"/>propter unam substantiam. Non enim putandae sunt tres personae, quia 
+          <lb ed="#Sm" n="19"/>omnes plures personae sic subsistunt separatim ab invicem, ut tot necesse 
+          <lb ed="#Sm" n="20"/>sit esse substantias quot sunt personae; quod in pluribus hominibus, qui 
+          <lb ed="#Sm" n="21"/>quot personae tot individuae substantiae sunt cognoscitur. Quare in summa 
+          <lb ed="#Sm" n="22"/>essentia sicut non sunt plures substantiae, ita nec plures personae. 
+        </p>
+        <p xml:id="adcmon-c79-d1e141">
+          <lb ed="#Sm" n="23"/>Si quis itaque inde velit alicui loqui: quid tres dicet esse patrem et 
+    <!--108.xml-->
+          <pb ed="#Sm" n="86"/>
+          <lb ed="#Sm" n="1"/>filium et utriusque spiritum, nisi forte indigentia nominis proprie
+    conve<lb ed="#Sm" n="2" break="no"/>nientis coactus, elegerit aliquod de illis nominibus quae pluraliter in summa 
+          <lb ed="#Sm" n="3"/>essentia dici non possunt, ad significandum id quod congruo nomine dici 
+          <lb ed="#Sm" n="4"/>non potest; ut si dicat illam admirabilem trinitatem esse unam essentiam 
+          <lb ed="#Sm" n="5"/>vel naturam et tres personas sive substantias? Nam haec duo nomina 
+          <lb ed="#Sm" n="6"/>aptius eliguntur ad significandam pluralitatem in summa essentia, quia 
+          <lb ed="#Sm" n="7"/>persona non dicitur nisi de individua rationali natura, et substantia
+    prin<lb ed="#Sm" n="8" break="no"/>cipaliter dicitur de individuis quae maxime in pluralitate consistunt.
+    Indivi<lb ed="#Sm" n="9" break="no"/>dua namque maxime substant id est subiacent accidentibus, et ideo magis 
+          <lb ed="#Sm" n="10"/>proprie substantiae nomen suscipiunt. Unde iam supra manifestum est 
+          <lb ed="#Sm" n="11"/>summam essentiam quae nullis subiacet accidentibus proprie non posse 
+          <lb ed="#Sm" n="12"/>dici substantiam, nisi substantia ponatur pro essentia. Potest ergo hac 
+          <lb ed="#Sm" n="13"/>necessitatis ratione irreprehensibiliter illa summa et una trinitas sive trina 
+          <lb ed="#Sm" n="14"/>unitas dici una essentia et tres personae sive tres substantiae. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

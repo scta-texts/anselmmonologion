@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 78</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 78</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="84"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c78">
+        <head xml:id="adcmon-c78-Hd1e102">Capitulum 78</head>
+        <head xml:id="adcmon-c78-Hd1e105" type="question-title">
+    Quae sit viva et quae mortua fides.
+   </head>
+        <p xml:id="adcmon-c78-d1e108">
+          <lb ed="#Sm" n="14"/>Capitulum LXXV1II. 
+          <lb ed="#Sm" n="15"/>Quae sit viva et quae mortua fides. 
+        </p>
+        <p xml:id="adcmon-c78-d1e115">
+          <lb ed="#Sm" n="16"/>Quapropter, quantacumque certitudine credatur tanta res: inutilis erit 
+          <lb ed="#Sm" n="17"/>fides et quasi mortuum aliquid, nisi dilectione valeat et vivat. Etenim 
+          <lb ed="#Sm" n="18"/>nullatenus fidem illam quam competens comitatur dilectio, si se oppor- 
+          <lb ed="#Sm" n="19"/>tunitas conferat operandi, otiosam esse sed magna se quadam operum 
+          <lb ed="#Sm" n="20"/>exercere frequentia, quod sine dilectione facere non posset, vel hoc solo 
+          <lb ed="#Sm" n="21"/>probari potest, quia quod summam iustitiam diligit, nihil iustum contem- 
+          <lb ed="#Sm" n="22"/>nere, nihil valet iniustum admittere. Ergo quoniam quod aliquid operatur, 
+          <lb ed="#Sm" n="23"/>inesse sibi vitam sine qua operari non valeret ostendit: non absurde 
+          <lb ed="#Sm" n="24"/>dicitur et operosa fides vivere, quia habet vitam dilectionis sine qua non 
+          <pb ed="#Sm" n="85"/>
+          <lb ed="#Sm" n="1"/>operaretur, et otiosa fides non vivere, quia caret vita dilectionis cum qua 
+          <lb ed="#Sm" n="2"/>non otiaretur. Quare si caecus dicitur non tantum qui perdidit visum, sed 
+          <lb ed="#Sm" n="3"/>qui cum debet habere non habet: cur non similiter potest dici rfides sine« 
+          <lb ed="#Sm" n="4"/>dilectione »mortuas, non quia vitam suam id est dilectionem perdiderit, sed 
+          <lb ed="#Sm" n="5"/>quia non habet, quam semper habere debet? Quemadmodum igitur illa 
+          <lb ed="#Sm" n="6"/>»fides quae per dilectionem operature, viva esse cognoscitur, ita illa quae 
+          <lb ed="#Sm" n="7"/>per contemptum otiatur, mortua esse convincitur. Satis itaque convenienter 
+          <lb ed="#Sm" n="8"/>dici potest viva fides credere in id in quod credi debet, mortua vero 
+          <lb ed="#Sm" n="9"/>fides credere tantum id quod credi debet. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

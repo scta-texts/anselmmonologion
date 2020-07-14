@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 26</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 26</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c26">
+        <head xml:id="adcmon-c26-Hd1e102">Capitulum 26</head>
+        <head xml:id="adcmon-c26-Hd1e105" type="question-title">
+    Quomodo illa dicenda sit esse substantia, et quod sit extra omnem 
+    substantiam, et singulariter sit quidquid est.
+   </head>
+        <p xml:id="adcmon-c26-d1e108">
+          <lb ed="#Sm" n="3"/>Capitulum XXVI. 
+          <lb ed="#Sm" n="4"/>Quomodo illa dicenda sit esse substantia, et quod sit extra omnem 
+          <lb ed="#Sm" n="5"/>substantiam, et singulariter sit quidquid est. 
+        </p>
+        <p xml:id="adcmon-c26-d1e117">
+          <lb ed="#Sm" n="6"/>Sed si ratum est quod de huius naturae simplicitate perspectum est:  
+          <lb ed="#Sm" n="7"/>quomodo substantia est? Nam cum omnis substantia admixtionis
+    differen<lb ed="#Sm" n="8" break="no"/>tiarum vel mutationis accidentium sit susceptibilis: huius immutabilis
+    sin<lb ed="#Sm" n="9" break="no"/>ceritas omnimodae admixtioni sive mutationi est inaccessibilis» Quomodo  
+          <lb ed="#Sm" n="10"/>ergo obtinebitur eam esse quamlibet substantiam, nisi dicatur substantia 
+          <lb ed="#Sm" n="11"/>pro essentia, et sic sit extra sicut est supra omnem substantiam? Nam 
+          <lb ed="#Sm" n="12"/>quantum illud esse, quod per se est quidquid est, et de nihilo facit omne  
+          <lb ed="#Sm" n="13"/>aliud esse, diversum est ab eo esse, quod per aliud fit de nihilo quidquid 
+          <lb ed="#Sm" n="14"/>est: tantum omnino distat summa substantia ab iis quae non sunt idem 
+          <lb ed="#Sm" n="15"/>quod ipsa. Cumque ipsa sola omnium naturarum habeat a se sine alterius  
+          <lb ed="#Sm" n="16"/>naturae auxilio esse quidquid est: quomodo non est singulariter absque 
+          <lb ed="#Sm" n="17"/>suae creaturae consortio quidquid ipsa est? Unde si quando illi est cum 
+          <lb ed="#Sm" n="18"/>aliis nominis alicuius communio, valde procul dubio intelligenda est diversa 
+          <lb ed="#Sm" n="19"/>significatio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

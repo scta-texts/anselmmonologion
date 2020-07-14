@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 30</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 30</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c30">
+        <head xml:id="adcmon-c30-Hd1e102">Capitulum 30</head>
+        <head xml:id="adcmon-c30-Hd1e105" type="question-title">Quod eadem locutio non constet pluribus verbis, sed sit unum verbum.</head>
+        <p xml:id="adcmon-c30-d1e108">
+          <lb ed="#Sm" n="6"/>Capitulum XXX. 
+          <lb ed="#Sm" n="7"/>Quod eadem locutio non constet pluribus verbis, sed sit unum verbum. 
+        </p>
+        <p xml:id="adcmon-c30-d1e115">
+          <lb ed="#Sm" n="8"/>Cur igitur dubitem quod supra dubium dimiseram, scilicet utrum 
+          <lb ed="#Sm" n="9"/>haec locutio in pluribus verbis an in uno verbo consistat? Nam si sic 
+          <lb ed="#Sm" n="10"/>est summae naturae consubstantialis, ut non sint duo, sed unus spiritus: 
+          <lb ed="#Sm" n="11"/>utique sicut illa summe simplex est, ita et ista. Non igitur constat pluribus 
+          <lb ed="#Sm" n="12"/>verbis, sed est unum verbum per quod facta sunt omnia. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

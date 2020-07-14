@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 7</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 7</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="20"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c7">
+        <head xml:id="adcmon-c7-Hd1e102">Capitulum 7</head>
+        <head xml:id="adcmon-c7-Hd1e105" type="question-title">Quomodo omnia alia sint per illam et ex illa.</head>
+        <p xml:id="adcmon-c7-d1e108">
+          <lb ed="#Sm" n="20"/>Capitulum VII. 
+          <lb ed="#Sm" n="21"/>Quomodo omnia alia sint per illam et ex illa.
+        </p>
+        <p xml:id="adcmon-c7-d1e115">
+          <lb ed="#Sm" n="22"/>Restat nunc de rerum earum universitate, quae per aliud sunt,
+    dis<lb ed="#Sm" n="23" break="no"/>cutere, quomodo sint per summam substantiam: utrum quia ipsa fecit 
+          <lb ed="#Sm" n="24"/>universa, aut quia materia fuit universorum. Non enim opus est quaerere, 
+          <lb ed="#Sm" n="25"/>utrum ideo sint universa per ipsam, quia alio faciente aut alia materia 
+          <lb ed="#Sm" n="26"/>existente illa tantum quolibet modo ut res omnes essent adjuverit, cum 
+          <lb ed="#Sm" n="27"/>repugnet iis quae iam supra patuerunt, si secundo loco et non
+    principa<lb ed="#Sm" n="28" break="no"/>liter sint per ipsam quaecumque sunt.
+        </p>
+        <p xml:id="adcmon-c7-d1e133">
+          <lb ed="#Sm" n="29"/>Primum itaque mihi quaerendum esse puto, utrum universitas rerum, 
+          <lb ed="#Sm" n="30"/>quae per aliud sunt, sit ex aliqua materia. Non autem dubito omnem hanc 
+    <!--39.xml-->
+          <pb ed="#Sm" n="21"/>
+          <lb ed="#Sm" n="1"/>At si ex summae naturae materia potest esse aliquid minus ipsa, 
+          <lb ed="#Sm" n="2"/>summum bonum mutari et corrumpi potest; quod nefas est dicere.
+    Qua<lb ed="#Sm" n="3" break="no"/>propter quoniam omne quod aliud est quam ipsa, minus est ipsa,
+    im<lb ed="#Sm" n="4" break="no"/>possibile est aliquid aliud hoc modo esse ex ipsa. Amplius. Dubium non 
+          <lb ed="#Sm" n="5"/>est, quia nullatenus est bonum, per quod mutatur vel corrumpitur summum 
+          <lb ed="#Sm" n="6"/>bonum. Quod si qua minor natura est ex summi boni materia: cum nihil 
+          <lb ed="#Sm" n="7"/>sit undecumque nisi per summam essentiam, mutatur et corrumpitur 
+          <lb ed="#Sm" n="8"/>summum bonum per ipsam. Quare summa essentia, quae est ipsum summum 
+          <lb ed="#Sm" n="9"/>bonum, nullatenus est bonum; quod est inconveniens. Nulla igitur minor 
+          <lb ed="#Sm" n="10"/>natura materialiter est ex summa natura. Cum igitur eorum essentiam, quae 
+          <lb ed="#Sm" n="11"/>per aliud sunt, constet non esse velut ex materia ex summa essentia, nec 
+          <lb ed="#Sm" n="12"/>ex se nec ex alio: manifestum est quia ex nulla materia est. 
+        </p>
+        <p xml:id="adcmon-c7-d1e171">
+          <lb ed="#Sm" n="13"/>mundi molem cum partibus suis sicut videmus formatam, constare ex terra 
+          <lb ed="#Sm" n="14"/>et aqua et aere et igne, quse scilicet quattuor elementa aliquomodo intelligi 
+          <lb ed="#Sm" n="15"/>possunt sine his formis quas conspicimus in rebus formatis, ut eorum 
+          <lb ed="#Sm" n="16"/>informis aut etiam confusa natura videatur esse materia omnium corporum 
+          <lb ed="#Sm" n="17"/>suis formis discretorum; non inquam hoc dubito, sed quaero, unde haec 
+          <lb ed="#Sm" n="18"/>ipsa quam dixi mundanae molis materia sit. Nam si huius materiae est 
+          <lb ed="#Sm" n="19"/>aliqua materia, illa verius est corporeae universitatis materia. Si igitur 
+          <lb ed="#Sm" n="20"/>universitas rerum, seu visibilium seu invisibilium, est ex aliqua materia: 
+          <lb ed="#Sm" n="21"/>profecto non solum non potest esse, sed nec dici potest esse ex alia 
+          <lb ed="#Sm" n="22"/>materia quam ex summa natura, aut ex seipsa, aut ex aliqua tertia essentia, 
+          <lb ed="#Sm" n="23"/>quae utique nulla est. Quippe nihil omnino vel cogitari potest esse praeter 
+          <lb ed="#Sm" n="24"/>illud summum omnium, quod est per seipsum, et universitatem eorum, 
+          <lb ed="#Sm" n="25"/>quae non per se sed per idem summum sunt. Quare quod nullo modo 
+          <lb ed="#Sm" n="26"/>aliquid est, nullius rei materia est. Ex sua vero natura rerum universitas, 
+          <lb ed="#Sm" n="27"/>quae per se non est, esse non potest; quoniam si hoc esset, aliquomodo 
+          <lb ed="#Sm" n="28"/>esset per se et per aliud quam per id per quod sunt cuncta, et non esset 
+          <lb ed="#Sm" n="29"/>solum id per quod cuncta sunt; quae omnia falsa sunt. Item omne quod 
+          <lb ed="#Sm" n="30"/>ex materia est, ex alio est et eo posterius. Quoniam igitur nihil est aliud 
+          <lb ed="#Sm" n="31"/>a seipso vel posterius seipso, consequitur ut nihil sit materialiter ex seipso. 
+        </p>
+        <p xml:id="adcmon-c7-d1e215">
+          <lb ed="#Sm" n="32"/>Quare quoniam quidquid est, per summam essentiam est, nec per 
+          <lb ed="#Sm" n="33"/>ipsam aliud aliquid esse potest nisi ea aut faciente aut materia existente, 
+    <!--40.xml-->
+          <pb ed="#Sm" n="22"/>
+          <lb ed="#Sm" n="1"/>consequitur ex necessitate, ut praeter ipsam nihil sit nisi ea faciente. Et 
+          <lb ed="#Sm" n="2"/>quoniam nihil aliud est vel fuit nisi illa et quae facta sunt ab illa, nihil 
+          <lb ed="#Sm" n="3"/>omnino facere potuit per aliud vel instrumentum vel adiumentum quam per 
+          <lb ed="#Sm" n="4"/>seipsam. At omne quod fecit, sine dubio aut fecit ex aliquo velut ex 
+          <lb ed="#Sm" n="5"/>materia, aut ex nihilo. Quoniam ergo certissime patet quia essentia omnium, 
+          <lb ed="#Sm" n="6"/>quae praeter summam essentiam sunt, ab eadem summa essentia facta est, 
+          <lb ed="#Sm" n="7"/>et quia ex nulla materia est: procul dubio nihil apertius quam quia illa 
+          <lb ed="#Sm" n="8"/>summa essentia tantam rerum molem, tam numerosam multitudinem, tam 
+          <lb ed="#Sm" n="9"/>formose formatam, tam ordinate variatam, tam convenienter diversam sola 
+          <lb ed="#Sm" n="10"/>per seipsam produxit ex nihilo. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

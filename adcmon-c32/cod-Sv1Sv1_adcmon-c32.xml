@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 32</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 32</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="50"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c32">
+        <head xml:id="adcmon-c32-Hd1e102">Capitulum 32</head>
+        <head xml:id="adcmon-c32-Hd1e105" type="question-title">
+    Quod summus spiritus seipsum dicat coaeterno verbo.
+   </head>
+        <p xml:id="adcmon-c32-d1e108">
+          <lb ed="#Sm" n="14"/>Capitulum XXXII. 
+          <lb ed="#Sm" n="15"/>Quod summus spiritus seipsum dicat coaeterno verbo. 
+        </p>
+        <p xml:id="adcmon-c32-d1e115">
+          <lb ed="#Sm" n="16"/>Sed cum ita sit: quomodo illud quod simplex est veritas, potest esse 
+          <lb ed="#Sm" n="17"/>verbum eorum quorum non est similitudo, cum omne verbum quo aliqua 
+          <lb ed="#Sm" n="18"/>res sic mente dicitur, similitudo sit rei eiusdem? Et si non est verbum 
+          <lb ed="#Sm" n="19"/>eorum quae facta sunt per ipsum: quomodo constabit quia sit verbum? 
+          <lb ed="#Sm" n="20"/>Nempe omne verbum alicuius rei verbum est. Denique, si numquam 
+          <lb ed="#Sm" n="21"/>creatura esset, nullum eius esset verbum. Quid igitur? An concludendum 
+          <lb ed="#Sm" n="22"/>est quia, si nullo modo esset creatura, nequaquam esset verbum illud, 
+          <lb ed="#Sm" n="23"/>quod est summa et nullius indigens essentia? Aut fortasse ipsa summa 
+          <lb ed="#Sm" n="24"/>essentia quae verbum est, essentia quidem esset aeterna, sed verbum non 
+          <lb ed="#Sm" n="25"/>esset, si nihil umquam per illam fieret? Eius enim quod nec fuit nec est 
+          <lb ed="#Sm" n="26"/>nec futurum est, nullum verbum esse potest. 
+        </p>
+        <p xml:id="adcmon-c32-d1e141">
+          <lb ed="#Sm" n="27"/>Verum secundum hanc rationem, si numquam ulla praeter summum 
+          <lb ed="#Sm" n="28"/>spiritum esset essentia, nullum omnino esset in illo verbum. Si nullum in 
+          <lb ed="#Sm" n="29"/>illo verbum esset, nihil apud se diceret. Si nihil apud se diceret: cum 
+          <pb ed="#Sm" n="51"/>
+          <lb ed="#Sm" n="1"/>idem sit illi sic dicere aliquid quod est intelligere, non aliquid intelligeret. 
+          <lb ed="#Sm" n="2"/>Si nihil intelligeret: ergo summa sapientia, quae non est aliud quam idem 
+          <lb ed="#Sm" n="3"/>spiritus, nihil intelligeret; quod absurdissimum est. Quid ergo? Si enim 
+          <lb ed="#Sm" n="4"/>nihil intelligeret: quomodo esset summa sapientia? Aut si nullo modo 
+          <lb ed="#Sm" n="5"/>aliquid esset praeter illam: quid illa intelligeret? Sed numquid seipsam 
+          <lb ed="#Sm" n="6"/>non intelligeret? 
+        </p>
+        <p xml:id="adcmon-c32-d1e166">
+          <lb ed="#Sm" n="7"/>At quomodo vel cogitari potest quod summa sapientia se aliquando 
+          <lb ed="#Sm" n="8"/>non intelligat, cum rationalis mens possit non solum suimet sed et ipsius 
+          <lb ed="#Sm" n="9"/>summae sapientiae reminisci, et illam et se intelligere? Si enim mens 
+          <lb ed="#Sm" n="10"/>humana nullam eius aut suam habere memoriam aut intelligentiam posset, 
+          <lb ed="#Sm" n="11"/>nequaquam se ab irrationalibus creaturis et illam ab omni creatura, secum 
+          <lb ed="#Sm" n="12"/>sola tacite disputando, sicut nunc mens mea facit, discerneret. Ergo 
+          <lb ed="#Sm" n="13"/>summus ille spiritus sicut est aeternus, ita aeterne sui memor est et intel- 
+          <lb ed="#Sm" n="14"/>ligit se ad similitudinem mentis rationalis; immo non ad ullius similitudinem, 
+          <lb ed="#Sm" n="15"/>sed ille principaliter et mens rationalis ad eius similitudinem. At si aeterne 
+          <lb ed="#Sm" n="16"/>se intelligit, aeterne se dicit. Si aeterne se dicit, aeterne est verbum eius 
+          <lb ed="#Sm" n="17"/>apud ipsum. Sive igitur ille cogitetur nulla alia existente essentia, sive aliis 
+          <lb ed="#Sm" n="18"/>existentibus: necesse est verbum illius coaeternum illi esse cum illo. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

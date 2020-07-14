@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 25</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 25</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="43"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c25">
+        <head xml:id="adcmon-c25-Hd1e102">Capitulum 25</head>
+        <head xml:id="adcmon-c25-Hd1e105" type="question-title">Quod nullis mutabilis sit accidentibus.</head>
+        <p xml:id="adcmon-c25-d1e108">
+          <pb ed="#Sm" n="43"/>
+          <lb ed="#Sm" n="1"/>Capitulum XXV. 
+          <lb ed="#Sm" n="2"/>Quod nullis mutabilis sit accidentibus. 
+        </p>
+        <p xml:id="adcmon-c25-d1e117">
+          <lb ed="#Sm" n="3"/>Sed haec essentia quam patuit omnimode sibi esse eandem
+    sub<lb ed="#Sm" n="4" break="no"/>stantialiter: nonne aliquando est a se diversa vel accidentaliter? Verum 
+          <lb ed="#Sm" n="5"/>quomodo est summe incommutabilis, si per accidentia potest non dicam 
+          <lb ed="#Sm" n="6"/>esse, sed vel intelligi variabilis? Et econtra, quomodo non est particeps 
+          <lb ed="#Sm" n="7"/>accidentis, cum hoc ipsum quod maior est omnibus aliis naturis et quod 
+          <lb ed="#Sm" n="8"/>illis dissimilis est, illi videatur accidere? Sed quid repugnant quorundam 
+          <lb ed="#Sm" n="9"/>quae accidentia dicuntur susceptibilitas et naturalis incommutabilitas, si ex 
+          <lb ed="#Sm" n="10"/>eorum assumptione nulla substantiam consequatur variabilitas? Omnium 
+          <lb ed="#Sm" n="11"/>quippe quae accidentia dicuntur, alia non nisi cum aliqua participantis 
+          <lb ed="#Sm" n="12"/>variatione adesse et abesse posse intelliguntur, ut omnes colores; alia 
+          <lb ed="#Sm" n="13"/>nullam omnino vel accedendo vel recedendo mutationem circa id de quo 
+          <lb ed="#Sm" n="14"/>dicuntur efficere noscuntur, ut quaedam relationes. Constat namque quia 
+          <lb ed="#Sm" n="15"/>homini post annum praesentem nascituro nec maior nec minor nec aequalis 
+          <lb ed="#Sm" n="16"/>sum nec similis. Omnes autem has relationes utique cum natus fuerit, sine 
+          <lb ed="#Sm" n="17"/>omni mei mutatione ad illum habere potero et amittere, secundum quod 
+          <lb ed="#Sm" n="18"/>crescet vel per qualitates diversas mutabitur. Palam itaque fit, quia eorum 
+          <lb ed="#Sm" n="19"/>quae accidentia dicuntur, quaedam aliquatenus attrahant commutabilitatem, 
+          <lb ed="#Sm" n="20"/>quaedam vero nullatenus subtrahant immutabilitatem. 
+        </p>
+        <p xml:id="adcmon-c25-d1e159">
+          <lb ed="#Sm" n="21"/>Sicut igitur summa natura accidentibus mutationem efficientibus num- 
+          <lb ed="#Sm" n="22"/>quam in sua simplicitate locum tribuit, sic secundum ea quae nullatenus 
+          <lb ed="#Sm" n="23"/>summae incommutabilitati repugnant, aliquando dici aliquid non respuit, et 
+          <lb ed="#Sm" n="24"/>tamen aliquid eius essentiae unde ipsa variabilis intelligi possit non accidit. 
+          <lb ed="#Sm" n="25"/>Unde hoc quoque concludi potest, quia nullius accidentis susceptibilis est. 
+          <lb ed="#Sm" n="26"/>Quippe quemadmodum illa accidentia, quas mutationem aliquam accedendo 
+          <lb ed="#Sm" n="27"/>vel recedendo faciunt, ipso suo effectu vere accidere rei quam mutant 
+          <lb ed="#Sm" n="28"/>perpenduntur: sic illa quae a simili effectu deficiunt, improprie dici
+    acci<lb ed="#Sm" n="29" break="no"/>dentia deprehenduntur. Sicut ergo semper sibi est omni modo eadem 
+          <lb ed="#Sm" n="30"/>substantialiter, ita numquam est a se diversa ullo modo vel accidentaliter. 
+          <lb ed="#Sm" n="31"/>Sed quoquo modo sese habeat ratio de proprietate nominis accidentium: 
+          <pb ed="#Sm" n="44"/>
+          <lb ed="#Sm" n="1"/>illud sine dubio verum est, quia de summe incommutabili natura nihil 
+          <lb ed="#Sm" n="2"/>potest dici, unde mutabilis possit intelligi. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

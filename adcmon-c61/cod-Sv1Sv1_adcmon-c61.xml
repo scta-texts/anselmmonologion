@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 61</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 61</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="71"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c61">
+        <head xml:id="adcmon-c61-Hd1e102">Capitulum 61</head>
+        <head xml:id="adcmon-c61-Hd1e105" type="question-title">
+    Quod tamen non sint tres, sed unus seu pater seu filius sive 
+    utriusque spiritus.
+   </head>
+        <p xml:id="adcmon-c61-d1e108">
+          <lb ed="#Sm" n="6"/>Capitulum LXI. 
+          <lb ed="#Sm" n="7"/>Quod tamen non sint tres, sed unus seu pater seu filius sive 
+          <lb ed="#Sm" n="8"/>utriusque spiritus. 
+        </p>
+        <p xml:id="adcmon-c61-d1e117">
+          <lb ed="#Sm" n="9"/>Quandam hic video quaestionem occurrere. Nam si pater ita est
+    in<lb ed="#Sm" n="10" break="no"/>telligentia et amor, sicut est memoria; et filius sic est memoria et amor, 
+          <lb ed="#Sm" n="11"/>quomodo est intelligentia; et utriusque spiritus non minus est memoria et 
+          <lb ed="#Sm" n="12"/>intelligentia quam amor: quomodo non est pater filius et alicuius spiritus; 
+          <lb ed="#Sm" n="13"/>et quare non est filius pater et spiritus alicuius; et cur non est idem 
+          <lb ed="#Sm" n="14"/>spiritus alicuius pater et alicuius filius? Sic quippe intelligebatur quod 
+          <lb ed="#Sm" n="15"/>memoria esset pater, filius intelligentia, utriusque spiritus amor. 
+        </p>
+        <p xml:id="adcmon-c61-d1e135">
+          <lb ed="#Sm" n="16"/>Verum haec quaestio non difficile solvitur, si ea quae iam ratione
+    in<lb ed="#Sm" n="17" break="no"/>venta sunt, considerentur. Idcirco enim non est pater filius aut alterius 
+          <lb ed="#Sm" n="18"/>spiritus, licet sit intelligentia et amor, quia non est intelligentia genita aut 
+          <lb ed="#Sm" n="19"/>amor ab aliquo procedens; sed quidquid est, gignens est tantum, et a 
+          <lb ed="#Sm" n="20"/>quo procedit alius. Filius quoque ideo non est pater aut alicuius spiritus, 
+          <lb ed="#Sm" n="21"/>quamvis seipso et memor sit et amet, quia non est memoria gignens aut 
+          <lb ed="#Sm" n="22"/>amor ab alio ad similitudinem sui spiritus procedens; sed quidquid existit, 
+          <lb ed="#Sm" n="23"/>tantum gignitur, et est a quo spiritus procedit. Spiritum quoque non 
+          <lb ed="#Sm" n="24"/>cogit esse patrem aut filium hoc quia contentus est memoria aut
+    intelli<lb ed="#Sm" n="25" break="no"/>gentia sua, cum non sit memoria gignens aut intelligentia genita; sed 
+          <pb ed="#Sm" n="72"/>
+          <lb ed="#Sm" n="1"/>solum quidquid est procedat. Quid igitur prohibet concludi quia unus 
+          <lb ed="#Sm" n="2"/>tantum est in summa essentia pater, unus filius, unus spiritus, et non tres 
+          <lb ed="#Sm" n="3"/>patres aut filii aut spiritus? 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

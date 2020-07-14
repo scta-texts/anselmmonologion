@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 39</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 39</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="57"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c39">
+        <head xml:id="adcmon-c39-Hd1e102">Capitulum 39</head>
+        <head xml:id="adcmon-c39-Hd1e105" type="question-title">
+    Quod idem verbum sit a summo spiritu nascendo.
+   </head>
+        <p xml:id="adcmon-c39-d1e108">
+          <pb ed="#Sm" n="57"/>
+          <lb ed="#Sm" n="1"/>Capitulum XXXIX. 
+          <lb ed="#Sm" n="2"/>Quod idem verbum sit a summo spiritu nascendo. 
+        </p>
+        <p xml:id="adcmon-c39-d1e117">
+          <lb ed="#Sm" n="3"/>Quod ipsum nullo utique verbo videtur familiarius posse proferri, 
+          <lb ed="#Sm" n="4"/>quam si dicatur proprium esse unius nasci ex altero, et proprium alterius 
+          <lb ed="#Sm" n="5"/>nasci alterum ex ipso. Certum namque iam constat, quia verbum summi 
+          <lb ed="#Sm" n="6"/>spiritus non sic est ex eo, quemadmodum ea quae ab illo facta sunt, sed 
+          <lb ed="#Sm" n="7"/>quemadmodum creator de creatore, summum de summo, et ut plena 
+          <lb ed="#Sm" n="8"/>brevitate omnimoda absolvatur similitudo: penitus idem ipsum est de 
+          <lb ed="#Sm" n="9"/>eodem ipso, et ita ut nullatenus sit nisi ex eo. Cum igitur pateat verbum 
+          <lb ed="#Sm" n="10"/>summi spiritus sic esse ex ipso solo, ut perfectam eius quasi proles 
+          <lb ed="#Sm" n="11"/>parentis teneat similitudinem, nec sic esse ex ipso, ut fiat ab eo: profecto 
+          <lb ed="#Sm" n="12"/>nullo modo convenientius cogitari potest esse ex illo quam nascendo. 
+          <lb ed="#Sm" n="13"/>Nempe si innumerabiles res indubitanter dicuntur nasci ex iis ex quibus 
+          <lb ed="#Sm" n="14"/>habent ut sint, cum nullam eorum de quibus nasci dicuntur, teneant simili- 
+          <lb ed="#Sm" n="15"/>tudinem sicut proles parentis — dicimus enim capillos nasci de capite et 
+          <lb ed="#Sm" n="16"/>poma ex arbore, licet nec illi capitis nec ista arboris similia sint —; si 
+          <lb ed="#Sm" n="17"/>inquam multa huiusmodi non absurde dicuntur nasci: tanto congruentius 
+          <lb ed="#Sm" n="18"/>dici potest verbum summi spiritus ex illo existere nascendo, quanto
+    per<lb ed="#Sm" n="19" break="no"/>fectius quasi proles parentis trahit eius similitudinem ex illo existendo. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

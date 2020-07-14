@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 10</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 10</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="25"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c10">
+        <head xml:id="adcmon-c10-Hd1e102">Capitulum 10</head>
+        <head xml:id="adcmon-c10-Hd1e105" type="question-title">
+    Quod illa ratio sit quaedam rerum locutio, sicut faber prius apud se dicit, 
+    quod facturus est.
+   </head>
+        <p xml:id="adcmon-c10-d1e108">
+    <!--42.xml-->
+          <pb ed="#Sm" n="25"/>
+          <lb ed="#Sm" n="21"/>Capitulum X. 
+          <lb ed="#Sm" n="22"/>Quod illa ratio sit quaedam rerum locutio, sicut faber prius apud se dicit, 
+          <lb ed="#Sm" n="23"/>quod facturus est. 
+        </p>
+        <p xml:id="adcmon-c10-d1e121">
+          <lb ed="#Sm" n="24"/>Illa autem rerum forma, quae in eius ratione res creandas praecedebat: 
+          <lb ed="#Sm" n="25"/>quid aliud est quam rerum quaedam in ipsa ratione locutio, veluti cum 
+          <lb ed="#Sm" n="26"/>faber facturus aliquod suae artis opus prius illud intra se dicit mentis 
+          <lb ed="#Sm" n="27"/>conceptione? Mentis autem sive rationis locutionem hic intelligo, non cum 
+          <lb ed="#Sm" n="28"/>voces rerum significativae cogitantur, sed cum res ipsae vel futurae vel iam 
+          <lb ed="#Sm" n="29"/>existentes acie cogitationis in mente conspiciuntur. Frequenti namque usu 
+          <lb ed="#Sm" n="30"/>cognoscitur, quia rem unam tripliciter loqui possumus. Aut enim res 
+          <lb ed="#Sm" n="31"/>loquimur signis sensibilibus, id est quae sensibus corporeis sentiri possunt 
+    <!--43.xml-->
+          <pb ed="#Sm" n="26"/>
+          <lb ed="#Sm" n="1"/>sensibiliter utendo; aut eadem signa, quae foris sensibilia sunt, intra nos 
+          <lb ed="#Sm" n="2"/>insensibiliter cogitando; aut nec sensibiliter nec insensibiliter his signis 
+          <lb ed="#Sm" n="3"/>utendo, sed res ipsas vel corporum imaginatione vel rationis intellectu pro 
+          <lb ed="#Sm" n="4"/>rerum ipsarum diversitate intus in nostra mente dicendo. Aliter namque 
+          <lb ed="#Sm" n="5"/>dico hominem, cum eum hoc nomine, quod est ,horno*, significo; aliter, 
+          <lb ed="#Sm" n="6"/>cum idem nomen tacens cogito; aliter, cum eum ipsum hominem mens 
+          <lb ed="#Sm" n="7"/>aut per corporis imaginem aut per rationem intuetur. Per corporis quidem 
+          <lb ed="#Sm" n="8"/>imaginem, ut cum eius sensibilem figuram imaginatur; per rationem vero, ut 
+          <lb ed="#Sm" n="9"/>cum eius universalem essentiam, quae est .animal rationale mortale*, cogitat. 
+        </p>
+        <p xml:id="adcmon-c10-d1e165">
+          <lb ed="#Sm" n="10"/>Hae vero tres loquendi varietates singulae verbis sui generis constant. 
+          <lb ed="#Sm" n="11"/>Sed illius quam tertiam et ultimam posui locutionis verba, cum de rebus 
+          <lb ed="#Sm" n="12"/>non ignoratis sunt, naturalia sunt et apud omnes gentes sunt eadem. Et 
+          <lb ed="#Sm" n="13"/>quoniam alia omnia verba propter haec sunt inventa: ubi ista sunt, nullum 
+          <lb ed="#Sm" n="14"/>aliud verbum est necessarium ad rem cognoscendam; et ubi ista esse non 
+          <lb ed="#Sm" n="15"/>is possunt, nullum aliud est utile ad rem ostendendam. Possunt etiam non 
+          <lb ed="#Sm" n="16"/>absurde dici tanto veriora, quanto magis rebus quarum sunt verba similia 
+          <lb ed="#Sm" n="17"/>sunt et eas expressius signant. Exceptis namque rebus illis, quibus ipsis 
+          <lb ed="#Sm" n="18"/>is utimur pro nominibus suis ad easdem significandas, ut sunt quaedam voces 
+          <lb ed="#Sm" n="19"/>velut ,a* vocalis, exceptis inquam his nullum aliud verbum sic videtur rei 
+          <lb ed="#Sm" n="20"/>simile cuius est verbum, aut sic eam exprimit, quomodo illa similitudo, 
+          <lb ed="#Sm" n="21"/>quae in acie mentis rem ipsam cogitantis exprimitur. Illud igitur iure 
+          <lb ed="#Sm" n="22"/>dicendum est maxime proprium et principale rei verbum. Quapropter si 
+          <lb ed="#Sm" n="23"/>nulla de qualibet re locutio tantum propinquat rei, quantum illa quae 
+          <lb ed="#Sm" n="24"/>huiusmodi verbis constat, nec aliquid aliud tam simile rei vel futurae vel 
+          <lb ed="#Sm" n="25"/>iam existentis in ratione alicuius potest esse: non immerito videri potest 
+          <lb ed="#Sm" n="26"/>apud summam substantiam, talem rerum locutionem et fuisse antequam 
+          <lb ed="#Sm" n="27"/>essent ut per eam fierent, et esse cum facta sunt ut per eam sciantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

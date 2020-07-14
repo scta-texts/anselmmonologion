@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 19</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 19</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="33"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c19">
+        <head xml:id="adcmon-c19-Hd1e102">Capitulum 19</head>
+        <head xml:id="adcmon-c19-Hd1e105" type="question-title">Quomodo nihil fuit ante aut erit post illam.</head>
+        <p xml:id="adcmon-c19-d1e108">
+          <lb ed="#Sm" n="24"/>Capitulum XIX. 
+          <lb ed="#Sm" n="25"/>Quomodo nihil fuit ante aut erit post illam. 
+        </p>
+        <p xml:id="adcmon-c19-d1e115">
+          <lb ed="#Sm" n="26"/>Sed ecce iterum insurgit nihil, et quaecumque hactenus ratio veritate 
+          <lb ed="#Sm" n="27"/>et necessitate concorditer attestantibus disseruit, asserit esse nihil. Si 
+          <lb ed="#Sm" n="28"/>enim ea quae supra digesta sunt, necessariae veritatis munimine firmata 
+          <lb ed="#Sm" n="29"/>sunt, non fuit aliquid ante summam essentiam nec erit aliquid post eam. 
+    <!--52.xml-->
+          <pb ed="#Sm" n="34"/>
+          <lb ed="#Sm" n="1"/>Quare nihil fuit ante eam et nihil erit post eam. Nam aut aliquid aut 
+          <lb ed="#Sm" n="2"/>nihil necesse est praecessisse vel subsecuturum esse. Qui autem dicit, quia 
+          <lb ed="#Sm" n="3"/>nihil fuit ante ipsam et nihil erit post ipsam, id pronuntiare videtur, quia 
+          <lb ed="#Sm" n="4"/>fuit ante ipsam quando nihil erat, et erit post ipsam quando nihil erit. 
+          <lb ed="#Sm" n="5"/>Quando ergo nihil erat, illa non erat; et quando nihil erit, illa non erit. 
+          <lb ed="#Sm" n="6"/>Quomodo ergo non incepit ex nihilo, aut quomodo non deveniet ad 
+          <lb ed="#Sm" n="7"/>nihilum, si illa nondum erat cum iam erat nihil, et eadem iam non erit 
+          <lb ed="#Sm" n="8"/>cum adhuc erit nihil? Quid igitur molita est tanta moles argumentorum, 
+          <lb ed="#Sm" n="9"/>si tam facile demolitur nihilum molimina eorum? Si namque constituitur, 
+          <lb ed="#Sm" n="10"/>ut summum esse nihilo et praecedenti succedat et subsequenti decedat: 
+          <lb ed="#Sm" n="11"/>quidquid supra statuit verum necesse, destituitur per inane nihilum. An 
+          <lb ed="#Sm" n="12"/>potius repugnandum est nihilo, ne tot structurae necessariae rationis
+    ex<lb ed="#Sm" n="13" break="no"/>pugnentur a nihilo, et summum bonum quod lucerna veritatis quaesitum 
+          <lb ed="#Sm" n="14"/>et inventum est, amittatur pro nihilo? 
+        </p>
+        <p xml:id="adcmon-c19-d1e161">
+          <lb ed="#Sm" n="15"/>Potius igitur asseratur, si fieri potest, quia nihil non fuit ante summam 
+          <lb ed="#Sm" n="16"/>essentiam nec erit post illam, quam dum locus datur ante vel post illam 
+          <lb ed="#Sm" n="17"/>nihilo, per nihilum reducatur ad nihil illud esse, quod per seipsum
+    con<lb ed="#Sm" n="18" break="no"/>duxit id quod erat nihil ad esse. Duplicem namque una pronuntiatio gerit 
+          <lb ed="#Sm" n="19"/>sententiam, cum dicitur quia nihil fuit ante summam essentiam. Unus enim 
+          <lb ed="#Sm" n="20"/>est eius sensus: quia priusquam summa essentia esset fuit, cum erat nihil; 
+          <lb ed="#Sm" n="21"/>alter vero eius est intellectus: quia ante summam essentiam non fuit 
+          <lb ed="#Sm" n="22"/>aliquid. Veluti si dicam: nihil me docuit volare, hoc aut sic exponam: 
+          <lb ed="#Sm" n="23"/>quia ipsum ,nihil', quod significat ,non aliquid', docuit me volare, et erit 
+          <lb ed="#Sm" n="24"/>falsum; aut: quia non me docuit aliquid volare, quod est verum. Prior 
+          <lb ed="#Sm" n="25"/>itaque sensus est, quem sequitur supra tractata inconvenientia, et
+    omni<lb ed="#Sm" n="26" break="no"/>moda ratione pro falso repellitur; alter vero est, qui superioribus perfecta 
+          <lb ed="#Sm" n="27"/>cohaeret convenientia, et tota illorum contextione verus esse compellitur. 
+          <lb ed="#Sm" n="28"/>Quare cum dicitur quia nihil fuit ante illam, secundum posteriorem
+    intel<lb ed="#Sm" n="29" break="no"/>lectum accipiendum est; nec sic est exponendum ut intelligatur aliquando 
+          <lb ed="#Sm" n="30"/>fuisse, quando illa non erat et nihil erat, sed ita ut intelligatur quia ante 
+          <lb ed="#Sm" n="31"/>illam non fuit aliquid. Eadem ratio est duplicis intellectus, si nihil dicatur 
+          <lb ed="#Sm" n="32"/>post illam esse futurum. Si ergo haec interpretatio quae facta est de nihilo
+          <pb ed="#Sm" n="35"/>
+          <lb ed="#Sm" n="1"/>diligenter discernitur, verissime nec aliquid nec nihil summam essentiam 
+          <lb ed="#Sm" n="2"/>aut praecessisse aut subsecuturum esse, et nihil fuisse ante vel post illam 
+          <lb ed="#Sm" n="3"/>esse secuturum concluditur; et tamen nulla iam constitutorum soliditas 
+          <lb ed="#Sm" n="4"/>nihili inanitate concutitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

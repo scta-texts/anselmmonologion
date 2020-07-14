@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 16</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 16</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="30"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c16">
+        <head xml:id="adcmon-c16-Hd1e102">Capitulum 16</head>
+        <head xml:id="adcmon-c16-Hd1e105" type="question-title">
+    Quod idem sit illi esse iustam, quod est esse iustitiam; et eodem modo 
+    de iis quae similiter de illa dici possunt; et quod nihil horum monstret, 
+    qualis illa vel quanta sit, sed quid sit.
+   </head>
+        <p xml:id="adcmon-c16-d1e108">
+    <!--48.xml-->
+          <pb ed="#Sm" n="30"/>
+          <lb ed="#Sm" n="1"/>Capitulum XVI. 
+          <lb ed="#Sm" n="2"/>Quod idem sit illi esse iustam, quod est esse iustitiam; et eodem modo 
+          <lb ed="#Sm" n="3"/>de iis quae similiter de illa dici possunt; et quod nihil horum monstret, 
+          <lb ed="#Sm" n="4"/>qualis illa vel quanta sit, sed quid sit. 
+        </p>
+        <p xml:id="adcmon-c16-d1e124">
+          <lb ed="#Sm" n="5"/>Sed fortasse cum dicitur iusta vel magna vel aliquid similium, non 
+          <lb ed="#Sm" n="6"/>ostenditur quid sit, sed potius qualis vel quanta sit. Per qualitatem quippe 
+          <lb ed="#Sm" n="7"/>vel quantitatem quodlibet horum dici videtur. Omne namque quod iustum 
+          <lb ed="#Sm" n="8"/>est, per iustitiam iustum est. Et alia huiusmodi similiter. Quare ipsa 
+          <lb ed="#Sm" n="9"/>summa natura non est iusta nisi per iustitiam. Videtur igitur participatione 
+          <lb ed="#Sm" n="10"/>qualitatis, iustitiae scilicet, iusta dici summe bona substantia. Quod si ita 
+          <lb ed="#Sm" n="11"/>est, per aliud est iusta, non per se. 
+        </p>
+        <p xml:id="adcmon-c16-d1e142">
+          <lb ed="#Sm" n="12"/>At hoc contrarium est veritati perspectae, quia bona vel magna vel 
+          <lb ed="#Sm" n="13"/>subsistens quod est, omnino per se est, non per aliud. Si igitur non est 
+          <lb ed="#Sm" n="14"/>iusta nisi per iustitiam, nec iusta potest esse nisi per se: quid magis 
+          <lb ed="#Sm" n="15"/>conspicuum, quid magis necessarium, quam quod eadem natura est ipsa 
+          <lb ed="#Sm" n="16"/>iustitia; et cum dicitur esse iusta per iustitiam, idem est quod per se; et 
+          <lb ed="#Sm" n="17"/>cum iusta per se dicitur esse, non aliud intelligitur quam per iustitiam? 
+          <lb ed="#Sm" n="18"/>Quapropter si quaeratur quid sit ipsa summa natura de qua agitur: quid 
+          <lb ed="#Sm" n="19"/>verius respondetur, quam: iustitia? Videndum igitur quomodo intelligendum 
+          <lb ed="#Sm" n="20"/>sit, quando illa natura, quae est ipsa iustitia, dicitur iusta. Quoniam enim 
+          <lb ed="#Sm" n="21"/>homo non potest esse iustitia, sed habere potest iustitiam, non intelligitur 
+          <lb ed="#Sm" n="22"/>iustus homo existens iustitia, sed habens iustitiam. Quoniam igitur summa 
+          <lb ed="#Sm" n="23"/>natura non proprie dicitur quia habet iustitiam, sed existit iustitia: cum 
+          <lb ed="#Sm" n="24"/>dicitur iusta, proprie intelligitur existens iustitia, non autem habens iustitiam. 
+          <lb ed="#Sm" n="25"/>Quare si, cum dicitur existens iustitia, non dicitur qualis est, sed quid 
+          <lb ed="#Sm" n="26"/>est, consequitur ut, cum dicitur iusta, non dicatur qualis sit, sed quid sit. 
+          <lb ed="#Sm" n="27"/>Deinde, quoniam de illa suprema essentia idem est dicere: quia est iusta, 
+          <lb ed="#Sm" n="28"/>et: quia est existens iustitia; et cum dicitur: est existens iustitia, non est 
+          <lb ed="#Sm" n="29"/>aliud quam: est iustitia: nihil differt in illa sive dicatur: est iusta, sive: 
+          <lb ed="#Sm" n="30"/>est iustitia. Quapropter cum quaeritur de illa quid est, non minus congrue 
+          <lb ed="#Sm" n="31"/>respondetur: iusta, quam: iustitia. 
+        </p>
+        <p xml:id="adcmon-c16-d1e189">
+          <lb ed="#Sm" n="32"/>Quod vero in exemplo iustitiae ratum esse conspicitur, hoc de
+    omni<lb ed="#Sm" n="33" break="no"/>bus quae similiter de ipsa summa natura dicuntur, intellectus sentire per 
+    <!--49.xml-->
+          <pb ed="#Sm" n="31"/>
+          <lb ed="#Sm" n="1"/>
+          <!--to be deleted -->
+          <lb ed="#Sm" n="2"/> 
+          <!--to be deleted -->
+          <lb ed="#Sm" n="3"/>rationem constringitur. Quidquid igitur eorum de illa dicatur: non qualis 
+          <lb ed="#Sm" n="4"/>vel quanta, sed magis quid sit monstratur. Sed palam est quia quodlibet 
+          <lb ed="#Sm" n="5"/>bonum summa natura sit, summe illud est. Illa igitur est summa essentia, 
+          <lb ed="#Sm" n="6"/>summa vita, summa ratio, summa salus, summa iustitia, summa sapientia, 
+          <lb ed="#Sm" n="7"/>summa veritas, summa bonitas, summa magnitudo, summa pulchritudo, 
+          <lb ed="#Sm" n="8"/>summa immortalitas, summa incorruptibilitas, summa immutabilitas, summa 
+          <lb ed="#Sm" n="9"/>beatitudo, summa aeternitas, summa potestas, summa unitas, quod non 
+          <lb ed="#Sm" n="10"/>est aliud quam summe ens, summe vivens, et alia similiter.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

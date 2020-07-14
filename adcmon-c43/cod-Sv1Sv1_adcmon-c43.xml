@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 43</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 43</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="59"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c43">
+        <head xml:id="adcmon-c43-Hd1e102">Capitulum 43</head>
+        <head xml:id="adcmon-c43-Hd1e105" type="question-title">Retractatio communionis amborum et proprietatum singulorum.</head>
+        <p xml:id="adcmon-c43-d1e108">
+          <lb ed="#Sm" n="13"/>Capitulum XLIII. 
+          <lb ed="#Sm" n="14"/>Retractatio communionis amborum et proprietatum singulorum. 
+        </p>
+        <p xml:id="adcmon-c43-d1e115">
+          <lb ed="#Sm" n="15"/>Inventis tot et tantis singulorum proprietatibus, quibus mira quaedam 
+          <lb ed="#Sm" n="16"/>tam ineffabilis quam inevitabilis in summa unitate probatur esse pluralitas: 
+          <lb ed="#Sm" n="17"/>valde mihi videtur delectabile retractare saepius tam impenetrabile secretum, 
+          <lb ed="#Sm" n="18"/>Ecce enim, cum sic impossibile sit eundem esse eum qui gignit et eum 
+          <lb ed="#Sm" n="19"/>qui gignitur, atque eundem esse parentem et prolem, ut necesse sit alium 
+          <lb ed="#Sm" n="20"/>esse genitorem, alium genitum, et alium esse patrem, alium filium: sic 
+          <lb ed="#Sm" n="21"/>tamen necesse est idem esse illum qui gignit et illum qui gignitur, necnon 
+          <lb ed="#Sm" n="22"/>parentem et prolem, ut impossibile sit aliud esse genitorem quam quod 
+          <lb ed="#Sm" n="23"/>est genitus, aliud esse patrem quam quod filius. 
+        </p>
+        <p xml:id="adcmon-c43-d1e137">
+          <lb ed="#Sm" n="24"/>Et cum ita sit alius ille et alius ille, ut omnino pateat quod duo sint: 
+          <lb ed="#Sm" n="25"/>sic tamen unum et idipsum est id quod est ille et ille, ut penitus lateat 
+          <lb ed="#Sm" n="26"/>quid duo sint. Nam sic est alius pater, alius filius, ut cum ambos dixerim, 
+          <lb ed="#Sm" n="27"/>videam me duos dixisse; et sic est idipsum, quod est et pater et filius, 
+          <lb ed="#Sm" n="28"/>sic tamen unum idemque est spiritus pater et spiritus filius, ut pater et 
+          <lb ed="#Sm" n="29"/>perfecte summus spiritus et singulus filius sit perfecte summus spiritus: 
+          <lb ed="#Sm" n="30"/>ut non intelligam quid duos dixerim. Quamvis namque singulus pater sit 
+          <lb ed="#Sm" n="31"/>filius non sint duo spiritus, sed unus spiritus. Ut sicut singula propria 
+          <lb ed="#Sm" n="32"/>singulorum non recipiunt pluralitatem quia non sunt duorum, ita id quod 
+          <pb ed="#Sm" n="60"/>
+          <lb ed="#Sm" n="1"/>commune est amborum, individuam teneat unitatem, quamvis totum sit 
+          <lb ed="#Sm" n="2"/>singulorum. Nam sicut non sunt duo patres aut duo filii, sed unus pater 
+          <lb ed="#Sm" n="3"/>et unus filius, quoniam singula sunt singulorum propria: ita non sunt duo 
+          <lb ed="#Sm" n="4"/>sed unus spiritus, quamvis et singuli patris et singuli filii sit perfectum 
+          <lb ed="#Sm" n="5"/>esse spiritum. Sic sunt oppositi relationibus, ut alter numquam suscipiat 
+          <lb ed="#Sm" n="6"/>proprium alterius; sic sunt concordes natura, ut alter semper teneat essen-  
+          <lb ed="#Sm" n="7"/>tiam alterius. Sic enim diversi sunt per hoc quod alter est pater, alter 
+          <lb ed="#Sm" n="8"/>filius, ut numquam dicatur aut pater filius aut filius pater; et sic idem 
+          <lb ed="#Sm" n="9"/>sunt per substantiam, ut semper sit in patre essentia filii et in filio essen-  
+          <lb ed="#Sm" n="10"/>tia patris. Est enim non diversa, sed eadem, non plures, sed una utrius- 
+          <lb ed="#Sm" n="11"/>que essentia. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

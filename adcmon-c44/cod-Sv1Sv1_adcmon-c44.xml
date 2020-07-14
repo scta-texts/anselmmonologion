@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 44</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 44</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="60"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c44">
+        <head xml:id="adcmon-c44-Hd1e102">Capitulum 44</head>
+        <head xml:id="adcmon-c44-Hd1e105" type="question-title">
+    Quomodo alter alterius sit essentia.
+   </head>
+        <p xml:id="adcmon-c44-d1e108">
+          <lb ed="#Sm" n="12"/>Capitulum XLIV. 
+          <lb ed="#Sm" n="13"/>Quomodo alter alterius sit essentia. 
+        </p>
+        <p xml:id="adcmon-c44-d1e115">
+          <lb ed="#Sm" n="14"/>Unde etiam, si alter alterius dicatur essentia, non erratur a veritate, 
+          <lb ed="#Sm" n="15"/>sed summa unitas simplicitasque commendatur communis naturae. Non  
+          <lb ed="#Sm" n="16"/>enim quemadmodum intelligitur sapientia hominis, per quam homo sapiens 
+          <lb ed="#Sm" n="17"/>est, qui per se non potest esse sapiens, ita intelligi potest, si dicatur 
+          <lb ed="#Sm" n="18"/>pater essentia filii et filius essentia patris, ut eo modo sit filius existens per  
+          <lb ed="#Sm" n="19"/>patrem et pater per filium, quasi non possit alter existens esse nisi per
+    al<lb ed="#Sm" n="20" break="no"/>terum, sicut homo non potest esse sapiens nisi per sapientiam. Sicut namque 
+          <lb ed="#Sm" n="21"/>summa sapientia semper sapit per se, ita summa essentia semper est per  
+          <lb ed="#Sm" n="22"/>se. Est autem perfecte summa essentia pater et perfecte summa essentia 
+          <lb ed="#Sm" n="23"/>filius. Pariter ergo perfectus pater per se est et perfectus filius per se est, 
+          <lb ed="#Sm" n="24"/>sicut uterque sapit per se. Non enim idcirco minus perfecta est essentia  
+          <lb ed="#Sm" n="25"/>vel sapientia filius, quia est essentia nata de patris essentia et sapientia 
+          <lb ed="#Sm" n="26"/>de sapientia; sed tunc minus perfecta essentia aut sapientia esset, si non 
+          <lb ed="#Sm" n="27"/>esset per se aut non saperet per se. Nequaquam enim repugnant, ut filius 
+    <!--83.xml-->
+          <pb ed="#Sm" n="61"/>
+          <lb ed="#Sm" n="1"/>et per se subsistat et de patre habeat esse. »Sicut enim pater habet*
+    essen<lb ed="#Sm" n="2" break="no"/>tiam et sapientiam et »vi tam in semetipso*, ut non per alienam sed per 
+          <lb ed="#Sm" n="3"/>suam essentiam sit, per suam sapientiam sapiat, per suam vitam vivat: 
+          <lb ed="#Sm" n="4"/>»ita« gignendo »dat filio haberer essentiam et sapientiam et »vitam in 
+          <lb ed="#Sm" n="5"/>semetipso», ut non per extraneam sed per suam essentiam, sapientiam et 
+          <lb ed="#Sm" n="6"/>vitam subsistat, sapiat et vivat. Alioquin non erit idem esse patris et 
+          <lb ed="#Sm" n="7"/>filii, nec erit par patri filius. Quod quam falsum sit, liquidissime superius 
+          <lb ed="#Sm" n="8"/>pervisum est. 
+        </p>
+        <p xml:id="adcmon-c44-d1e170">
+          <lb ed="#Sm" n="9"/>Quare non repugnat filium et subsistere per se et esse de patre, 
+          <lb ed="#Sm" n="10"/>quia hoc ipsum, id est per seipsum posse subsistere, necesse est illum 
+          <lb ed="#Sm" n="11"/>habere ex patre. Nam si quis sapiens suam me sapientiam cuius prius 
+          <lb ed="#Sm" n="12"/>expers essem doceret: utique hoc ipsa sapientia eius facere non incongrue 
+          <lb ed="#Sm" n="13"/>diceretur. Sed quamvis mea sapientia ab illius sapientia haberet esse et 
+          <lb ed="#Sm" n="14"/>sapere, tamen cum iam esset, non nisi sua essentia esset nec saperet nisi 
+          <lb ed="#Sm" n="15"/>seipsa. Multo igitur magis aeterni patris coaeternus filius, qui sic habet a 
+          <lb ed="#Sm" n="16"/>patre esse ut non sint duae essentiae, per se subsistit, sapit et vivit. Non 
+          <lb ed="#Sm" n="17"/>igitur sic intelligi potest quod pater filii aut filius patris sit essentia, quasi 
+          <lb ed="#Sm" n="18"/>alter non possit subsistere per se sed per alterum; sed ad significandam 
+          <lb ed="#Sm" n="19"/>quam habent communionem summe simplicis summeque unius essentiae, 
+          <lb ed="#Sm" n="20"/>sic congrue dici et intelligi potest quia sic est alter idipsum quod alter, 
+          <lb ed="#Sm" n="21"/>ut alter habeat essentiam alterius. Hac itaque ratione, quoniam utrique 
+          <lb ed="#Sm" n="22"/>non aliud est habere essentiam quam essentiam esse: sicut habet alter 
+          <lb ed="#Sm" n="23"/>alterius essentiam, ita est alter essentia alterius; id est idem esse est 
+          <lb ed="#Sm" n="24"/>alteri quod alteri. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

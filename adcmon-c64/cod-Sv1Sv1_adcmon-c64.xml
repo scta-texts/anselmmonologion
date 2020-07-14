@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 64</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 64</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="74"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c64">
+        <head xml:id="adcmon-c64-Hd1e102">Capitulum 64</head>
+        <head xml:id="adcmon-c64-Hd1e105" type="question-title">
+    Quod hoc, licet inexplicabile sit, tamen credendum sit.
+   </head>
+        <p xml:id="adcmon-c64-d1e108">
+          <lb ed="#Sm" n="28"/>Capitulum LXIV. 
+          <lb ed="#Sm" n="29"/>Quod hoc, licet inexplicabile sit, tamen credendum sit. 
+        </p>
+        <p xml:id="adcmon-c64-d1e115">
+          <lb ed="#Sm" n="30"/>Videtur mihi huius tam sublimis rei secretum transcendere omnem 
+          <lb ed="#Sm" n="31"/>intellectus aciem humani, et idcirco conatum explicandi qualiter hoc sit 
+          <pb ed="#Sm" n="75"/>
+          <lb ed="#Sm" n="1"/>continendum puto. Sufficere namque debere existimo rem
+    incomprehen<lb ed="#Sm" n="2" break="no"/>sibilem indaganti, si ad hoc ratiocinando pervenerit ut eam certissime esse 
+          <lb ed="#Sm" n="3"/>cognoscat, etiamsi penetrare nequeat intellectu quomodo ita sit; nec 
+          <lb ed="#Sm" n="4"/>idcirco minus iis adhibendam fidei certitudinem, quae probationibus
+    neces<lb ed="#Sm" n="5" break="no"/>sariis nulla alia repugnante ratione asseruntur, si suae naturalis altitudinis 
+          <lb ed="#Sm" n="6"/>incomprehensibilitate explicari non patiantur. Quid autem tam
+    incom<lb ed="#Sm" n="7" break="no"/>prehensibile, tam ineffabile, quam id quod super omnia est? Quapropter 
+          <lb ed="#Sm" n="8"/>si ea quae de summa essentia hactenus disputata sunt, necessariis sunt 
+          <lb ed="#Sm" n="9"/>rationibus asserta: quamvis sic intellectu penetrari non possint, ut et 
+          <lb ed="#Sm" n="10"/>verbis valeant explicari, nullatenus tamen certitudinis eorum nutat soliditas. 
+          <lb ed="#Sm" n="11"/>Nam si superior consideratio rationabiliter comprehendit incomprehensibile 
+          <lb ed="#Sm" n="12"/>esse, quomodo eadem summa sapientia sciat ea quse fecit, de quibus tam 
+          <lb ed="#Sm" n="13"/>multa nos scire necesse est: quis explicet quomodo sciat aut dicat 
+          <lb ed="#Sm" n="14"/>seipsam, de qua aut nihil aut vix aliquid ab homine scire possibile est? 
+          <lb ed="#Sm" n="15"/>Ergo si in eo quod seipsam dicit, generat pater et generatur filius: 
+          <lb ed="#Sm" n="16"/>&gt;generationem eius quis enarrabit?« 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

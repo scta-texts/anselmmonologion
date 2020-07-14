@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="5"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-asdfsf">
+        <p xml:id="adcmon-asdfsf-d1e100"><!--19.xml-->
+          <pb ed="#Sm" n="5"/>
+          <lb ed="#Sm" n="1"/>Epistola ad Lanfrancum archiepiscopum. 
+    <!--19.xml-->
+        </p>
+        <p xml:id="adcmon-asdfsf-d1e110">
+          <lb ed="#Sm" n="2"/>Reverendo et amando suo domino et patri et doctori, Cantuariae 
+          <lb ed="#Sm" n="3"/>3 archiepiscopo, Angiorum primati, matri ecclesiae catholicae fidei utilitatisque 
+          <lb ed="#Sm" n="4"/>merito multum amplectendo LANFRANCO: frater ANSELMUS Beccensis, 
+          <lb ed="#Sm" n="5"/>vita peccator, habitu monachus. 
+    <!--19.xml-->
+        </p>
+        <p xml:id="adcmon-asdfsf-d1e123">
+          <lb ed="#Sm" n="6"/>Quoniam agenda sunt omnia consilio, sed non omni consilio, sicut 
+          <lb ed="#Sm" n="7"/>scriptum est: »omnia fac cum consilior, et: »consiliarus sit tibi unus de 
+          <lb ed="#Sm" n="8"/>mille«: unum,. quem scitis, non de mille, sed de omnibus mortalibus 
+          <lb ed="#Sm" n="9"/>elegi, quem prae omnibus haberem consultorem in dubiis, doctorem in 
+          <lb ed="#Sm" n="10"/>ignoratis, in excessibus correctorem, in recte actis approbatorem. Quo 
+          <lb ed="#Sm" n="11"/>quamvis secundum votum uti non possim, decrevi tamen uti, quantum 
+          <lb ed="#Sm" n="12"/>possum. Quamvis enim valde multi sint praeter prudentiam vestram, de 
+          <lb ed="#Sm" n="13"/>quorum multum proficere imperitus possim peritia, et quorum subiacere 
+          <lb ed="#Sm" n="14"/>censurae mea me cogat imperitia: nullum tamen eorum novi, cuius me 
+          <lb ed="#Sm" n="15"/>doctrinae iudiciove tam confidenter tamque libenter quam vestro subiciam, 
+          <lb ed="#Sm" n="16"/>et qui mihi tam paterno affectu se si res indiget exhibeat, aut si res 
+          <lb ed="#Sm" n="17"/>exigit congaudeat. Quare, quoniam quidquid de paterno vestro mihi
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

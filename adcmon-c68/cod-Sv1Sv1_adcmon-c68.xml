@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 68</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 68</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="78"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c68">
+        <head xml:id="adcmon-c68-Hd1e102">Capitulum 68</head>
+        <head xml:id="adcmon-c68-Hd1e105" type="question-title">
+    Quod rationalis creatura ad amandum illam facta sit.
+   </head>
+        <p xml:id="adcmon-c68-d1e108">
+          <lb ed="#Sm" n="12"/>Capitulum LXVIII. 
+          <lb ed="#Sm" n="13"/>Quod rationalis creatura ad amandum illam facta sit. 
+        </p>
+        <p xml:id="adcmon-c68-d1e115">
+          <lb ed="#Sm" n="14"/>Consequi itaque videtur quia rationalis creatura nihil tantum debet 
+          <lb ed="#Sm" n="15"/>studere, quam hanc imaginem sibi per naturalem potentiam impressam 
+          <lb ed="#Sm" n="16"/>per voluntarium effectum exprimere. Etenim praeter hoc quia creanti se 
+          <lb ed="#Sm" n="17"/>debet hoc ipsum quod est: hinc quoque quia nil tam praecipuum posse 
+          <lb ed="#Sm" n="18"/>quam reminisci et intelligere et amare summum bonum cognoscitur, nimi- 
+          <lb ed="#Sm" n="19"/>rum nihil tam praecipue debere velle convincitur. Quis enim neget
+    quae<lb ed="#Sm" n="20" break="no"/>cumque meliora sunt in potestate, ea magis esse debere in voluntate? 
+          <lb ed="#Sm" n="21"/>Denique rationali naturae non est aliud esse rationalem, quam posse 
+          <lb ed="#Sm" n="22"/>discernere iustum a non iusto, verum a non vero, bonum a non bono, 
+          <lb ed="#Sm" n="23"/>magis bonum a minus bono. Hoc autem posse omnino inutile illi est et 
+          <lb ed="#Sm" n="24"/>supervacuum, nisi quod discernit amet aut reprobet secundum verae dis- 
+          <lb ed="#Sm" n="25"/>cretionis iudicium. Hinc itaque satis patenter videtur omne rationale ad 
+          <lb ed="#Sm" n="26"/>hoc existere, ut sicut ratione discretionis aliquid magis vel minus bonum 
+          <pb ed="#Sm" n="79"/>
+          <lb ed="#Sm" n="1"/>sive non bonum iudicat, ita magis vel minus id amet aut respuat. Nihil 
+          <lb ed="#Sm" n="2"/>igitur apertius quam rationalem creaturam ad hoc esse factam, ut summam 
+          <lb ed="#Sm" n="3"/>essentiam amet super omnia bona, sicut ipsa est summum bonum; immo 
+          <lb ed="#Sm" n="4"/>ut nihil amet nisi illam aut propter illam, quia illa est bona per se, et 
+          <lb ed="#Sm" n="5"/>nihil aliud est bonum nisi per illam. Amare autem eam nequit, nisi eius 
+          <lb ed="#Sm" n="6"/>reminisci et eam studuerit intelligere. Clarum ergo est rationalem
+    crea<lb ed="#Sm" n="7" break="no"/>turam totum suum posse et velle ad memorandum et intelligendum et 
+          <lb ed="#Sm" n="8"/>amandum summum bonum impendere debere, ad quod ipsum esse suum 
+          <lb ed="#Sm" n="9"/>se cognoscit habere. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

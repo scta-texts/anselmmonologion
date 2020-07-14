@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 22</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 22</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="39"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c22">
+        <head xml:id="adcmon-c22-Hd1e102">Capitulum 22</head>
+        <head xml:id="adcmon-c22-Hd1e105" type="question-title">Quomodo sit in omni et in nullo loco et tempore.</head>
+        <p xml:id="adcmon-c22-d1e108">
+    <!--61.xml-->
+          <pb ed="#Sm" n="39"/>
+          <lb ed="#Sm" n="1"/>Capitulum XXII. 
+          <lb ed="#Sm" n="2"/>Quomodo sit in omni et in nullo loco et tempore. 
+        </p>
+        <p xml:id="adcmon-c22-d1e119">
+          <lb ed="#Sm" n="3"/>Quomodo ergo convenient haec tam contraria secundum prolationem, 
+          <lb ed="#Sm" n="4"/>et tam necessaria secundum probationem? Fortasse quodam modo est 
+          <lb ed="#Sm" n="5"/>summa natura in loco vel tempore, quo non prohibetur sic esse simul 
+          <lb ed="#Sm" n="6"/>tota in singulis locis vel temporibus, ut tamen non sint plures totae sed 
+          <lb ed="#Sm" n="7"/>una sola tota, nec eius aetas, quae non est nisi vera aeternitas, non sit 
+          <lb ed="#Sm" n="8"/>distributa in praeteritum, praesens et futurum. Non enim videntur hac lege 
+          <lb ed="#Sm" n="9"/>loci ac temporis cogi nisi ea quae sic sunt in loco vel tempore, ut loci 
+          <lb ed="#Sm" n="10"/>spatium aut temporis diuturnitatem non excedant. Quare sicut de iis quae 
+          <lb ed="#Sm" n="11"/>huiusmodi sunt, unum idemque totum simul non posse esse totum in 
+          <lb ed="#Sm" n="12"/>diversis locis et temporibus omni veritate asseritur, ita in iis quae
+    huius<lb ed="#Sm" n="13" break="no"/>modi non sunt, id ipsum nulla necessitate concluditur, lure namque dici 
+          <lb ed="#Sm" n="14"/>videtur quod tantum eius rei sit aliquis locus, cuius quantitatem locus 
+          <lb ed="#Sm" n="15"/>circumscribendo continet et continendo circumscribit; et quod eius solum 
+          <lb ed="#Sm" n="16"/>rei sit aliquod tempus, cuius diuturnitatem tempus metiendo aliquomodo 
+          <lb ed="#Sm" n="17"/>terminat et terminando metitur. Quapropter cuius amplitudini aut diutur- 
+          <lb ed="#Sm" n="18"/>nitati nulla meta vel a loco vel a tempore opponitur, illi nullum esse 
+          <lb ed="#Sm" n="19"/>locum vel tempus vere proponitur. Quoniam namque nec locus illi facit 
+          <lb ed="#Sm" n="20"/>quod locus, nec tempus quod tempus: non irrationabiliter dicitur, quia 
+          <lb ed="#Sm" n="21"/>nullus locus est eius locus, et nullum tempus est eius tempus. Quod vero 
+          <lb ed="#Sm" n="22"/>nullum locum aut tempus habere conspicitur, id profecto nullatenus loci 
+          <lb ed="#Sm" n="23"/>aut temporis legem subire convincitur. Nulla igitur lex loci aut temporis 
+          <lb ed="#Sm" n="24"/>naturam ullam aliquomodo cogit, quam nullus locus ac tempus aliqua 
+          <lb ed="#Sm" n="25"/>continentia claudit. 
+        </p>
+        <p xml:id="adcmon-c22-d1e171">
+          <lb ed="#Sm" n="26"/>Quaenam autem rationalis consideratio omnimoda ratione non excludat, 
+          <lb ed="#Sm" n="27"/>ut creatricem summamque omnium substantiam, quam necesse est alienam 
+          <lb ed="#Sm" n="28"/>esse et liberam a natura et iure omnium quae ipsa de nihilo fecit, ulla 
+          <lb ed="#Sm" n="29"/>loci cohibitio vel temporis includat, cum potius eius potentia, quae nihil
+    <!--62.xml-->
+          <pb ed="#Sm" n="40"/>
+          <lb ed="#Sm" n="1"/>est aliud quam eius essentia, cuncta a se facta sub se continendo
+    con<lb ed="#Sm" n="2" break="no"/>cludat? Quomodo quoque non est impudentis imprudentiae dicere quod 
+          <lb ed="#Sm" n="3"/>summae veritatis aut locus circumscribat quantitatem aut tempus metiatur 
+          <lb ed="#Sm" n="4"/>diuturnitatem, quae nullam penitus localis vel temporalis distentionis
+    magni<lb ed="#Sm" n="5" break="no"/>tudinem suscipit vel parvitatem? 
+        </p>
+        <p xml:id="adcmon-c22-d1e198">
+          <lb ed="#Sm" n="6"/>Quoniam itaque loci haec est et temporis conditio, ut tantummodo 
+          <lb ed="#Sm" n="7"/>quidquid eorum metis clauditur, nec partium fugiat rationem, vel qualem 
+          <lb ed="#Sm" n="8"/>suscipit locus eius secundum quantitatem, vel qualem patitur tempus eius 
+          <lb ed="#Sm" n="9"/>secundum diuturnitatem, nec ullo modo possit totum a diversis locis vel 
+          <lb ed="#Sm" n="10"/>temporibus simul contineri; quidquid vero loci vel temporis continentia 
+          <lb ed="#Sm" n="11"/>nequaquam coercetur, nulla locorum vel temporum lege ad partium
+    multi<lb ed="#Sm" n="12" break="no"/>plicitatem cogatur, aut praesens esse totum simul pluribus locis aut
+    tempo<lb ed="#Sm" n="13" break="no"/>ribus prohibeatur; quoniam inquam haec est conditio loci ac temporis: 
+          <lb ed="#Sm" n="14"/>procul dubio summa substantia, quae nulla loci vel temporis continentia 
+          <lb ed="#Sm" n="15"/>cingitur, nulla eorum lege constringitur. Quare quoniam summam essentiam 
+          <lb ed="#Sm" n="16"/>totam et inevitabilis necessitas exigit nulli loco vel tempori deesse, et 
+          <lb ed="#Sm" n="17"/>nulla ratio loci aut temporis prohibet omni loco vel tempori simul totam 
+          <lb ed="#Sm" n="18"/>adesse: necesse est eam simul totam omnibus et singulis locis et
+    tempo<lb ed="#Sm" n="19" break="no"/>ribus praesentem esse. Non enim quia huic loco vel tempori praesens est, 
+          <lb ed="#Sm" n="20"/>idcirco prohibetur illi vel illi loco aut tempori simul et similiter praesens 
+          <lb ed="#Sm" n="21"/>esse; nec quoniam fuit aut est aut erit, ideo aeternitatis eius aliquid 
+          <lb ed="#Sm" n="22"/>evanuit a praesenti tempore cum praeterito quod iam non est, aut transit 
+          <lb ed="#Sm" n="23"/>cum praesenti quod vix est, aut venturum est cum futuro quod nondum 
+          <lb ed="#Sm" n="24"/>est. Nullatenus namque cogitur vel prohibetur lege locorum aut temporum 
+          <lb ed="#Sm" n="25"/>alicubi aut aliquando esse vel non esse, quod nullo modo intra locum vel 
+          <lb ed="#Sm" n="26"/>tempus claudit suum esse. Nam si ipsa summa essentia dicitur esse in 
+          <lb ed="#Sm" n="27"/>loco aut tempore: quamvis de illa et de localibus sive temporalibus naturis 
+          <lb ed="#Sm" n="28"/>una sit prolatio propter loquendi consuetudinem, diversus tamen est 
+          <lb ed="#Sm" n="29"/>intellectus propter rerum dissimilitudinem. In illis namque duo quaedam 
+          <lb ed="#Sm" n="30"/>eadem prolatio significat, id est: quia et praesentia sunt locis et
+    tempo<lb ed="#Sm" n="31" break="no"/>ribus in quibus esse dicuntur, et quia continentur ab ipsis; in summa vero 
+          <lb ed="#Sm" n="32"/>essentia unum tantum percipitur, id est: quia praesens est, non etiam quia 
+          <lb ed="#Sm" n="33"/>continetur.
+        </p>
+        <p xml:id="adcmon-c22-d1e261">
+    <!--63.xml-->
+          <pb ed="#Sm" n="41"/>
+          <lb ed="#Sm" n="1"/>Unde si usus loquendi admitteret, convenientius dici videretur esse 
+          <lb ed="#Sm" n="2"/>cum loco vel tempore quam in loco vel tempore. Plus enim significatur 
+          <lb ed="#Sm" n="3"/>contineri aliquid cum dicitur esse in alio, quam cum dicitur esse cum alio. 
+          <lb ed="#Sm" n="4"/>In nullo itaque loco vel tempore proprie dicitur esse, quia omnino a nullo 
+          <lb ed="#Sm" n="5"/>alio continetur; et tamen in omni loco vel tempore suo quodam modo 
+          <lb ed="#Sm" n="6"/>dici potest esse, quoniam quidquid aliud est ne in nihilum cadat ab ea 
+          <lb ed="#Sm" n="7"/>praesente sustinetur. In omni loco et tempore est, quia nulli abest; et in 
+          <lb ed="#Sm" n="8"/>nullo est, quia nullum locum aut tempus habet. Nec in se recipit distinc- 
+          <lb ed="#Sm" n="9"/>tiones locorum aut temporum, ut hic vel illic vel alicubi, aut nunc vel 
+          <lb ed="#Sm" n="10"/>tunc vel aliquando; nec secundum labile praesens tempus quo utimur est, 
+          <lb ed="#Sm" n="11"/>aut secundum praeteritum vel futurum fuit aut erit, quoniam haec
+    circum<lb ed="#Sm" n="12" break="no"/>scriptorum et mutabilium propria sunt, quod illa non est; et tamen haec 
+          <lb ed="#Sm" n="13"/>de ea quodammodo dici possunt, quoniam sic est praesens omnibus 
+          <lb ed="#Sm" n="14"/>circumscriptis et mutabilibus, ac si illa eisdem circumscribatur locis et 
+          <lb ed="#Sm" n="15"/>mutetur temporibus. Patet itaque quantum sat est ad dissolvendam quae 
+          <lb ed="#Sm" n="16"/>insonabat contrarietatem: qualiter summa omnium essentia ubique et semper 
+          <lb ed="#Sm" n="17"/>et nusquam et numquam, id est in omni et nullo loco aut tempore sit, 
+          <lb ed="#Sm" n="18"/>iuxta diversorum intellectuum concordem veritatem. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

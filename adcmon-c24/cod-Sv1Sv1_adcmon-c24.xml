@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 24</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 24</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c24">
+        <head xml:id="adcmon-c24-Hd1e102">Capitulum 24</head>
+        <head xml:id="adcmon-c24-Hd1e105" type="question-title">
+    Quomodo melius intelligi possit esse semper quam in omni tempore. 
+   </head>
+        <p xml:id="adcmon-c24-d1e108">
+          <lb ed="#Sm" n="8"/>Capitulum XXIV. 
+          <lb ed="#Sm" n="9"/>Quomodo melius intelligi possit esse semper quam in omni 
+          <lb ed="#Sm" n="10"/>tempore. 
+        </p>
+        <p xml:id="adcmon-c24-d1e117">
+          <lb ed="#Sm" n="11"/>Eandem quoque summam substantiam constat sine principio et fine 
+          <lb ed="#Sm" n="12"/>esse, nec habere praeteritum aut futurum, nec temporale, hoc est labile w 
+          <lb ed="#Sm" n="13"/>praesens quo nos utimur; quoniam aetas sive aeternitas eius, quae nihil 
+          <lb ed="#Sm" n="14"/>aliud est quam ipsa, immutabilis et sine partibus est. Nonne ergo ,semper', 
+          <lb ed="#Sm" n="15"/>quod videtur designare totum tempus, multo verius si de illa dicitur, is 
+          <lb ed="#Sm" n="16"/>intelligitur significare aeternitatem, quae sibi ipsi numquam est dissimilis, 
+          <lb ed="#Sm" n="17"/>quam temporum varietatem, quae sibi semper in aliquo est non similis? 
+          <lb ed="#Sm" n="18"/>Quare si dicitur semper esse: quoniam idem est illi esse et vivere, nihil w 
+          <lb ed="#Sm" n="19"/>melius intelligitur quam aeterne esse vel vivere, id est interminabilem vitam 
+          <lb ed="#Sm" n="20"/>perfecte simul totam obtinere. Videtur enim eius aeternitas esse
+    intermina<lb ed="#Sm" n="21" break="no"/>bilis vita simul perfecte tota existens. Cum enim supra iam satis liqueat ri 
+          <lb ed="#Sm" n="22"/>quod eadem substantia non sit aliud quam vita sua et aeternitas sua, nec 
+          <lb ed="#Sm" n="23"/>sit aliquo modo terminabilis, nec nisi simul et perfecte tota: quid aliud 
+          <lb ed="#Sm" n="24"/>est vera aeternitas quae illi soli convenit, quam interminabilis vita simul et 24 
+          <lb ed="#Sm" n="25"/>perfecte tota existens? Nam vel hoc solo veram aeternitatem soli illi 
+          <lb ed="#Sm" n="26"/>inesse substantiae, quae sola non facta sed factrix esse inventa est, aperte 
+          <lb ed="#Sm" n="27"/>percipitur: quoniam vera aeternitas principii finisque meta carere intel- 27 
+          <lb ed="#Sm" n="28"/>ligitur; quod nulli rerum creatarum convenire, eo ipso quod de nihilo 
+          <lb ed="#Sm" n="29"/>factae sunt, convincitur. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

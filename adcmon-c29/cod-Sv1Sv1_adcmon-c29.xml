@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 29</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 29</title>
+          <date when="2020-07-13">July 13, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Edinburgh 1946</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#Sm" n="47"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c29">
+        <head xml:id="adcmon-c29-Hd1e102">Capitulum 29</head>
+        <head xml:id="adcmon-c29-Hd1e105" type="question-title">
+    Quod eius locutio idipsum sit quod ipse, nec tamen sint duo,
+    sed unus spiritus.
+   </head>
+        <p xml:id="adcmon-c29-d1e108">
+    <!--69.xml-->
+          <pb ed="#Sm" n="47"/>
+          <lb ed="#Sm" n="1"/>Capitulum XXIX. 
+          <lb ed="#Sm" n="2"/>Quod eius locutio idipsum sit quod ipse, nec tamen sint duo,
+          <lb ed="#Sm" n="3"/>sed unus spiritus. 
+        </p>
+        <p xml:id="adcmon-c29-d1e121">
+          <lb ed="#Sm" n="4"/>Iam vero iis quae de proprietatibus huius summae naturae ad praesens 
+          <lb ed="#Sm" n="5"/>mihi ducem rationem sequenti occurrerunt perspectis, opportunum existimo, 
+          <lb ed="#Sm" n="6"/>6 ut de eius locutione, per quam facta sunt omnia, si quid possum
+    con<lb ed="#Sm" n="7" break="no"/>siderem. Etenim cum omnia quae de illa supra potui animadvertere, rationis 
+          <lb ed="#Sm" n="8"/>robur inflexibile teneant, illud me maxime cogit de illa diligentius discutere, 
+          <lb ed="#Sm" n="9"/>9 quia idipsum quod ipse summus spiritus est probatur esse. Si enim ille 
+          <lb ed="#Sm" n="10"/>nihil fecit nisi per seipsum, et quidquid ab eo factum est per illam est 
+          <lb ed="#Sm" n="11"/>factum: quomodo illa est aliud quam quod est idem ipse? Amplius. 
+          <lb ed="#Sm" n="12"/>12 Asserunt utique inexpugnabili ter ea quae iam inventa sunt, quia nihil 
+          <lb ed="#Sm" n="13"/>omnino potuit umquam aut potest subsistere praeter creantem spiritum et 
+          <lb ed="#Sm" n="14"/>eius creaturam. Hanc vero spiritus eiusdem locutionem impossibile est inter 
+          <lb ed="#Sm" n="15"/>15 creata contineri, quoniam quidquid creatum subsistit per illam factum est, 
+          <lb ed="#Sm" n="16"/>illa vero per se fieri non potuit. Nihil quippe per seipsum fieri potest, 
+          <lb ed="#Sm" n="17"/>quia quidquid fit, posterius est eo per quod fit, et nihil est posterius 
+          <lb ed="#Sm" n="18"/>is seipso. Relinquitur itaque ut haec summi spiritus locutio, cum creatura esse 
+          <lb ed="#Sm" n="19"/>non possit, non sit aliud quam summus spiritus. Denique haec ipsa locutio 
+          <lb ed="#Sm" n="20"/>nihil aliud potest intelligi quam eiusdem spiritus intelligentia, qua cuncta 
+          <lb ed="#Sm" n="21"/>21 intelligit. Quid enim est aliud illi rem loqui aliquam hoc loquendi modo 
+          <lb ed="#Sm" n="22"/>quam intelligere? Nam non ut homo non semper dicit quod intelligit. Si 
+          <lb ed="#Sm" n="23"/>igitur summe simplex natura non est aliud quam quod est sua intelligentia,
+          <pb ed="#Sm" n="48"/>
+          <lb ed="#Sm" n="1"/>quemadmodum est idem quod est sua sapientia: necesse est ut similiter 
+          <lb ed="#Sm" n="2"/>non sit aliud quam quod est sua locutio. Sed quoniam iam manifestum est 
+          <lb ed="#Sm" n="3"/>summum spiritum unum tantum esse et omnimode individuum: necesse est 
+          <lb ed="#Sm" n="4"/>ut sic illi haec sua locutio sit consubstantialis, ut non sint duo, sed unus 
+          <lb ed="#Sm" n="5"/>spiritus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
