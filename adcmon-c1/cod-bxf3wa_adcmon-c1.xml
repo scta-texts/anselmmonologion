@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2020-07-14">July 14, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-bxf3wa">Paris, ms. lat 13413</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#S" n="6-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c1">
+        <head xml:id="adcmon-c1-Hd1e102">Capitulum 1</head>
+        <head xml:id="adcmon-c1-Hd1e105" type="question-title">
+          Quod sit quiddam optimum et maximum et summum omnium quae sunt
+        </head>
+        <!--<p xml:id="adcmon-c1-d1e108">
+          <pb ed="#Sm" n="13"/>
+          <lb ed="#Sm" n="1"/>Monologion. 
+          <lb ed="#Sm" n="2"/>Capitulum I. 
+          <lb ed="#Sm" n="3"/>Quod sit quiddam optimum et maximum et summum omnium 
+          <lb ed="#Sm" n="4"/>quae sunt. 
+        </p>-->
+        <p xml:id="adcmon-c1-d1e121">
+          <pb ed="#S" n="6-r"/>
+          <lb ed="#S" n="1"/>Si quis unam naturam 
+          <lb ed="#S"/>summam omnium quae sunt 
+          <lb ed="#S"/>solam sibi in aeterna sua 
+          <lb ed="#S"/>beatitudine sufficientem. 
+          <lb ed="#S"/>omnibusque rebus aliis hoc ipsum 
+          <lb ed="#S"/>quod aliquid sunt aut quod aliquo modo 
+          <lb ed="#S"/>bene sunt per omnipotentem bonitatem 
+          <lb ed="#S"/>suam dantem et facientem. aliaque per 
+          <lb ed="#S"/>plura quae de deo sive de eius 
+          <lb ed="#S"/>creatura necessarie credimus. 
+          <lb ed="#S"/>aut non audiendo aut non credendo 
+          <lb ed="#S"/>ignorat: nonne ea ipsa ex ma<lb ed="#S"/>gna 
+          parte si vel mediocris inge<lb ed="#S"/>nii 
+          est potest ipse sibi saltem sola 
+          <lb ed="#S"/>ratione persuadere; Et enim cum 
+          <lb ed="#S"/>omnis frui soli iis appetant que 
+          <lb ed="#S"/>bona putant mirum <unclear>est</unclear> si non 
+          <lb ed="#S"/>aliquando mentis oculum convertit 
+          <lb ed="#S"/>ad investigandum illud. unde sunt 
+          bona ea ipsa quae non appetit nisi 
+          <lb ed="#S"/>quia iudicat esse bona. ut deinde 
+          <lb ed="#S"/>ratione ducente et illo prosequente 
+          <lb ed="#S"/>ad ea quae irrationabiliter ignorat 
+          <lb ed="#S"/>rationabiliter proficiat.
+        </p>
+        <p xml:id="adcmon-c1-d1e163">
+          Quod cum 
+          <lb ed="#S"/>multimode facere possit. hunc 
+          <lb ed="#S"/>modum puto illi esse promptissimum 
+          <lb ed="#S"/>atque facillimum ut sic secum tacitus 
+          <lb ed="#S"/>dicat 
+          <!-- ms has break here -->
+          <lb ed="#S"/>Cum tam innumerabilia bona 
+          <lb ed="#S"/>sint <pc type="#punctus"/> quorum tam multam diversi<lb ed="#S"/>tatem 
+          et sensibus corporeis experimur 
+          <pb ed="#S" n="6-v"/>
+          <lb ed="#S"/>et ratione mentis discernimus 
+          <lb ed="#S"/>estne credendum esse unum aliquid 
+          <lb ed="#S"/>per quod unum sint bona quaecunque 
+          <lb ed="#S"/>bona sunt. an sunt bona alia per aliud. 
+          <lb ed="#S"/>Certissimum quidem et omnibus est volentibus 
+          <lb ed="#S"/>advertere perspicuum quia quaecumque 
+          <lb ed="#S"/>dicuntur aliquid ita ut ad invicem 
+          <lb ed="#S"/>magis vel minus aut aequaliter dicantur 
+          <lb ed="#S"/>per aliquid dicuntur quod non aliud et ali<lb ed="#S"/>ud 
+          sed idem intelligitur in diversis 
+          <lb ed="#S"/>sive in illis aequaliter sive inaequaliter 
+          <lb ed="#S"/>consideretur. Nam nullatenus aequalia 
+          <lb ed="#S"/>vel inaequalia dici possit nisi secundum 
+          <lb ed="#S"/>idem aliquid Nam quaecumque iusta dicuntur 
+          <lb ed="#S"/>ad invicem sive pariter sive magis 
+          <lb ed="#S"/>vel minus non possunt intelligi iusta 
+          <lb ed="#S"/>nisi per iustitiam quae non est aliud et ali<lb ed="#S"/>ud 
+          in diversis <pc type="#punctus"/> Ergo cum certum sit 
+          <lb ed="#S"/>quod omnia bona si adinvicem confe<lb ed="#S"/>rantur 
+          aut aequaliter aut inaequaliter 
+          <lb ed="#S"/>sint bona : necesse est ut omnia sint 
+          <lb ed="#S"/>per aliquid bona quod intelligitur idem in 
+          <lb ed="#S"/>diversis bonis <pc type="#punctus"/> licet aliquando vide<lb ed="#S"/>antur 
+          bona dici alia per aliud
+        </p>
+        <p xml:id="adcmon-c1-d1e197">
+          Per aliud 
+          <lb ed="#S"/>enim videtur dici bonus equus quia 
+          <lb ed="#S"/>fortis est : et per aliud bonus equus 
+          <lb ed="#S"/>quia velox est <pc type="#punctus"/> Cum enim dici videatur 
+          <lb ed="#S"/>bonus per fortitudinem et bonus per veloci<lb ed="#S"/>tatem: 
+          non tamen idem videtur esse for<lb ed="#S"/>titudo  
+          et velocitas <pc type="#punctus"/> Verum si equus 
+          <lb ed="#S"/>quia est fortis aut velox idcirco bonus 
+          <lb ed="#S"/>est <pc type="#punctus"/> 
+          <pb ed="#S" n="7-r"/>
+          <lb ed="#S"/>quomodo fortis et velox latro malus 
+          <lb ed="#S"/>est Potius igitur quemadmodum fortis et 
+          <lb ed="#S"/>velox latro ideo malus est quia no<lb ed="#S"/>xius 
+          est ita fortis et velox equus 
+          <lb ed="#S"/>iccirco bonus est quia utilis est et quidem 
+          <lb ed="#S"/>nihil solet putari bonum nisi aut 
+          <lb ed="#S"/>propter aliquam utilitatem ut bona dicitur 
+          <lb ed="#S"/>salus et quae saluti prosunt ; aut propter 
+          <lb ed="#S"/>quanlibet honestatem <pc type="#punctus"/> sicut pulchri<lb ed="#S"/>tudo 
+          aestimatur bona et quae pulchri<lb ed="#S"/>tudinem 
+          iuvant <pc type="#punctus"/> Sed quoniam iam perspecta 
+          <lb ed="#S"/>ratio nullo potest dissolvi pacto ; 
+          <lb ed="#S"/>necesse est omne quoque utile vel honestum 
+          <lb ed="#S"/>si vere bona sunt per idipsum esse bona 
+          <lb ed="#S"/>per quod necesse est esse <del rend="expunctuation">bona</del> cuncta bona <pc type="#punctus"/> 
+          <lb ed="#S"/>quicquid illud sit 
+        </p>
+        <p xml:id="adcmon-c1-d1e234">
+          Quis autem dubitet 
+          <lb ed="#S"/>illud ipsum per quod cuncta sunt bona esse 
+          <lb ed="#S"/>magnum bonum ; Illud igitur est bonum 
+          <lb ed="#S"/>per seipsum ; quoniam omne bonum est 
+          <lb ed="#S"/>per ipsum <pc type="#punctus"/> Ergo consequitur <pc type="#punctus"/> ut omnia alia 
+          <lb ed="#S"/>bona sint per aliud quam quod ipsa sunt 
+          <lb ed="#S"/>et ipsum solum per seipsum <pc type="#punctus"/> At nullum 
+          <lb ed="#S"/>bonum quod per aliud est; aequale aut 
+          <lb ed="#S"/>maius est eo bono quod per se est bonum 
+          <lb ed="#S"/>Illud itaque solum est summe bonum 
+          <lb ed="#S"/>quod solum est per se bonum <pc type="#punctus"/> Id enim summum 
+          <lb ed="#S"/>est <pc type="#punctus"/> quod sic supereminet aliis <pc type="#punctus"/> ut nec 
+          <lb ed="#S"/>par habeat nec praestantius <pc type="#punctus"/> Sed 
+          quod est summe bonum; est etiam summe 
+          <lb ed="#S"/>magnum <pc type="#punctus"/> Est igitur unum aliquid summe 
+          <lb ed="#S"/>bonum <pc type="#punctus"/> et summe magnum <pc type="#punctus"/> id est summum 
+          <lb ed="#S"/>omnium quae sunt <pc type="#punctus"/> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

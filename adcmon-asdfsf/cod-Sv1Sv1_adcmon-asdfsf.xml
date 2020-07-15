@@ -51,6 +51,7 @@
     </front>
     <body>
       <div xml:id="adcmon-asdfsf">
+        <head>Epistola ad Lanfrancum archiepiscopum.</head>
         <p xml:id="adcmon-asdfsf-d1e100"><!--19.xml-->
           <pb ed="#Sm" n="5"/>
           <lb ed="#Sm" n="1"/>Epistola ad Lanfrancum archiepiscopum. 
@@ -58,7 +59,7 @@
         </p>
         <p xml:id="adcmon-asdfsf-d1e110">
           <lb ed="#Sm" n="2"/>Reverendo et amando suo domino et patri et doctori, Cantuariae 
-          <lb ed="#Sm" n="3"/>3 archiepiscopo, Angiorum primati, matri ecclesiae catholicae fidei utilitatisque 
+          <lb ed="#Sm" n="3"/>archiepiscopo, Angiorum primati, matri ecclesiae catholicae fidei utilitatisque 
           <lb ed="#Sm" n="4"/>merito multum amplectendo LANFRANCO: frater ANSELMUS Beccensis, 
           <lb ed="#Sm" n="5"/>vita peccator, habitu monachus. 
     <!--19.xml-->
@@ -76,6 +77,23 @@
           <lb ed="#Sm" n="15"/>doctrinae iudiciove tam confidenter tamque libenter quam vestro subiciam, 
           <lb ed="#Sm" n="16"/>et qui mihi tam paterno affectu se si res indiget exhibeat, aut si res 
           <lb ed="#Sm" n="17"/>exigit congaudeat. Quare, quoniam quidquid de paterno vestro mihi
+          <pb ed="#Sm" n="6"/>
+          <lb ed="#Sm" n="1"/>pectore impenditur, et sapientia est exquisitum et auctoritate roboratum 
+          <lb ed="#Sm" n="2"/>et dilectione conditum: cum aliquid inde haurio, id me sua et dulcedine 
+          <lb ed="#Sm" n="3"/>delectat et securitate satiat. Sed quoniam haec ipsa scienti loquor, his 
+          <lb ed="#Sm" n="4"/>omissis, cur eorum meminerim, expediam.
+        </p>
+        <p xml:id="adcmon-asdfsf-d1e113">
+          <lb ed="#Sm" n="5"/>Quidam fratres, servi vestri et conservi mei, me saepe multumque 
+          <lb ed="#Sm" n="6"/>rogantes tandem coegerunt, ut acquiescerem illis quaedam scribere, sicut 
+          <lb ed="#Sm" n="7"/>in eiusdem scripturae praefatiuncula considerare poteritis. De quo opusculo 
+          <lb ed="#Sm" n="8"/>hoc praeter spem evenit, ut non solum illi quibus instantibus editum est, sed 
+          <lb ed="#Sm" n="9"/>et plures alii illud velint non solum legere, sed etiam transcribere.
+          Dubi<lb ed="#Sm" n="10" break="no"/>tans igitur, utrum illud volentibus denegare debeam aut concedere, ne me 
+          <lb ed="#Sm" n="11"/>aut invidum putantes oderint aut stultum agnoscentes derideant: ad
+          sin<lb ed="#Sm" n="12" break="no"/>gularem meum recurro consiliarium, et scripturam ipsam examinandam 
+          <lb ed="#Sm" n="13"/>vestro mitto iudicio, ut eius auctoritate aut inepta a conspectu prohibeatur, 
+          <lb ed="#Sm" n="14"/>aut correcta volentibus praebeatur.
         </p>
       </div>
     </body>
