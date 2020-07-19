@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 3</title>
+        <author ref="#Anselm">Anselm</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 2</title>
+          <date when="2020-07-19">July 19, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-bxf3wa">Paris, ms. lat 13413</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+         <pb ed="#S" n="7-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adcmon-c3">
+        <head xml:id="adcmon-c3-Hd1e102">Capitulum 3</head>
+        <head xml:id="adcmon-c3-Hd1e105" type="question-title">
+          Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, 
+          et est summum omnium quae sunt.
+        </head>
+        <!--<p xml:id="adcmon-c3-d1e108">
+          Capitulum III. 
+          <!-\-33.xml-\->
+          Quod sit quaedam natura, per quam est, quidquid est, et quae per se est, 
+          et est summum omnium quae sunt. 
+        </p>-->
+        <p xml:id="adcmon-c3-d1e119">
+          <lb ed="#S" n="15"/>Denique non solum omnia bona per idem 
+          <lb ed="#S"/>aliquid sunt bona <pc type="#punctus"/> et omnia magna per 
+          <lb ed="#S"/>idem aliquid sunt magna; sed quidquid est 
+          <lb ed="#S"/>per unum aliquid videtur esse Omne namque 
+          <lb ed="#S"/>quod est: aut est per aliquid aut per nihil <pc type="#punctus"/> 
+          <lb ed="#S"/>Sed nihil est per nihil <pc type="#punctus"/> Non enim vel 
+          <lb ed="#S"/>cogitari potest; ut sit aliquid non per 
+          <!--34.xml-->
+          <pb ed="#Sm" n="16"/>
+          <lb ed="#S"/>aliquid <pc type="#punctus"/> Quicquid est igitur non nisi per 
+          <lb ed="#S"/>aliquid est <pc type="#punctus"/> Quod cum ita sit; aut est unum 
+          <lb ed="#S"/>aut sunt plura per quae sunt cuncta quae sunt 
+          <lb ed="#S"/>sed si sunt plura <pc type="#punctus"/> aut ipsa referuntur 
+          <lb ed="#S"/>ad unum aliquid per quod sunt <pc type="#punctus"/> aut eadem plu<lb ed="#S"/>ra 
+          singula sunt per se <pc type="#punctus"/> aut ipsa per se 
+          <lb ed="#S"/>invicem sunt <pc type="#punctus"/> At si plura ipsa sunt 
+          <lb ed="#S"/>per unum; iam non sunt omnia per plura 
+          <lb ed="#S"/>sed potius per illud unum per quod haec 
+          <lb ed="#S"/>plura sunt <pc type="#punctus"/> Si vero ipsa plura singula 
+          <pb ed="#S" n="8-r"/>
+          <lb ed="#S"/>sunt per se; utique est una aliqua vis 
+          <lb ed="#S"/>vel natura existendi per se ; quam habent 
+          <lb ed="#S"/>ut per se sint <pc type="#punctus"/> Non est autem dubium quod 
+          <lb ed="#S"/>per id ipsum unum sint; per quod habent, 
+          <lb ed="#S"/>ut sint per se <pc type="#punctus"/> verius ergo per ipsum unum 
+          <lb ed="#S"/>cuncta sunt ; quam per plura quae sine 
+          <lb ed="#S"/>eo uno esse non possunt <pc type="#punctus"/> Vt uero plu<lb ed="#S"/>ra 
+          per se inuicem sint <pc type="#punctus"/> nulla patitur 
+          <lb ed="#S"/>Ratio; quoniam irrationabilis cogitatio 
+          <lb ed="#S"/>est ut aliqua res sit per illud cui dat 
+          <lb ed="#S"/>esse <pc type="#punctus"/> Cum itaque ueritas omnimodo ex<lb ed="#S"/>cludat 
+          plura esse per quae cuncta sint ; 
+          <lb ed="#S"/>necesse est unum illud esse per quod sunt 
+          <lb ed="#S"/>cuncta quae sunt <pc type="#punctus"/> 
+        </p>
+        <p xml:id="adcmon-c3-d1e173">
+          Quoniam ergo cuncta quae 
+          <lb ed="#S"/>sunt <pc type="#punctus"/> sunt per ipsum unum; proculdubio 
+          <lb ed="#S"/>et ipsum unum est per seipsum <pc type="#punctus"/> Quaecumque 
+          <lb ed="#S"/>igitur alia sunt <pc type="#punctus"/> sunt per aliud <pc type="#punctus"/> et ipsum solum 
+          <lb ed="#S"/>per seipsum <pc type="#punctus"/> At quicquid est per aliud; minus est 
+          <lb ed="#S"/>quam illud per quod cuncta sunt alia <pc type="#punctus"/> et quod 
+          <lb ed="#S"/>solum est per se <pc type="#punctus"/> Quare illud quod est per se; 
+          <lb ed="#S"/>maxime omnium est <pc type="#punctus"/> Est igitur unum aliquid 
+          <lb ed="#S"/>quod solum maxime et summe omnium est 
+          <lb ed="#S"/>Quod autem maxime omnium est et per quod est 
+          <lb ed="#S"/>quicquid est bonum vel magnum <pc type="#punctus"/> et omnino 
+          <lb ed="#S"/>quicquid aliquid <pc type="#punctus"/> est; id necesse est esse sum<lb ed="#S"/>me 
+          bonum et summe magnum <pc type="#punctus"/> et summum 
+          <lb ed="#S"/>omnium quae sunt <pc type="#punctus"/> Quare est aliquid 
+          <lb ed="#S"/>quod sive essentia sive substantia <pc type="#punctus"/> sive 
+          <lb ed="#S"/>natura dicatur: optimum et maximum est 
+          <lb ed="#S"/>et summum omnium quae sunt 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

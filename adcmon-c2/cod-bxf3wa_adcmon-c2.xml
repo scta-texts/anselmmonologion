@@ -4,6 +4,7 @@
       <titleStmt>
         <title>Capitulum 2</title>
         <author ref="#Anselm">Anselm</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
         <respStmt>
           <name>Jeffrey C. Witt</name>
           <resp>TEI Encoder</resp>
